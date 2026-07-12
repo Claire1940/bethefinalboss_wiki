@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "description": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree upgrades, Souls, Coins, hero waves, and the latest Roblox updates.",
+      "keywords": "Be The Final Boss, Roblox, codes, minions, weapons, skill tree, Souls, Coins, waves",
+      "ogTitle": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "ogDescription": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree upgrades, Souls, Coins, hero waves, and the latest Roblox updates.",
+      "twitterTitle": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "twitterDescription": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree, Souls, Coins, hero waves, and the latest Roblox updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Reverse Tower Defense Boss Simulator",
+    "title": "Be The Final Boss Wiki",
+    "description": "Defend your castle as the final boss, summon powerful minions, survive endless hero waves, upgrade your skill tree, and unlock new weapons.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "44.5K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "2.2K+",
+        "label": "Favorites"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "1",
+        "label": "Active Code"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "3",
+        "label": "Supported Platforms"
       }
     }
   },
@@ -817,29 +817,6 @@
         "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
       }
     ]
-  },
-  "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
-  },
-  "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
-    "resources": "Ressourcen",
-    "community": "Community",
-    "legal": "Rechtliches",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
-    "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
   },
   "pages": {
     "guides": {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "description": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree upgrades, Souls, Coins, hero waves, and the latest Roblox updates.",
+      "keywords": "Be The Final Boss, Roblox, codes, minions, weapons, skill tree, Souls, Coins, waves",
+      "ogTitle": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "ogDescription": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree upgrades, Souls, Coins, hero waves, and the latest Roblox updates.",
+      "twitterTitle": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "twitterDescription": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree, Souls, Coins, hero waves, and the latest Roblox updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Reverse Tower Defense Boss Simulator",
+    "title": "Be The Final Boss Wiki",
+    "description": "Defend your castle as the final boss, summon powerful minions, survive endless hero waves, upgrade your skill tree, and unlock new weapons.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "44.5K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "2.2K+",
+        "label": "Favorites"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "1",
+        "label": "Active Code"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "3",
+        "label": "Supported Platforms"
       }
     }
   },
@@ -179,29 +179,6 @@
         "answer": "Да. После релиза планируются некоторые контентные обновления, но они не будут выходить по постоянному графику в течение неопределённого времени."
       }
     ]
-  },
-  "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
-  },
-  "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
-    "resources": "Ресурсы",
-    "community": "Сообщество",
-    "legal": "Юридическая информация",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
-    "about": "О проекте",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
   },
   "pages": {
     "guides": {

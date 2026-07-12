@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "description": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree upgrades, Souls, Coins, hero waves, and the latest Roblox updates.",
+      "keywords": "Be The Final Boss, Roblox, codes, minions, weapons, skill tree, Souls, Coins, waves",
+      "ogTitle": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "ogDescription": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree upgrades, Souls, Coins, hero waves, and the latest Roblox updates.",
+      "twitterTitle": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "twitterDescription": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree, Souls, Coins, hero waves, and the latest Roblox updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artículos próximamente"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Reverse Tower Defense Boss Simulator",
+    "title": "Be The Final Boss Wiki",
+    "description": "Defend your castle as the final boss, summon powerful minions, survive endless hero waves, upgrade your skill tree, and unlock new weapons.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "44.5K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "2.2K+",
+        "label": "Favorites"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "1",
+        "label": "Active Code"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "3",
+        "label": "Supported Platforms"
       }
     }
   },
@@ -783,29 +783,6 @@
         "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
       }
     ]
-  },
-  "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
-  },
-  "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidad",
-    "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
-    "about": "Acerca de",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
   },
   "pages": {
     "guides": {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "description": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree upgrades, Souls, Coins, hero waves, and the latest Roblox updates.",
+      "keywords": "Be The Final Boss, Roblox, codes, minions, weapons, skill tree, Souls, Coins, waves",
+      "ogTitle": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "ogDescription": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree upgrades, Souls, Coins, hero waves, and the latest Roblox updates.",
+      "twitterTitle": "Be The Final Boss Wiki - Codes, Minions & Skill Tree",
+      "twitterDescription": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree, Souls, Coins, hero waves, and the latest Roblox updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Reverse Tower Defense Boss Simulator",
+    "title": "Be The Final Boss Wiki",
+    "description": "Defend your castle as the final boss, summon powerful minions, survive endless hero waves, upgrade your skill tree, and unlock new weapons.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "44.5K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "2.2K+",
+        "label": "Favorites"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "1",
+        "label": "Active Code"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "3",
+        "label": "Supported Platforms"
       }
     }
   },
@@ -785,26 +785,24 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Be the Final Boss?",
+    "description": "Summon your minions, defend your castle, and survive endless hero waves. Play Be The Final Boss on Roblox now!",
+    "joinCommunity": "Play on Roblox",
+    "joinGame": "Follow on X"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Be The Final Boss Wiki",
+    "description": "Your complete resource hub for Be The Final Boss codes, minions, weapons, skill tree, waves, and currency guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "roblox": "Roblox Game",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Be The Final Boss Wiki. Not affiliated with Apparently Champions or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
