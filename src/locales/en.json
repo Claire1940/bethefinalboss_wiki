@@ -10,14 +10,7 @@
       "twitterDescription": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree, Souls, Coins, hero waves, and the latest Roblox updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
