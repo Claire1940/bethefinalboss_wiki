@@ -161,6 +161,7 @@ export default function HomePageClient({
         name: "Playing the New Roblox Game Be The Final Boss",
         description:
           "Be The Final Boss gameplay preview — summon minions, defend the castle, and survive endless hero waves.",
+        uploadDate: "2026-07-11",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
         embedUrl: "https://www.youtube.com/embed/NAFB1w68Q6U",
         url: "https://www.youtube.com/watch?v=NAFB1w68Q6U",
