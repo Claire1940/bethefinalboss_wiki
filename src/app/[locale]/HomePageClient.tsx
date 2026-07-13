@@ -5,16 +5,29 @@ import {
   AlertTriangle,
   ArrowRight,
   BookOpen,
+  Calendar,
   Check,
   ClipboardCheck,
   Clock,
+  Coins,
   Copy,
+  Crosshair,
+  Ghost,
   Hammer,
+  HeartPulse,
+  Infinity as InfinityIcon,
+  ListOrdered,
   Package,
+  RotateCcw,
+  Scale,
   Shield,
+  Skull,
   Sparkles,
+  Swords,
+  Target,
   TrendingUp,
   Users,
+  Zap,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -46,6 +59,33 @@ const TIER_STYLES: Record<string, string> = {
   B: "bg-[hsl(var(--nav-theme)/0.12)] border-[hsl(var(--nav-theme)/0.35)] text-foreground",
   C: "bg-white/5 border-border text-muted-foreground",
 };
+
+// Strategy priority badge styles — Essential uses the theme color, others use
+// Tailwind semantic colors for clear differentiation (no hardcoded hex).
+const PRIORITY_STYLES: Record<string, string> = {
+  Essential:
+    "bg-[hsl(var(--nav-theme)/0.2)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]",
+  High: "bg-amber-500/10 border-amber-500/30 text-amber-500",
+  "Late Game": "bg-sky-500/10 border-sky-500/30 text-sky-500",
+  Emergency: "bg-rose-500/10 border-rose-500/30 text-rose-500",
+  default: "bg-white/5 border-border text-muted-foreground",
+};
+
+// Update timeline status badge styles — Active uses the theme color.
+const STATUS_STYLES: Record<string, string> = {
+  Live: "bg-emerald-500/10 border-emerald-500/30 text-emerald-500",
+  Active:
+    "bg-[hsl(var(--nav-theme)/0.2)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]",
+  "Official Source": "bg-sky-500/10 border-sky-500/30 text-sky-500",
+  Monitoring: "bg-amber-500/10 border-amber-500/30 text-amber-500",
+  default: "bg-white/5 border-border text-muted-foreground",
+};
+
+// Distinct lucide icons per card inside modules 5-7 (no repeated icons within
+// a single card grid). Section eyebrow icons are separate and may reuse names.
+const SKILL_BUILD_ICONS = [Scale, Skull, HeartPulse];
+const CURRENCY_ICONS = [Coins, Ghost];
+const STRATEGY_ICONS = [Swords, Crosshair, Target, Zap, InfinityIcon, RotateCcw];
 
 // Conditionally render text as a link or plain span
 function LinkedTitle({
@@ -743,40 +783,57 @@ export default function HomePageClient({
             </p>
           </div>
 
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.beTheFinalBossSkillTree.paths.map(
-              (p: any, index: number) => (
-                <div
-                  key={index}
-                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-                >
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="flex w-9 h-9 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)]">
-                      <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                    </span>
-                    <h3 className="font-bold text-lg">{p.name}</h3>
-                  </div>
-                  <p className="text-sm text-muted-foreground">{p.description}</p>
-                </div>
-              ),
-            )}
-          </div>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5">
+            {t.modules.beTheFinalBossSkillTree.builds.map(
+              (build: any, index: number) => {
+                const Icon = SKILL_BUILD_ICONS[index];
+                return (
+                  <div
+                    key={index}
+                    className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="flex w-10 h-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)]">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <div>
+                        <h3 className="font-bold text-lg leading-tight">
+                          {build.name}
+                        </h3>
+                        <p className="text-xs text-muted-foreground">
+                          {build.best_for}
+                        </p>
+                      </div>
+                    </div>
 
-          <div className="scroll-reveal p-4 md:p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
-            <div className="flex items-center gap-2 mb-3 md:mb-4">
-              <Check className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-              <h3 className="font-bold text-base md:text-lg">Upgrade Priorities</h3>
-            </div>
-            <ul className="space-y-2">
-              {t.modules.beTheFinalBossSkillTree.priorities.map(
-                (p: string, i: number) => (
-                  <li key={i} className="flex items-start gap-2">
-                    <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
-                    <span className="text-muted-foreground text-sm">{p}</span>
-                  </li>
-                ),
-              )}
-            </ul>
+                    <ol className="space-y-3 mb-4">
+                      {build.steps.map((step: any, i: number) => (
+                        <li key={i} className="flex items-start gap-3">
+                          <span className="flex w-7 h-7 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.2)] border border-[hsl(var(--nav-theme)/0.5)] text-xs font-bold text-[hsl(var(--nav-theme-light))]">
+                            {step.priority}
+                          </span>
+                          <div>
+                            <p className="text-sm font-semibold">{step.focus}</p>
+                            <p className="text-xs text-muted-foreground mt-0.5">
+                              {step.guidance}
+                            </p>
+                          </div>
+                        </li>
+                      ))}
+                    </ol>
+
+                    <div className="mt-auto p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.25)]">
+                      <p className="text-xs text-muted-foreground">
+                        <span className="font-semibold text-foreground">
+                          Result:{" "}
+                        </span>
+                        {build.result}
+                      </p>
+                    </div>
+                  </div>
+                );
+              },
+            )}
           </div>
         </div>
       </section>
@@ -787,7 +844,7 @@ export default function HomePageClient({
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-4 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
               <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span className="text-xs md:text-sm font-medium">Currencies</span>
+              <span className="text-xs md:text-sm font-medium">Currency Guide</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
               <LinkedTitle
@@ -802,42 +859,94 @@ export default function HomePageClient({
             </p>
           </div>
 
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-            {t.modules.beTheFinalBossCoinsAndSouls.resources.map(
-              (r: any, index: number) => (
-                <div
-                  key={index}
-                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-                >
-                  <div className="flex items-center gap-2 mb-3">
-                    <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
-                      {r.name}
-                    </h3>
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
-                      {r.role}
-                    </span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-6">
+            {t.modules.beTheFinalBossCoinsAndSouls.currencies.map(
+              (currency: any, index: number) => {
+                const Icon = CURRENCY_ICONS[index];
+                return (
+                  <div
+                    key={index}
+                    className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="flex w-10 h-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)]">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <h3 className="font-bold text-lg">{currency.name}</h3>
+                        <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                          {currency.purpose}
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="space-y-3 text-sm">
+                      <div>
+                        <p className="font-semibold mb-1">Used For</p>
+                        <ul className="space-y-1 text-muted-foreground">
+                          {currency.used_for.map((u: string, i: number) => (
+                            <li key={i} className="flex items-start gap-2">
+                              <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                              <span>{u}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div>
+                        <p className="font-semibold mb-1">Sources</p>
+                        <ul className="space-y-1 text-muted-foreground">
+                          {currency.sources.map((s: string, i: number) => (
+                            <li key={i} className="flex items-start gap-2">
+                              <ArrowRight className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                              <span>{s}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div className="p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.25)]">
+                        <p className="text-xs">
+                          <span className="font-semibold text-foreground">
+                            Spending Priority:{" "}
+                          </span>
+                          <span className="text-muted-foreground">
+                            {currency.spending_priority}
+                          </span>
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-sm text-muted-foreground">{r.description}</p>
-                </div>
-              ),
+                );
+              },
             )}
           </div>
 
-          <div className="scroll-reveal p-4 md:p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
-            <div className="flex items-center gap-2 mb-3 md:mb-4">
-              <Package className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-              <h3 className="font-bold text-base md:text-lg">Spending Tips</h3>
+          <div className="scroll-reveal p-5 md:p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+            <div className="flex items-center gap-2 mb-4 md:mb-5">
+              <ListOrdered className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="font-bold text-base md:text-lg">
+                Recommended Spending Order
+              </h3>
             </div>
-            <ul className="space-y-2">
-              {t.modules.beTheFinalBossCoinsAndSouls.tips.map(
-                (tip: string, i: number) => (
-                  <li key={i} className="flex items-start gap-2">
-                    <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
-                    <span className="text-muted-foreground text-sm">{tip}</span>
+            <ol className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {t.modules.beTheFinalBossCoinsAndSouls.spending_order.map(
+                (step: any, i: number) => (
+                  <li
+                    key={i}
+                    className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-border"
+                  >
+                    <span className="flex w-8 h-8 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.2)] border border-[hsl(var(--nav-theme)/0.5)] text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                      {step.priority}
+                    </span>
+                    <div>
+                      <p className="text-sm font-semibold">{step.action}</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">
+                        {step.details}
+                      </p>
+                    </div>
                   </li>
                 ),
               )}
-            </ul>
+            </ol>
           </div>
         </div>
       </section>
@@ -848,7 +957,7 @@ export default function HomePageClient({
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-4 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
               <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span className="text-xs md:text-sm font-medium">Defense Strategy</span>
+              <span className="text-xs md:text-sm font-medium">Wave Strategy</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
               <LinkedTitle
@@ -863,40 +972,44 @@ export default function HomePageClient({
             </p>
           </div>
 
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
             {t.modules.beTheFinalBossCastleDefense.strategies.map(
-              (s: any, index: number) => (
-                <div
-                  key={index}
-                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-                >
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="flex w-9 h-9 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)]">
-                      <Shield className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                    </span>
-                    <h3 className="font-bold text-lg">{s.name}</h3>
+              (s: any, index: number) => {
+                const Icon = STRATEGY_ICONS[index];
+                return (
+                  <div
+                    key={index}
+                    className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center justify-between gap-3 mb-3">
+                      <div className="flex items-center gap-3">
+                        <span className="flex w-10 h-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)]">
+                          <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                        </span>
+                        <h3 className="font-bold text-lg">{s.name}</h3>
+                      </div>
+                      <span
+                        className={`text-xs px-2 py-1 rounded-full border whitespace-nowrap ${PRIORITY_STYLES[s.priority] || PRIORITY_STYLES.default}`}
+                      >
+                        {s.priority}
+                      </span>
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      {s.strategy}
+                    </p>
+                    <div className="flex items-start gap-2 p-3 rounded-lg bg-amber-500/5 border border-amber-500/20">
+                      <AlertTriangle className="w-4 h-4 text-amber-500 mt-0.5 flex-shrink-0" />
+                      <p className="text-xs text-muted-foreground">
+                        <span className="font-semibold text-foreground">
+                          Avoid:{" "}
+                        </span>
+                        {s.avoid}
+                      </p>
+                    </div>
                   </div>
-                  <p className="text-sm text-muted-foreground">{s.description}</p>
-                </div>
-              ),
+                );
+              },
             )}
-          </div>
-
-          <div className="scroll-reveal p-4 md:p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
-            <div className="flex items-center gap-2 mb-3 md:mb-4">
-              <AlertTriangle className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-              <h3 className="font-bold text-base md:text-lg">Mistakes to Avoid</h3>
-            </div>
-            <ul className="space-y-2">
-              {t.modules.beTheFinalBossCastleDefense.mistakes.map(
-                (m: string, i: number) => (
-                  <li key={i} className="flex items-start gap-2">
-                    <AlertTriangle className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
-                    <span className="text-muted-foreground text-sm">{m}</span>
-                  </li>
-                ),
-              )}
-            </ul>
           </div>
         </div>
       </section>
@@ -907,7 +1020,7 @@ export default function HomePageClient({
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-4 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
               <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span className="text-xs md:text-sm font-medium">Latest Changes</span>
+              <span className="text-xs md:text-sm font-medium">Game Updates</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
               <LinkedTitle
@@ -922,22 +1035,35 @@ export default function HomePageClient({
             </p>
           </div>
 
-          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-6">
+          <div className="scroll-reveal relative pl-6 md:pl-8 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-6">
             {t.modules.beTheFinalBossUpdates.entries.map(
               (entry: any, index: number) => (
                 <div key={index} className="relative">
-                  <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
+                  <div className="absolute -left-[1.4rem] md:-left-[1.7rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
                   <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
-                        {entry.type}
+                    <div className="flex items-center gap-2 mb-2 flex-wrap">
+                      <span className="inline-flex items-center gap-1 text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                        <Calendar className="w-3.5 h-3.5" />
+                        {entry.date}
                       </span>
-                      <Clock className="w-4 h-4 text-muted-foreground" />
+                      <span
+                        className={`text-xs px-2 py-1 rounded-full border ${STATUS_STYLES[entry.status] || STATUS_STYLES.default}`}
+                      >
+                        {entry.status}
+                      </span>
                     </div>
-                    <h3 className="font-bold mb-1">{entry.title}</h3>
-                    <p className="text-sm text-muted-foreground">
-                      {entry.description}
-                    </p>
+                    <h3 className="font-bold mb-2">{entry.title}</h3>
+                    <ul className="space-y-1.5">
+                      {entry.changes.map((change: string, i: number) => (
+                        <li
+                          key={i}
+                          className="flex items-start gap-2 text-sm text-muted-foreground"
+                        >
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          <span>{change}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               ),

@@ -163,7 +163,7 @@
     "beTheFinalBossMinionTierList": {
       "title": "Be The Final Boss Minion Tier List",
       "displayType": "tier-grid",
-      "intro": "A balanced army is more reliable than filling every slot with the cheapest summon. Use durable minions to slow heroes, keep damage-focused summons protected, and gradually replace early units as stronger options unlock in Be The Final Boss.",
+      "intro": "A balanced army is more effective than filling every slot with the cheapest summon. Use durable minions to slow heroes, keep damage-focused summons protected, and gradually replace early units as stronger options unlock in Be The Final Boss.",
       "tiers": [
         {
           "tier": "S",
@@ -244,108 +244,220 @@
     "beTheFinalBossSkillTree": {
       "title": "Be The Final Boss Skill Tree Builds",
       "displayType": "upgrade-path",
-      "intro": "The Skill Tree holds the permanent upgrades that shape your boss, your minions, and your castle defense in Be The Final Boss. Pick a clear path early instead of spreading points everywhere, so each wave feels easier than the last.",
-      "paths": [
+      "intro": "Coins spent in the Skill Tree provide permanent progression between hero waves. Build around the part of your defense that is currently failing, then spread later upgrades across player power, minion strength and castle durability.",
+      "builds": [
         {
-          "name": "Boss Power Path",
-          "description": "Invest in nodes that raise your boss's damage and survivability so you can fight beside your minions without falling in later waves."
+          "name": "Balanced Starter Build",
+          "best_for": "New players and early progression",
+          "steps": [
+            {
+              "priority": 1,
+              "focus": "Player Upgrades",
+              "guidance": "Start with player-focused upgrades so you can fight beside your minions and clear early heroes consistently."
+            },
+            {
+              "priority": 2,
+              "focus": "Minion Upgrades",
+              "guidance": "Improve minion power after your character can comfortably support the front line."
+            },
+            {
+              "priority": 3,
+              "focus": "Castle Defense",
+              "guidance": "Add castle-focused upgrades before entering waves where escaped heroes can quickly end a run."
+            }
+          ],
+          "result": "Steady damage, dependable minions and enough protection to recover from small defensive mistakes."
         },
         {
-          "name": "Minion Army Path",
-          "description": "Unlock nodes that strengthen summoned minions, giving them more durability and damage so your army holds the line longer."
+          "name": "Minion Army Build",
+          "best_for": "Players who want summons to handle most enemies",
+          "steps": [
+            {
+              "priority": 1,
+              "focus": "Minion Upgrades",
+              "guidance": "Direct the largest share of early Skill Tree spending toward permanent minion improvements."
+            },
+            {
+              "priority": 2,
+              "focus": "Castle Defense",
+              "guidance": "Strengthen the castle so it can survive when enemies break through the minion line."
+            },
+            {
+              "priority": 3,
+              "focus": "Player Upgrades",
+              "guidance": "Add player power to eliminate stronger heroes and support weak points in the formation."
+            }
+          ],
+          "result": "A summon-centered build that uses the player as support and emergency damage."
         },
         {
-          "name": "Castle Defense Path",
-          "description": "Reinforce castle health and defensive nodes so a few breakthrough heroes no longer end your run."
-        },
-        {
-          "name": "Economy Path",
-          "description": "Boost Coin and Soul gains so permanent upgrades and fresh summons arrive faster across every wave."
+          "name": "High-Wave Survival Build",
+          "best_for": "Long runs against increasingly difficult hero waves",
+          "steps": [
+            {
+              "priority": 1,
+              "focus": "Castle Defense",
+              "guidance": "Invest in castle-focused upgrades before pushing beyond your current highest wave."
+            },
+            {
+              "priority": 2,
+              "focus": "Minion Upgrades",
+              "guidance": "Raise minion strength to reduce the number of heroes reaching the final defensive area."
+            },
+            {
+              "priority": 3,
+              "focus": "Player Upgrades",
+              "guidance": "Improve personal combat power to finish durable enemies and intercept heroes that escape."
+            }
+          ],
+          "result": "A defensive build designed to prevent one breakthrough from ending an otherwise successful run."
         }
-      ],
-      "priorities": [
-        "Unlock one permanent damage node before stacking utility nodes.",
-        "Keep your main weapon and Skill Tree upgrades roughly in step with wave difficulty.",
-        "Reinforce castle defense before pushing into much higher waves.",
-        "Reinvest spare Coins instead of hoarding them between sessions."
       ]
     },
     "beTheFinalBossCoinsAndSouls": {
       "title": "Be The Final Boss Coins And Souls Guide",
       "displayType": "resource-cards",
-      "intro": "Coins and Souls are the two core currencies in Be The Final Boss. Coins fund permanent upgrades, while Souls summon and reinforce your minion army. Spend them with a plan instead of reacting wave by wave.",
-      "resources": [
+      "intro": "Be The Final Boss separates character progression from minion recruitment through two currencies. Use Coins to improve permanent combat power and save Souls for obtaining stronger minions that can hold the defensive line.",
+      "currencies": [
         {
           "name": "Coins",
-          "role": "Permanent Progression",
-          "description": "Coins are the permanent-progression currency. Earn them by surviving hero waves and redeeming codes like betheboss, then spend them on Skill Tree nodes and weapon upgrades that stay with you."
+          "purpose": "Permanent progression",
+          "used_for": [
+            "Skill Tree upgrades",
+            "Weapon improvements and new weapons"
+          ],
+          "sources": [
+            "Normal in-game progression rewards",
+            "Code and developer reward drops",
+            "The release code betheboss, which rewards 500 Coins"
+          ],
+          "spending_priority": "Buy useful early Skill Tree upgrades first, then improve weapons when your personal damage falls behind the current hero waves."
         },
         {
           "name": "Souls",
-          "role": "Army Summoning",
-          "description": "Souls are the summoning currency. Earn them as you progress and use them to summon and reinforce minions that defend your castle alongside your boss."
-        },
-        {
-          "name": "Code Rewards",
-          "role": "Free Boost",
-          "description": "Codes such as betheboss grant free Coins that jump-start your Skill Tree and weapon upgrades without spending wave earnings."
+          "purpose": "Minion progression",
+          "used_for": [
+            "Obtaining new minions",
+            "Building a stronger defensive army"
+          ],
+          "sources": [
+            "In-game progression and wave rewards",
+            "Special rewards announced by the developers"
+          ],
+          "spending_priority": "Save Souls for minion improvements instead of repeatedly spending them without strengthening your active defensive lineup."
         }
       ],
-      "tips": [
-        "Spend Coins on permanent Skill Tree nodes before stockpiling them.",
-        "Keep a Soul reserve so you can resummon minions after a breakthrough.",
-        "Use code rewards on your main weapon or Skill Tree, not on low-priority options.",
-        "Reinvest currencies between waves so each wave starts from a stronger baseline."
+      "spending_order": [
+        {
+          "priority": 1,
+          "action": "Redeem betheboss",
+          "details": "Claim the 500-Coin release reward through the code field in Settings."
+        },
+        {
+          "priority": 2,
+          "action": "Buy Permanent Power",
+          "details": "Use Coins on early Skill Tree upgrades that improve your ability to clear hero waves."
+        },
+        {
+          "priority": 3,
+          "action": "Strengthen the Army",
+          "details": "Use Souls to obtain better minions before saving for additional summon upgrades."
+        },
+        {
+          "priority": 4,
+          "action": "Balance the Defense",
+          "details": "Alternate later spending between weapons, minions and castle-focused upgrades according to the part of the defense that fails first."
+        }
       ]
     },
     "beTheFinalBossCastleDefense": {
       "title": "Be The Final Boss Castle Defense Guide",
       "displayType": "strategy-cards",
-      "intro": "Castle defense is the heart of Be The Final Boss. Deploy minions to hold the line, position your boss where it can punish breakthroughs, and time your upgrades so each wave ends stronger than it began.",
+      "intro": "Heroes attack in endless waves and become harder to stop as a run continues. Your minions form the main defensive line, but the player must actively support them, intercept escaped enemies and spend resources before the next major difficulty increase.",
       "strategies": [
         {
-          "name": "Layer Your Minions",
-          "description": "Place durable frontline minions between the heroes and your castle, with damage-focused summons behind them so they can attack safely."
+          "name": "Establish the Front Line",
+          "priority": "Essential",
+          "strategy": "Summon minions before the incoming heroes reach the castle and keep the army positioned between the attackers and the final defensive area.",
+          "avoid": "Waiting until heroes are already close to the castle before building the defensive line."
         },
         {
-          "name": "Fight at the Front",
-          "description": "Move your boss forward to meet heroes before they reach the castle, finishing enemies that break through your minion line."
+          "name": "Fight Beside Your Minions",
+          "priority": "Essential",
+          "strategy": "Use your weapon to damage heroes while they are occupied by minions. Move toward any enemy that escapes instead of remaining in one position.",
+          "avoid": "Expecting minions to clear every wave without direct player support."
         },
         {
-          "name": "Time Your Upgrades",
-          "description": "Spend Coins on permanent Skill Tree boosts between waves so each wave starts from a stronger baseline."
+          "name": "Protect Against Breakthroughs",
+          "priority": "High",
+          "strategy": "Watch the route behind your main army and immediately intercept heroes that pass the frontline. Castle-focused Skill Tree upgrades provide additional protection during longer runs.",
+          "avoid": "Following one target too far away while another hero advances toward the castle."
         },
         {
-          "name": "Refresh Your Army",
-          "description": "Replace weak early summons with stronger unlocked minions instead of draining Souls on units that fall off as hero pressure grows."
+          "name": "Upgrade Before Damage Falls Behind",
+          "priority": "High",
+          "strategy": "Spend Coins on weapons and permanent Skill Tree upgrades when enemies take too long to defeat. Use Souls to improve the minion army when the frontline collapses too quickly.",
+          "avoid": "Saving every resource while the current defense is already unable to control a wave."
+        },
+        {
+          "name": "Prepare for Endless Scaling",
+          "priority": "Late Game",
+          "strategy": "Balance player power, minion strength and castle defense instead of relying entirely on one system. Later waves punish weak points more heavily than early waves.",
+          "avoid": "Investing everything into personal damage while leaving minions and the castle unprotected."
+        },
+        {
+          "name": "Recover the Defensive Line",
+          "priority": "Emergency",
+          "strategy": "When several heroes break through, retreat toward the castle, clear the closest threats first and allow surviving minions to regroup around the remaining enemies.",
+          "avoid": "Continuing to attack distant heroes while immediate threats are damaging the final defense."
         }
-      ],
-      "mistakes": [
-        "Letting heroes reach the castle because the frontline was too thin.",
-        "Spending Souls only on the cheapest summon instead of durable frontline units.",
-        "Dividing Coins across many low-level weapons instead of upgrading one main weapon.",
-        "Ignoring the Skill Tree until later waves are already overwhelming."
       ]
     },
     "beTheFinalBossUpdates": {
       "title": "Be The Final Boss Updates",
       "displayType": "timeline",
-      "intro": "Track every Be The Final Boss update here — new codes, minions, weapons, balance changes, and events. We follow the official Roblox game page, the Apparently Champions community, and the developer's X account for current information.",
+      "intro": "The release version centers on defending a castle from endless hero waves, summoning minions, unlocking weapons and purchasing permanent Skill Tree upgrades. Check the official channels after major game updates for new rewards and balance changes.",
       "entries": [
         {
-          "title": "Be The Final Boss Launches on Roblox",
-          "type": "Launch",
-          "description": "Be The Final Boss is now live on Roblox, letting players defend their castle as the final boss across Desktop, Mobile, and Console."
+          "date": "Release Build",
+          "title": "Core Castle Defense Gameplay",
+          "changes": [
+            "Defend the castle against endless waves of invading heroes.",
+            "Summon minions that fight alongside the player.",
+            "Level up a permanent Skill Tree.",
+            "Unlock new weapons as progression continues."
+          ],
+          "status": "Live"
         },
         {
-          "title": "Release Code betheboss",
-          "type": "New Code",
-          "description": "The launch code betheboss is now available for 500 Coins through the Codes section of the Settings menu."
+          "date": "Release Reward",
+          "title": "betheboss Code Added",
+          "changes": [
+            "The release code betheboss is listed on the official Roblox game page.",
+            "The code rewards 500 Coins.",
+            "Codes are redeemed through the code field inside the Settings menu."
+          ],
+          "status": "Active"
         },
         {
-          "title": "Ongoing Content Roadmap",
-          "type": "Roadmap",
-          "description": "Apparently Champions plans to add new minions, weapons, and balance updates; watch the official Roblox page and the developer's X account for the latest changes."
+          "date": "Current",
+          "title": "Official Game Page Tracking",
+          "changes": [
+            "The Roblox description displays the current release code and main gameplay features.",
+            "The in-game codes board is used for additional reward information.",
+            "The game supports desktop, mobile and console."
+          ],
+          "status": "Official Source"
+        },
+        {
+          "date": "Current",
+          "title": "Developer Announcement Channels",
+          "changes": [
+            "Apparently Champions is the official Roblox community behind the game.",
+            "Apparently Games publishes developer information through its official X account.",
+            "Future code, weapon, minion and balance announcements should be checked against these official channels."
+          ],
+          "status": "Monitoring"
         }
       ]
     }
