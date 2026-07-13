@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,728 +52,332 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Be The Final Boss Gameplay",
+    "description": "Summon minions, defend your castle as the final boss, survive endless hero waves, upgrade your skill tree, and unlock new weapons across Desktop, Mobile, and Console on Roblox."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Be The Final Boss",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to master Be The Final Boss — codes, minions, weapons, skill tree, currencies, and castle defense.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "ClipboardCheck",
+        "title": "Be The Final Boss Codes",
+        "description": "Working codes, rewards, and redemption steps"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "BookOpen",
+        "title": "Be The Final Boss Beginner Guide",
+        "description": "First steps, core loop, and early progression"
+      },
+      {
+        "icon": "Users",
+        "title": "Be The Final Boss Minion Tier List",
+        "description": "Best minions to summon and invest Souls into"
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "title": "Be The Final Boss Best Weapons",
+        "description": "Weapon picks, upgrade value, and rankings"
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Be The Final Boss Skill Tree Builds",
+        "description": "Permanent upgrade paths and node priority"
       },
       {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "Package",
+        "title": "Be The Final Boss Coins And Souls",
+        "description": "How to earn and spend each currency"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Be The Final Boss Castle Defense",
+        "description": "Deployment, positioning, and wave strategy"
+      },
+      {
+        "icon": "Clock",
+        "title": "Be The Final Boss Updates",
+        "description": "New codes, minions, weapons, and patch notes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "beTheFinalBossCodes": {
+      "title": "Be The Final Boss Codes",
+      "displayType": "code-cards",
+      "intro": "Be The Final Boss currently has one working release code. Enter it through the Codes section at the bottom of the Settings menu to claim free Coins, then put the reward toward permanent Skill Tree upgrades or your main weapon.",
+      "items": [
+        {
+          "code": "betheboss",
+          "status": "Working",
+          "reward": "500 Coins",
+          "redemption_steps": [
+            "Launch Be The Final Boss on Roblox and wait for your castle to load.",
+            "Select the Settings icon in the top-left corner.",
+            "Scroll to the Codes section at the bottom of the menu.",
+            "Enter betheboss exactly as shown and press Redeem."
+          ],
+          "best_use": "Put the Coins toward permanent Skill Tree upgrades or your main weapon before attempting harder hero waves."
+        }
+      ],
+      "tips": [
+        "Codes are case-sensitive, so enter betheboss exactly as written.",
+        "If a code says it is invalid, double-check the spelling before assuming it has expired.",
+        "New codes are usually released around updates, milestones, and events."
+      ]
+    },
+    "beTheFinalBossBeginnerGuide": {
+      "title": "Be The Final Boss Beginner Guide",
+      "displayType": "step-by-step",
+      "intro": "The core loop of Be The Final Boss is simple: summon minions, stop heroes from reaching the castle, collect resources, and improve both your boss and your army. Follow this route to avoid spreading early resources too thin.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Claim the Release Code",
+          "description": "Redeem betheboss in Settings for 500 Coins before buying your first major upgrades."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Summon a Basic Defense",
+          "description": "Use Souls to add minions so the incoming heroes are not focused entirely on your character or castle."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Fight Beside Your Minions",
+          "description": "Meet heroes before they reach the castle and help finish enemies that break through your defensive line."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Prioritize Permanent Power",
+          "description": "Spend Coins on useful Skill Tree boosts and keep one main weapon upgraded instead of dividing resources across every option."
+        },
+        {
+          "title": "Scale for Later Waves",
+          "description": "Repeat waves, replace weak early summons with stronger unlocked minions, and move to newer weapons when they outperform your current upgrade level."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Keep at least one frontline minion active so heroes do not run straight at your castle.",
+        "Reinvest Coins into the Skill Tree instead of hoarding them between waves.",
+        "Upgrade one dependable weapon rather than splitting Coins across several low-level options.",
+        "Watch which heroes break through, then adjust your minion mix for the next wave."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "beTheFinalBossMinionTierList": {
+      "title": "Be The Final Boss Minion Tier List",
+      "displayType": "tier-grid",
+      "intro": "A balanced army is more reliable than filling every slot with the cheapest summon. Use durable minions to slow heroes, keep damage-focused summons protected, and gradually replace early units as stronger options unlock in Be The Final Boss.",
+      "tiers": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "tier": "S",
+          "label": "Core Late-Wave Picks",
+          "minions": [
+            "Your most advanced unlocked minions"
+          ],
+          "strengths": "Best overall combination of damage, durability, and usefulness against stronger hero waves.",
+          "investment": "Highest Soul priority; build the army around these units once unlocked."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "tier": "A",
+          "label": "Frontline Defenders",
+          "minions": [
+            "Durable melee minions",
+            "Units that keep heroes away from the castle"
+          ],
+          "strengths": "Create time for your boss and backline minions to deal damage safely.",
+          "investment": "Keep enough frontline units active to prevent fast breakthroughs."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "tier": "B",
+          "label": "Protected Damage Dealers",
+          "minions": [
+            "Ranged or caster-style minions",
+            "Damage-focused summons with lower durability"
+          ],
+          "strengths": "Deliver useful sustained damage while another minion holds enemy attention.",
+          "investment": "Add after the frontline is stable; avoid leaving them exposed."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "tier": "C",
+          "label": "Temporary Early Summons",
+          "minions": [
+            "Starter melee minions",
+            "Underleveled early summons"
+          ],
+          "strengths": "Affordable help during the first waves but weaker as hero health and pressure increase.",
+          "investment": "Use early, then replace rather than continuing to spend heavily on them."
+        }
+      ]
+    },
+    "beTheFinalBossBestWeapons": {
+      "title": "Be The Final Boss Best Weapons",
+      "displayType": "comparison-table",
+      "intro": "Weapons unlock as progression advances in Be The Final Boss, and Coins also fund weapon and Skill Tree improvements. The strongest route is to maintain one upgraded main weapon and avoid draining Coins into several low-level options at once.",
+      "weapons": [
+        {
+          "rank": "S",
+          "weapon_choice": "Highest unlocked and properly upgraded weapon",
+          "best_for": "General progression and harder waves",
+          "strength": "Combines later-game scaling with enough upgrades to handle groups of heroes efficiently.",
+          "upgrade_priority": "Highest"
+        },
+        {
+          "rank": "A",
+          "weapon_choice": "Most upgraded current weapon",
+          "best_for": "Consistent clears while saving Coins",
+          "strength": "A heavily upgraded older weapon can remain stronger than a fresh unlock with no investment.",
+          "upgrade_priority": "High"
+        },
+        {
+          "rank": "B",
+          "weapon_choice": "Newly unlocked weapon with few upgrades",
+          "best_for": "Testing attack pattern and range",
+          "strength": "May become the best option after investment, but should be tested before replacing a proven main weapon.",
+          "upgrade_priority": "Medium"
+        },
+        {
+          "rank": "C",
+          "weapon_choice": "Starter weapon",
+          "best_for": "First waves and learning combat",
+          "strength": "Simple and immediately available, but its value falls once stronger weapons and permanent upgrades are unlocked.",
+          "upgrade_priority": "Low after early progression"
+        }
+      ]
+    },
+    "beTheFinalBossSkillTree": {
+      "title": "Be The Final Boss Skill Tree Builds",
+      "displayType": "upgrade-path",
+      "intro": "The Skill Tree holds the permanent upgrades that shape your boss, your minions, and your castle defense in Be The Final Boss. Pick a clear path early instead of spreading points everywhere, so each wave feels easier than the last.",
+      "paths": [
+        {
+          "name": "Boss Power Path",
+          "description": "Invest in nodes that raise your boss's damage and survivability so you can fight beside your minions without falling in later waves."
+        },
+        {
+          "name": "Minion Army Path",
+          "description": "Unlock nodes that strengthen summoned minions, giving them more durability and damage so your army holds the line longer."
+        },
+        {
+          "name": "Castle Defense Path",
+          "description": "Reinforce castle health and defensive nodes so a few breakthrough heroes no longer end your run."
+        },
+        {
+          "name": "Economy Path",
+          "description": "Boost Coin and Soul gains so permanent upgrades and fresh summons arrive faster across every wave."
         }
       ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
       "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
+        "Unlock one permanent damage node before stacking utility nodes.",
+        "Keep your main weapon and Skill Tree upgrades roughly in step with wave difficulty.",
+        "Reinforce castle defense before pushing into much higher waves.",
+        "Reinvest spare Coins instead of hoarding them between sessions."
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "beTheFinalBossCoinsAndSouls": {
+      "title": "Be The Final Boss Coins And Souls Guide",
+      "displayType": "resource-cards",
+      "intro": "Coins and Souls are the two core currencies in Be The Final Boss. Coins fund permanent upgrades, while Souls summon and reinforce your minion army. Spend them with a plan instead of reacting wave by wave.",
+      "resources": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
+          "name": "Coins",
+          "role": "Permanent Progression",
+          "description": "Coins are the permanent-progression currency. Earn them by surviving hero waves and redeeming codes like betheboss, then spend them on Skill Tree nodes and weapon upgrades that stay with you."
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
+          "name": "Souls",
+          "role": "Army Summoning",
+          "description": "Souls are the summoning currency. Earn them as you progress and use them to summon and reinforce minions that defend your castle alongside your boss."
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
+          "name": "Code Rewards",
+          "role": "Free Boost",
+          "description": "Codes such as betheboss grant free Coins that jump-start your Skill Tree and weapon upgrades without spending wave earnings."
         }
+      ],
+      "tips": [
+        "Spend Coins on permanent Skill Tree nodes before stockpiling them.",
+        "Keep a Soul reserve so you can resummon minions after a breakthrough.",
+        "Use code rewards on your main weapon or Skill Tree, not on low-priority options.",
+        "Reinvest currencies between waves so each wave starts from a stronger baseline."
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "beTheFinalBossCastleDefense": {
+      "title": "Be The Final Boss Castle Defense Guide",
+      "displayType": "strategy-cards",
+      "intro": "Castle defense is the heart of Be The Final Boss. Deploy minions to hold the line, position your boss where it can punish breakthroughs, and time your upgrades so each wave ends stronger than it began.",
+      "strategies": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "name": "Layer Your Minions",
+          "description": "Place durable frontline minions between the heroes and your castle, with damage-focused summons behind them so they can attack safely."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "name": "Fight at the Front",
+          "description": "Move your boss forward to meet heroes before they reach the castle, finishing enemies that break through your minion line."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "name": "Time Your Upgrades",
+          "description": "Spend Coins on permanent Skill Tree boosts between waves so each wave starts from a stronger baseline."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "name": "Refresh Your Army",
+          "description": "Replace weak early summons with stronger unlocked minions instead of draining Souls on units that fall off as hero pressure grows."
         }
+      ],
+      "mistakes": [
+        "Letting heroes reach the castle because the frontline was too thin.",
+        "Spending Souls only on the cheapest summon instead of durable frontline units.",
+        "Dividing Coins across many low-level weapons instead of upgrading one main weapon.",
+        "Ignoring the Skill Tree until later waves are already overwhelming."
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+    "beTheFinalBossUpdates": {
+      "title": "Be The Final Boss Updates",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "Track every Be The Final Boss update here — new codes, minions, weapons, balance changes, and events. We follow the official Roblox game page, the Apparently Champions community, and the developer's X account for current information.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "title": "Be The Final Boss Launches on Roblox",
+          "type": "Launch",
+          "description": "Be The Final Boss is now live on Roblox, letting players defend their castle as the final boss across Desktop, Mobile, and Console."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "title": "Release Code betheboss",
+          "type": "New Code",
+          "description": "The launch code betheboss is now available for 500 Coins through the Codes section of the Settings menu."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Ongoing Content Roadmap",
+          "type": "Roadmap",
+          "description": "Apparently Champions plans to add new minions, weapons, and balance updates; watch the official Roblox page and the developer's X account for the latest changes."
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Be The Final Boss",
+    "titleHighlight": "FAQ",
+    "subtitle": "Everything you need to know about Be The Final Boss",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What are Be The Final Boss codes?",
+        "answer": "Be The Final Boss codes are free redeem codes that grant Coins and other rewards. The current working code is betheboss, worth 500 Coins, entered in the Codes section of the Settings menu."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I redeem codes in Be The Final Boss?",
+        "answer": "In Be The Final Boss, open the Settings icon in the top-left corner, scroll to the Codes section at the bottom of the menu, type the code, and press Redeem to claim your reward."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What platforms is Be The Final Boss on?",
+        "answer": "Be The Final Boss is a Roblox game that supports Desktop, Mobile, and Console, so you can play it on PC, phones, tablets, and consoles through the Roblox app."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What do minions do in Be The Final Boss?",
+        "answer": "In Be The Final Boss, minions are the summoned units that defend your castle alongside your boss. You spend Souls to summon them, and a balanced army slows heroes so your castle survives longer."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What is the Skill Tree in Be The Final Boss?",
+        "answer": "The Skill Tree in Be The Final Boss holds permanent upgrades for your boss, minions, and castle defense. Coins unlock these nodes, and a focused path makes later waves much easier."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How do I get more Coins and Souls in Be The Final Boss?",
+        "answer": "In Be The Final Boss, you earn Coins and Souls by surviving hero waves, redeeming codes like betheboss, and progressing through the game. Spend Coins on permanent upgrades and Souls on summoning stronger minions."
       }
     ]
   },
@@ -800,124 +404,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Be The Final Boss Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced minion, weapon, and skill tree strategies for Be The Final Boss on Roblox.",
+      "metaTitle": "Be The Final Boss Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Be The Final Boss guides covering beginner tips, minion tier lists, weapon rankings, skill tree builds, and expert tactics for surviving endless hero waves.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, minion summons, weapon upgrades, and the skill tree system. Learn everything from first steps to advanced castle defense tactics.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the minion, weapon, and skill tree systems and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to defend your castle and survive stronger hero waves",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for minion deployment and castle defense"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Be The Final Boss Skill Tree",
+      "description": "Master the Skill Tree upgrade system with node paths, upgrade priorities, and build strategies for permanent boss, minion, and castle power.",
+      "metaTitle": "Be The Final Boss Skill Tree - Upgrade Paths & Builds",
+      "metaDescription": "Master the Be The Final Boss Skill Tree. Learn upgrade paths, node priorities, and build strategies for boosting your boss, minions, and castle defense across every wave.",
+      "categoryLabel": "SKILL TREE",
+      "whatIs": "What is the Skill Tree?",
+      "whatIsDescription": "The Skill Tree is the permanent upgrade system where you spend Coins to unlock nodes that boost your boss, minions, and castle defense. A focused path beats spreading points across every option.",
+      "why": "Why plan your Skill Tree?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
+        "step1Title": "Unlock Permanent Power",
+        "step1Description": "Spend Coins on nodes that stay with you across every wave",
+        "step2Title": "Understand Upgrade Paths",
+        "step2Description": "Learn how boss, minion, and castle nodes combine into effective builds",
         "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step3Description": "Reinvest Coins into the highest-value nodes instead of hoarding them"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Skill Tree Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Be The Final Boss Weapons & Minions",
+      "description": "Detailed guides covering weapons, minions, summon costs, and upgrade paths with practical usage tips for every wave.",
+      "metaTitle": "Be The Final Boss Weapons & Minions - Tools, Units & Gear Guide",
+      "metaDescription": "Complete database for Be The Final Boss including weapons, minions, summon costs, and upgrade paths. Learn how to use every weapon and minion effectively.",
+      "categoryLabel": "WEAPONS & MINIONS",
+      "whatIs": "What are Weapons & Minions?",
+      "whatIsDescription": "Comprehensive guides for weapons and minions. Learn upgrade priorities, summon costs, and optimal combinations for defending your castle.",
+      "why": "Why check weapon and minion guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Title": "Learn Upgrade Paths",
+        "step1Description": "Discover how to upgrade weapons and summon the right minions for each wave",
         "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step2Description": "Choose the best weapons and minions for your progression stage",
+        "step3Title": "Improve Defense",
+        "step3Description": "Equip the right mix of frontline and damage minions to protect your castle"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Weapons & Minions"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Be The Final Boss Waves & Enemies",
+      "description": "Explore hero waves, enemy types, attack patterns, and survival tips for each stage of Be The Final Boss.",
+      "metaTitle": "Be The Final Boss Waves & Enemies - Hero Wave Survival Guide",
+      "metaDescription": "Explore Be The Final Boss hero waves, enemy types, attack patterns, and survival strategies. Find out what to expect and how to prepare for each wave.",
+      "categoryLabel": "WAVES & ENEMIES",
+      "whatIs": "What are Waves?",
+      "whatIsDescription": "Guides to hero waves, enemy types, attack patterns, and danger moments. Learn what to expect and how to prepare your minion army for each stage.",
+      "why": "Why study waves?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Find Weaknesses",
+        "step1Description": "Locate enemy patterns and breakpoints specific to each wave",
+        "step2Title": "Avoid Breakthroughs",
+        "step2Description": "Understand which heroes threaten your castle and how to stop them",
+        "step3Title": "Plan Defense",
+        "step3Description": "Prepare the right minion mix and boss positioning for each wave"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Waves & Enemies Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Be The Final Boss Castle Defense",
+      "description": "Master minion deployment, boss positioning, upgrade timing, and castle defense techniques for surviving endless hero waves.",
+      "metaTitle": "Be The Final Boss Castle Defense - Deployment & Survival Guide",
+      "metaDescription": "Master Be The Final Boss castle defense with minion deployment, boss positioning, upgrade timing, and survival techniques for endless hero waves.",
+      "categoryLabel": "CASTLE DEFENSE",
+      "whatIs": "What is Castle Defense?",
+      "whatIsDescription": "Guides to minion deployment, boss positioning, upgrade timing, and castle defense. Learn to hold the line and survive endless hero waves.",
+      "why": "Why plan your defense?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
+        "step1Title": "Hold the Line",
+        "step1Description": "Establish a layered minion front so heroes never reach your castle",
         "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step2Description": "Time upgrades and summons so each wave starts stronger",
+        "step3Title": "Survive Longer",
+        "step3Description": "Build a defense that scales into the highest waves"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Castle Defense Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Be The Final Boss Updates & Support",
+      "description": "Patch notes, new codes, balance changes, and troubleshooting for Be The Final Boss on Roblox across Desktop, Mobile, and Console.",
+      "metaTitle": "Be The Final Boss Updates & Support - Patch Notes & Help",
+      "metaDescription": "Get Be The Final Boss updates, new codes, patch notes, balance changes, and troubleshooting help for Desktop, Mobile, and Console on Roblox.",
+      "categoryLabel": "UPDATES & SUPPORT",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Guides covering new codes, minions, weapons, balance changes, and troubleshooting. Stay current with the latest Be The Final Boss updates and fixes.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Catch New Codes",
+        "step1Description": "Redeem new codes as soon as they are released",
+        "step2Title": "Track Balance Changes",
+        "step2Description": "See how minion, weapon, and skill tree tuning affects your build",
+        "step3Title": "Platform Help",
+        "step3Description": "Resolve issues on Desktop, Mobile, and Console"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Updates & Support Articles"
     }
   }
 }
