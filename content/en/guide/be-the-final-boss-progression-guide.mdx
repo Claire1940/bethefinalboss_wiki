@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Be the Final Boss Progression Guide: Meta Builds & Strategies",
+  description: "Master the ultimate progression route in Be the Final Boss. Learn optimal stat distributions, gear milestones, and boss strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Progression+Guide",
+  date: "2026-07-13",
+  author: "be the final boss Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Goal**: Follow this **be the final boss progression guide** to optimize your build, unlock high-tier gear, and defeat end-game bosses efficiently.
+- **Stat Priority**: Focus heavily on offensive stats early on, transitioning to health regeneration and defensive shields for late-game encounters.
+- **Gear Milestones**: Upgrade weapons at key level thresholds and utilize set bonuses to bypass difficult boss mechanics.
+- **Combat Strategy**: Learn boss attack patterns, master the timing of your dodge rolls, and preserve ultimate abilities for shield phases.
+</Callout>
+
+<Section icon={Map} title="Core Progression Overview">
+
+To successfully navigate the end-game loop, following a structured **be the final boss progression guide** is essential. Progression is divided into three distinct phases: Early-game setup, Mid-game consolidation, and End-game mastery. Balancing your offensive capabilities with defensive utility is the key to surviving high-damage boss phases.
+
+| Phase | Level Range | Primary Focus | Key Unlock |
+|---|---|---|---|
+| Early-Game | Levels 1-30 | Campaign completion, basic skill unlocking | Tier 1 Legendary Weapon |
+| Mid-Game | Levels 31-60 | Stat optimization, set bonus farming | Mythic Accessory Set |
+| End-Game | Levels 61-100 | Boss raiding, min-maxing stat rolls | Final Boss Tier Set |
+
+<Callout type="tip" title="Progression Tip">
+Do not neglect health regeneration in your mid-game build. Many late-game bosses feature high-frequency chip damage that cannot be entirely avoided by dodge rolling.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Class Builds and Stat Distributions">
+
+Choosing the right build path determines how smoothly you transition between progression tiers. Different playstyles require distinct stat priorities to maximize damage output while maintaining survivability.
+
+<CardGrid cols={3}>
+  <Card title="Glass Cannon Build">
+    - **High damage output**
+    - Focuses on Crit Rate and Crit Damage
+    - Requires precise dodge-roll timing
+  </Card>
+  <Card title="Sustain Tank Build">
+    - **High survivability**
+    - Prioritizes Health Regen and Shields
+    - Extremely beginner-friendly
+  </Card>
+  <Card title="Balanced Hybrid Build">
+    - **Flexible tactics**
+    - Balanced mix of cooldown reduction and defense
+    - Adaptable to most boss mechanics
+  </Card>
+</CardGrid>
+
+| Build Type | Primary Stat | Secondary Stat | Utility Stat | Performance |
+|---|---|---|---|---|
+| Glass Cannon | Attack Power | Crit Rate | Cooldown Reduction | ★★★★☆ |
+| Sustain Tank | Max Health | Health Regen | Shield Strength | ★★★★★ |
+| Balanced Hybrid | Attack Power | Max Health | Dodge Cooldown | ★★★★☆ |
+
+<Callout type="warning" title="Stat Warning">
+Over-allocating points into pure damage without securing at least one source of shield generation will make end-game bosses extremely difficult to clear.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Campaign Progression">
+
+Follow this systematic roadmap to advance through the campaign and unlock end-game content without hitting progression walls.
+
+<Steps>
+  <Step num="1" title="Complete Main Campaign Chapters">
+    Focus entirely on primary quests to unlock core features, skill slots, and basic gear sets. Avoid grinding side activities until the main campaign is finished.
+  </Step>
+  <Step num="2" title="Farm Mid-Tier Dungeon Sets">
+    Once the campaign is complete, target level-appropriate dungeons to acquire full gear sets. Matching set bonuses provide massive stat multipliers.
+  </Step>
+  <Step num="3" title="Optimize Stat Rolls on Gear">
+    Use crafting resources to re-roll secondary stats on your gear. Prioritize Crit Rate, Health Regen, and Shield Efficiency.
+  </Step>
+  <Step num="4" title="Conquer End-Game Bosses">
+    Challenge final tier bosses to obtain top-tier weapons and materials required for limit-breaking your equipment.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Milestone Info">
+Completing Step 2 unlocks the daily raid system, which is the most consistent source of upgrade materials in the game.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Boss Mechanics and Survival Strategies">
+
+End-game bosses utilize complex mechanics that require quick reactions and strategic positioning. Understanding how to handle specific attack phases is crucial for clean clears.
+
+| Boss Mechanic | Danger Level | Counter Strategy | Recommended Tool |
+|---|---|---|---|
+| Ward Shield | High | Use ultimate abilities to break the ward quickly | High-burst skills |
+| Shockwaves | Medium | Time your dodge rolls or jump over the expanding rings | Dodge cooldown reduction |
+| Knockback Attacks | Medium | Position yourself away from environmental hazards | Crowd control immunity |
+| Damage Over Time | High | Maintain active health regeneration and shields | Health potions / Shields |
+
+<Callout type="success" title="Combat Tip">
+When a boss casts a Ward Shield, they often become immune to regular damage. Focus all your high-cooldown skills and ultimate abilities exclusively on breaking the ward to stun the boss.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Milestones Checklist">
+
+Use this checklist to track your character's development as you work through the end-game content.
+
+<Checklist
+  id="final-boss-milestones"
+  title="End-Game Goals:"
+  items={[
+    "Reach Character Level 100",
+    "Acquire a full set of Tier 5 Mythic Gear",
+    "Unlock all passive skill tree nodes",
+    "Successfully clear the final boss raid solo",
+    "Optimize gear substats for your chosen build"
+  ]}
+/>
+
+<Callout type="tip" title="Optimization Tip">
+Review your gear substats weekly. Replacing even a single low-roll defensive stat with a high-roll offensive stat can drastically reduce boss fight durations.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+Review these common questions to resolve progression bottlenecks and optimize your gameplay loop.
+
+<FAQ items={[
+  {
+    question: "What is the fastest way to level up in Be the Final Boss?",
+    answer: "The fastest way to level up is by completing the main campaign quests, followed by running daily dungeons and clearing high-exp raid bosses."
+  },
+  {
+    question: "How do I deal with bosses that constantly knock me back?",
+    answer: "Equip gear that provides crowd control resistance or use skills that grant temporary stability. Positioning your character with a wall behind you can also prevent long knockback distances."
+  },
+  {
+    question: "Is health regeneration better than shield generation?",
+    answer: "Both are important, but shield generation is superior for preventing one-shot mechanics, while health regeneration is ideal for recovering from continuous chip damage."
+  },
+  {
+    question: "Where can I find the best gear in the game?",
+    answer: "The absolute best gear drops from high-tier end-game raids and final boss encounters. You can also craft and upgrade existing mythic gear using materials gathered from daily activities."
+  }
+]} />
+
+</Section>

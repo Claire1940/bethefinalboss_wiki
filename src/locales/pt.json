@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "minions": "Lacaios",
+    "weapons": "Armas",
+    "skills": "Habilidades",
+    "waves": "Ondas",
+    "currencies": "Moedas"
+  }
+}

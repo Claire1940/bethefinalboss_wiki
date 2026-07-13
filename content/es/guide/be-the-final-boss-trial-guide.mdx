@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Desafíos de Be The Final Boss: Estrategias de Defensa y Mejoras para 2026",
+  description: "Domina la defensa del castillo en Be The Final Boss con nuestra guía de desafíos. Aprende las mejores configuraciones de esbirros, árboles de habilidades, mejoras de armas y códigos activos para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Trial+Guide+Strategies",
+  date: "2026-07-13",
+  author: "Equipo de Wiki de Be The Final Boss"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Desafíos de Be The Final Boss**: Concéntrate en equilibrar el poder de combate personal con el despliegue de esbirros para sobrevivir a oleadas infinitas de héroes.
+- **Monedas Principales**: Usa **Monedas** para mejoras permanentes del árbol de habilidades y **Almas** para invocar nuevos tipos de esbirros.
+- **Recompensas Activas**: Canjea el código **betheboss** de inmediato para asegurar 500 Monedas para el progreso en el juego temprano.
+- **Estrategia de Defensa**: Coloca a los esbirros como una barrera en la línea del frente mientras usas a tu personaje para eliminar a los héroes de alta amenaza.
+- **Prioridad del Árbol de Habilidades**: Concéntrate primero en los nodos de **Daño del Jugador** para limpiar las oleadas iniciales más rápido, luego pasa a **Salud de los Esbirros**.
+</Callout>
+
+<Section icon={Map} title="Bucle de Juego Principal y Configuración Inicial">
+
+Comenzar tu viaje en Be The Final Boss requiere un cambio de perspectiva. A diferencia de los juegos de defensa de torres tradicionales donde actúas como comandante, aquí eres el antagonista central que defiende su ciudadela oscura. El bucle de juego gira en torno a sobrevivir a oleadas de héroes, cosechar recursos y reinvertir esas ganancias en poder permanente. El éxito en las fases iniciales de los desafíos depende de qué tan eficientemente manejes tus primeras oleadas de héroes invasores.
+
+**Puntos Destacados del Video:**
+- **Canje de Códigos**: Cómo encontrar el menú de configuración e ingresar la recompensa de lanzamiento.
+- **Conceptos Básicos de Combate**: Demostración de la sinergia entre los ataques del jugador y el posicionamiento de los esbirros.
+- **Gestión de Recursos**: Una mirada a las diferentes pantallas de recompensas para Monedas y Almas.
+
+<YouTubeEmbed videoId="oNgb6rgMdmc" title="Be The Final Boss Gameplay and Codes" />
+
+Para comenzar de manera efectiva, debes utilizar las recompensas de desarrollador disponibles. Estas proporcionan un impulso significativo que evita el lento progreso de las primeras cinco oleadas. La siguiente tabla detalla las recompensas activas actuales y sus beneficios específicos para nuevos jugadores.
+
+| Código de Recompensa | Objeto Otorgado | Caso de Uso Principal |
+| :--- | :--- | :--- |
+| **betheboss** | 500 Monedas | Comprar los primeros nodos del Árbol de Habilidades o mejoras de Armas |
+| **Bono de Nuevo Jugador** | Almas Iniciales | Invocar al escuadrón básico de esbirros cuerpo a cuerpo |
+| **Hito de Oleada** | Monedas de Bono | Escalar la defensa para las oleadas 10 en adelante |
+
+<Callout type="tip" title="Consejo para el Juego Temprano">
+No gastes todas tus Monedas iniciales en armas de inmediato. El Árbol de Habilidades ofrece aumentos de estadísticas permanentes que persisten incluso si cambias de arma más adelante, proporcionando un mejor valor a largo plazo para tus intentos de desafío.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestión de Esbirros y Alineaciones Defensivas">
+
+Los esbirros son la columna vertebral de tu defensa en Be The Final Boss. Aunque tu personaje es poderoso, no puedes estar en todos lados a la vez. Un ejército bien estructurado evita que los héroes lleguen a las puertas del castillo, que es la principal condición de derrota en cualquier desafío. Los esbirros se compran y mejoran usando Almas, una moneda que se obtiene específicamente al derrotar oleadas de héroes.
+
+Comprender la jerarquía de las unidades es esencial para la supervivencia a largo plazo. No todos los esbirros sirven para el mismo propósito; algunos están diseñados para absorber daño, mientras que otros brindan un alto soporte de DPS desde la línea trasera.
+
+| Nivel de Esbirro | Tipo | Fortalezas | Mejor Colocación |
+| :--- | :--- | :--- | :--- |
+| **Nivel S** | Esbirros Jefes Élite | HP masivo, Daño en Área (AoE) | Al frente y al centro del camino principal |
+| **Nivel A** | Defensores Duraderos | Alto empuje, Salud moderada | Intersecciones y puntos de estrangulamiento |
+| **Nivel B** | Lanzadores a Distancia | Alto daño a un solo objetivo, Efectos de ralentización | Detrás de las unidades cuerpo a cuerpo o en plataformas elevadas |
+| **Nivel C** | Cuerpo a Cuerpo Inicial | Bajo costo, Reaparición rápida | Usados como carne de cañón para distraer a los primeros héroes |
+
+<Callout type="warning" title="Advertencia Defensiva">
+Evita agrupar a todos tus esbirros en un solo lugar. Ciertos tipos de héroes en oleadas posteriores tienen ataques en área que pueden acabar con toda tu línea defensiva si están demasiado juntos.
+</Callout>
+
+Al construir tu ejército, prioriza un enfoque de \"Escudo Humano\". Coloca tus unidades más duraderas directamente en el camino de los héroes para detener su avance. Esto te da a ti, el Jefe Final, la oportunidad de usar tus habilidades de alto daño sin ser el objetivo de múltiples enemigos simultáneamente.
+
+</Section>
+
+<Section icon={Trophy} title="Cultivo de Divisas: Monedas vs Almas">
+
+El progreso en Be The Final Boss se divide entre dos economías distintas. Dominar la guía de desafíos significa saber exactamente a dónde dirigir tus recursos. Las Monedas y las Almas sirven para propósitos diferentes, y gestionarlas mal puede llevar a un estancamiento donde no puedas avanzar más allá de un número de oleada específico.
+
+<CardGrid cols={2}>
+  <Card title="Monedas (Progreso Permanente)">
+    - Se usan para desbloquear el **Árbol de Habilidades**.
+    - Se requieren para **Mejoras de Armas**.
+    - Se obtienen al completar oleadas y mediante códigos.
+    - **Prioridad**: Alta (Enfoque en el DPS del Jugador).
+  </Card>
+  <Card title="Almas (Expansión del Ejército)">
+    - Se usan para **Invocar Esbirros**.
+    - Se requieren para **Subir de Nivel a los Esbirros**.
+    - Se obtienen al derrotar héroes individuales.
+    - **Prioridad**: Media (Enfoque en la durabilidad de la línea frontal).
+  </Card>
+</CardGrid>
+
+Para maximizar tus ganancias, debes apuntar a \"Limpiezas Perfectas\" donde el castillo reciba cero daño. Esto a menudo activa multiplicadores de bonificación para ambas monedas. Si tienes dificultades para ganar suficientes Almas, considera volver a jugar oleadas anteriores para cultivar los recursos necesarios antes de intentar un desafío de mayor dificultad.
+
+<Callout type="success" title="Éxito en el Cultivo">
+Concentrarse en los nodos de \"Economía\" en el Árbol de Habilidades desde el principio aumentará la cantidad de Monedas que recibes por oleada, acelerando significativamente tu camino hacia el equipamiento de juego tardío.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimización del Árbol de Habilidades y Rutas de Construcción">
+
+El Árbol de Habilidades es donde defines tu estilo de juego como el Jefe Final. Hay tres ramas principales: Poder del Jugador, Fuerza de los Esbirros y Fortificación del Castillo. Para la mayoría de los jugadores, un enfoque equilibrado es lo mejor, pero desafíos específicos pueden requerir que te inclines fuertemente en una dirección.
+
+Sigue estos pasos para optimizar tu construcción para las primeras 50 oleadas:
+
+<Steps>
+  <Step num="1" title="Impulso de Daño Inicial">
+    Invierte tus primeras 500 Monedas (del código) en **Velocidad de Ataque del Jugador** y **Daño Base**. Esto asegura que puedas sostener la defensa mientras tus esbirros aún son débiles.
+  </Step>
+  <Step num="2" title="Durabilidad de la Línea Frontal">
+    Una vez que tu daño personal sea estable, asigna puntos a la **Salud de los Esbirros**. Esto evita que tu ejército sea eliminado de un solo golpe por los campeones héroes.
+  </Step>
+  <Step num="3" title="Utilidad del Castillo">
+    Desbloquea el nodo de **Regeneración del Castillo**. Esto proporciona una red de seguridad para cuando los héroes rápidos logren escabullirse de tus defensas.
+  </Step>
+  <Step num="4" title="Sinergia Avanzada">
+    Concéntrate en la **Reducción de Enfriamiento** para tus habilidades de jefe. Esto te permite usar habilidades en área constantemente durante oleadas densas de héroes.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Información de Construcción">
+Puedes restablecer tu Árbol de Habilidades, pero a menudo cuesta una pequeña cantidad de divisa. Es mejor planificar tu ruta con anticipación en lugar de gastar recursos en nodos que no planeas usar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Clasificación de Armas y Tácticas de Combate">
+
+Mientras tus esbirros mantienen la línea, tu arma determina qué tan rápido concluye el desafío. Las armas en Be The Final Boss tienen diferentes patrones de ataque, alcances y habilidades especiales. Elegir la herramienta adecuada para el trabajo es la diferencia entre una defensa exitosa y un castillo en ruinas.
+
+| Nombre del Arma | Estilo de Ataque | Fortaleza | Prioridad de Mejora |
+| :--- | :--- | :--- | :--- |
+| **Espada Inicial** | Cuerpo a cuerpo / Rápido | Alto DPS a un solo objetivo | Baja (Reemplazar rápidamente) |
+| **Báculo del Vacío** | A distancia / AoE | Limpiar grandes grupos de héroes débiles | Alta (Excelente para el juego medio) |
+| **Guadaña Oscura** | Cuerpo a cuerpo / Barrido amplio | Excelente control de masas y empuje | Muy Alta (La mejor para el juego tardío) |
+| **Arco Abisal** | A distancia / Perforante | Eliminar líderes héroes de alta salud | Media (Situacional) |
+
+Las tácticas de combate implican más que solo hacer clic. Debes usar a tu personaje para atraer a los héroes dentro del rango de ataque de tus esbirros. Si aparece un campeón héroe, enfoca todo tu fuego personal en él mientras tus esbirros se encargan de los enemigos menores.
+
+<Callout type="tip" title="Consejo de Combate Pro">
+Presta atención a los indicadores rojos de advertencia en el suelo. Los héroes a menudo usan poderosos ataques cargados que pueden aturdir a tu personaje jefe, dejando el castillo vulnerable durante varios segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Verificación de Sobrevivencia a las Oleadas y Preguntas Frecuentes">
+
+A medida que avanzas a través de las oleadas infinitas, la dificultad escala exponencialmente. Los héroes ganarán más salud, se moverán más rápido y desplegarán unidades especializadas como Curanderos y Paladines. Usa la siguiente lista de verificación para asegurarte de que tu defensa esté lista para el próximo nivel de dificultad.
+
+<Checklist
+  id="wave-readiness"
+  title="Lista de Verificación de Defensa Pre-Oleada:"
+  items={[
+    "Canjear todos los códigos activos para obtener monedas de bonificación",
+    "Asignar todos los puntos disponibles del Árbol de Habilidades",
+    "Asegurarse de que las ranuras de esbirros estén completamente ocupadas",
+    "Mejorar tu arma principal al nivel máximo actual",
+    "Posicionarte cerca de la puerta del castillo para atrapar a los rezagados"
+  ]}
+/>
+
+<Callout type="info" title="Resumen Final">
+La clave para dominar Be The Final Boss es la consistencia. No temas fallar una oleada; usa los recursos reunidos para mejorar tus estadísticas e inténtalo de nuevo con una mejor estrategia.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de conseguir Almas rápido en Be The Final Boss?",
+    answer: "La forma más eficiente de cultivar Almas es equipar armas con alto daño en área (AoE) y limpiar oleadas que contengan grandes cantidades de héroes con poca salud. Los números de oleada más altos también proporcionan una mayor proporción de Almas por eliminación."
+  },
+  {
+    question: "¿Puedo jugar Be The Final Boss en dispositivos móviles?",
+    answer: "Sí, el juego está completamente optimizado para plataformas de PC, Móviles y Consolas. La interfaz de usuario se adapta para proporcionar controles táctiles a los usuarios de móviles."
+  },
+  {
+    question: "¿Debería priorizar los Esbirros o el Árbol de Habilidades?",
+    answer: "En el juego temprano, el Árbol de Habilidades es más importante porque proporciona mejoras permanentes. Sin embargo, una vez que alcanzas la oleada 20 o más, tener un ejército de esbirros fuerte se vuelve obligatorio para evitar que el castillo sea abrumado."
+  },
+  {
+    question: "¿Cómo canjeo el código 'betheboss'?",
+    answer: "Abre el menú de Configuración haciendo clic en el ícono en la esquina superior izquierda, desplázate hasta la parte inferior del menú para encontrar la sección de 'Códigos', ingresa el texto y presiona Canjear."
+  }
+]} />
+
+</Section>

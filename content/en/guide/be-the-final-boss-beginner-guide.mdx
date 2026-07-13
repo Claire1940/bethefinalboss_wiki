@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Be The Final Boss Beginner Guide: 2026 Progression Tips & Tactics",
+  description: "Master the art of dungeon defense with our Be The Final Boss beginner guide. Learn essential mechanics, boss archetypes, and early-game strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Be+The+Final+Boss+Guide",
+  date: "2026-07-13",
+  author: "be the final boss Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Be the final boss beginner guide**: Focus on balancing your **Infamy level** with your defensive capabilities to avoid being overwhelmed by heroes.
+- **Boss Archetypes**: Choose between the **Overlord**, **Lich**, or **Shadow** based on your preferred playstyle (Power, Magic, or Stealth).
+- **Resource Priority**: Always prioritize **Soul Essence** and **Gold** to upgrade your minions and dungeon traps early on.
+- **Hero Management**: Study hero party compositions to place the correct **counter-traps** in your entrance halls.
+- **Progression Tip**: Do not expand your dungeon floors too quickly; focus on **fortifying existing rooms** first.
+</Callout>
+
+<Section icon={Map} title="Understanding Your Role as the Boss">
+
+In the world of this strategy RPG, your goal is to flip the script on traditional gaming. Instead of being the hero, you are the ultimate antagonist. This **be the final boss beginner guide** aims to help you navigate the complex systems of dungeon management, minion recruitment, and hero elimination. As the final boss, your primary metric of success is **Infamy**. The higher your Infamy, the more powerful the heroes who will attempt to raid your lair.
+
+Managing your presence is a delicate balance. If you grow too powerful too fast without building a proper defense, a legendary party of heroes might end your reign before it truly begins. You must treat your dungeon as a business, where the "customers" are heroes and your "product" is a swift, crushing defeat.
+
+| Attribute | Impact on Gameplay | Priority Level |
+| :--- | :--- | :--- |
+| **Infamy** | Increases hero difficulty and rare loot drops | Medium |
+| **Dread** | Reduces hero morale and attack speed | High |
+| **Soul Essence** | Primary currency for boss skill upgrades | Maximum |
+| **Gold** | Used for building rooms and hiring minions | High |
+| **Authority** | Limits the total number of minions deployed | Medium |
+
+<Callout type="info" title="The Core Mechanic">
+Your **Dungeon Core** is your lifeblood. If heroes reach the core and deplete its HP, your run ends. Always keep your strongest minions stationed in the Core Room as a last line of defense.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Selecting Your Boss Archetype">
+
+Before you start building your fortress, you must select an archetype. This choice dictates your active skills, your minion synergies, and how you personally interact with heroes during the final room confrontation. Each class has a distinct "Ultimate Move" that can turn the tide of a losing battle.
+
+<CardGrid cols={3}>
+  <Card title="The Overlord">
+    - **High Physical Power**
+    - Focuses on **Melee Minions**
+    - Best for aggressive players who want to crush heroes personally.
+  </Card>
+  <Card title="The Lich">
+    - **High Magic Mastery**
+    - Focuses on **Undead & Spells**
+    - Ideal for players who prefer tactical room-wide debuffs and resurrection.
+  </Card>
+  <Card title="The Shadow">
+    - **High Agility & Stealth**
+    - Focuses on **Traps & Assassins**
+    - Perfect for those who enjoy indirect combat and lethal environmental hazards.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Strategy Recommendation">
+For beginners, the **Overlord** is highly recommended. His high HP pool and straightforward damage skills allow for more mistakes during the early game compared to the fragile Lich.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Building Your First Dungeon Floors">
+
+Your dungeon layout is the most critical factor in your survival. A well-designed floor forces heroes to waste their resources (healing potions and mana) before they even reach your elite guards. Follow these steps to set up a basic but effective defensive perimeter.
+
+<Steps>
+  <Step num="1" title="The Entrance Chokepoint">
+    Design the first room to be a "Drain Room." Use low-cost traps like **Spike Pits** or **Slow Slime** to force heroes to use their movement abilities early.
+  </Step>
+  <Step num="2" title="Minion Synergy Rooms">
+    Place a barracks room next. Ensure the minions here have **Elemental Synergy**. For example, use a Fire Mage minion behind a line of Shield Guards to maximize damage while staying protected.
+  </Step>
+  <Step num="3" title="The False Treasure Room">
+    Create a room filled with "Mimics" or "Ambush Traps." Heroes are programmed to prioritize treasure chests; use this greed against them to split their party.
+  </Step>
+  <Step num="4" title="The Boss Antechamber">
+    This is the final room before the Core. Place your **Elite Guard** here. These units should have high crowd control (CC) abilities to stun the hero party's healer.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avoid Linear Paths">
+Never build a straight line to your core. Heroes gain "Momentum" when moving quickly through rooms. Use **L-shaped corridors** to break their line of sight and force them into traps.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Countering Hero Archetypes">
+
+Heroes come in various classes, each with specific strengths. As you progress in this **be the final boss beginner guide**, you will encounter more complex "Hero Parties" that use actual tactics. You must adapt your defenses based on the party composition currently approaching your dungeon.
+
+| Hero Class | Threat Level | Primary Strength | Best Counter |
+| :--- | :--- | :--- | :--- |
+| **Paladin** | High | High Defense / Healing | **True Damage Traps** |
+| **Rogue** | Medium | High Burst / Trap Disarm | **Detection Wards** |
+| **Mage** | Maximum | Massive AOE Damage | **Silence Totems** |
+| **Ranger** | Low | Ranged Kiting | **Gap-Closer Minions** |
+| **Bard** | Medium | Party-wide Buffs | **Focus Fire / Assassins** |
+
+<Callout type="success" title="Advanced Tactic">
+If you see a party with two healers, focus all your traps on the entrance. If the healers run out of Mana in the first three rooms, the rest of the party will fall easily in the middle floors.
+</Callout>
+
+### Essential Trap Types for Early Game
+
+To effectively stop these heroes, you need a diverse arsenal. Do not rely solely on one type of damage.
+
+| Trap Name | Damage Type | Special Effect | Cost |
+| :--- | :--- | :--- | :--- |
+| **Iron Maiden** | Physical | Bleed (DOT) | 150 Gold |
+| **Frost Rune** | Magic | 40% Movement Slow | 200 Gold |
+| **Acid Vat** | Corrosive | Armor Shred | 250 Gold |
+| **Tesla Coil** | Electric | Chain Stun | 400 Gold |
+
+</Section>
+
+<Section icon={Sparkles} title="Resource Management & Upgrades">
+
+Efficiency is key to long-term survival. You will constantly be juggling multiple currencies. Spending too much on minions while neglecting trap research will leave you vulnerable to high-mobility heroes who can bypass your guards.
+
+| Currency | Primary Source | Best Usage |
+| :--- | :--- | :--- |
+| **Dark Ore** | Mining Rooms | Room Level-ups |
+| **Soul Shards** | Hero Deaths | Boss Skill Tree |
+| **Ancient Scripts** | Boss Quests | Trap Blueprints |
+| **Tribute** | Minion Missions | Rare Unit Recruitment |
+
+<Callout type="info" title="Upgrade Priority">
+Always upgrade your **Minion Capacity** first. Having more bodies on the floor is generally better than having one slightly stronger unit in the early stages of the game.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Short-term Goals">
+    - Unlock the **Alchemy Lab** for potion crafting.
+    - Reach Level 10 on your primary Boss.
+    - Secure at least 3 floors of defense.
+  </Card>
+  <Card title="Long-term Goals">
+    - Research **Legendary Trap** blueprints.
+    - Maximize the "Fear" branch of the skill tree.
+    - Defeat the "Hero King" raid boss.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist & FAQ">
+
+To ensure you stay on the path to becoming the most feared entity in the realm, use this daily checklist to manage your dungeon's growth.
+
+<Checklist
+  id="daily-boss-tasks"
+  title="Daily Dungeon Maintenance:"
+  items={[
+    "Collect accumulated Gold from the Treasury",
+    "Check for Hero Party composition in the 'Incoming' tab",
+    "Upgrade at least one trap to the next Tier",
+    "Assign idle minions to 'Scavenge' missions",
+    "Review Boss Skill Tree for available points"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "What is the most common mistake for beginners in Be The Final Boss?",
+    answer: "The most common mistake is spending all Gold on high-tier minions early on. Low-tier traps are often more cost-effective for dealing with early-game hero parties."
+  },
+  {
+    question: "How do I increase my Infamy quickly?",
+    answer: "Infamy increases naturally as you defeat heroes. To speed it up, you can build 'Infamy Shrines' which attract stronger heroes but provide significantly better loot."
+  },
+  {
+    question: "Can I change my Boss Archetype later in the game?",
+    answer: "No, the archetype choice is permanent for that save file. However, you can unlock cross-class skills through the late-game 'Prestige' system."
+  },
+  {
+    question: "Which minion is the best for defending the Core?",
+    answer: "The 'Abyssal Knight' is widely considered the best core defender due to its high HP and ability to taunt all nearby heroes simultaneously."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Remember, as the final boss, time is on your side. Heroes must succeed in their raid once to win, but you only need to win once to end their journey. Play defensively and let the dungeon do the work for you.
+</Callout>
+
+</Section>

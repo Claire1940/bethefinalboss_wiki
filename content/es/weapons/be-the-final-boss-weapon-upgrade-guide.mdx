@@ -1,0 +1,162 @@
+import { Swords, Sparkles, Target, Trophy, Shield, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de mejora de armas de Sé el jefe final: Mejores equipamientos y progresión",
+  description: "Domina la guía de mejora de armas de Sé el jefe final. Aprende los mejores rankings de armas, prioridades de mejora y cómo gastar monedas eficientemente para despejar oleadas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/581c87/fff?text=Weapon+Upgrade+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Sé el jefe final",
+  keywords: "guía de mejora de armas, Sé el jefe final, mejores armas, progresión de armas, monedas"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica principal**: Mejorar tu arma principal es la forma más rápida de aumentar el DPS personal además de tu ejército de esbirros.
+- **Moneda principal**: Las mejoras de armas y los nodos del Árbol de habilidades escalan completamente usando **Monedas** obtenidas al despejar oleadas.
+- **Estrategia de mejora**: Concentra tus monedas en una sola arma de grado alto en lugar de repartir recursos en múltiples desbloqueos.
+- **Recompensa de código**: Canjea el código de lanzamiento activo **betheboss** en el menú de Ajustes para reclamar 500 monedas gratis al instante.
+</Callout>
+
+<Section icon={Swords} title="Guía de mejora de armas de Sé el jefe final">
+
+Para sobrevivir al implacable ataque de los héroes entrantes, debes dominar las mecánicas de la **guía de mejora de armas de Sé el jefe final**. Mientras tus esbirros invocados establecen la defensa de primera línea, el daño de tu arma personal es lo que evita que los héroes con mucha vida atraviesen las puertas de tu castillo.
+
+Mejorar las armas requiere un flujo constante de monedas. Debido a que los recursos son limitados durante la progresión del juego temprano, invertir tus monedas ganadas con esfuerzo en el grado de arma correcto marca la diferencia entre una defensa exitosa y una puerta derrumbada.
+
+| Grado de arma | Elección de arma | Mejor caso de uso | Prioridad de mejora |
+| :--- | :--- | :--- | :--- |
+| **Grado S** | Arma más alta desbloqueada | Escalamiento de juego tardío y limpieza de héroes jefe | **Máxima** |
+| **Grado A** | Grado medio totalmente mejorada | Limpieza constante de oleadas mientras ahorras monedas | **Alta** |
+| **Grado B** | Arma base recién desbloqueada | Probar patrones de ataque y límites de rango | **Media** |
+| **Grado C** | Arma inicial | Primeras oleadas y aprendizaje del combate básico | **Baja** |
+
+<Callout type="tip" title="Consejo profesional">
+Un arma antigua muy mejorada a menudo rinde mejor que una de grado superior recién desbloqueada que no tiene mejoras. Compara siempre las estadísticas activas antes de cambiar tu equipamiento principal.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de grados de armas y rendimiento en combate">
+
+Las armas en Sé el jefe final se desbloquean secuencialmente a medida que avanzas por oleadas más difíciles. Sin embargo, desbloquear un arma no significa que debas abandonar inmediatamente tu equipo actual. Cada arma presenta distintas velocidades de ataque, hitboxes y valores de escalamiento.
+
+<CardGrid cols={3}>
+  <Card title="Grado S: Equipo de gama alta">
+    - **Máximo potencial de escalamiento**
+    - Limpia grupos masivos de héroes
+    - Requiere una gran inversión de monedas
+  </Card>
+  <Card title="Grado A: Carry de mitad de juego">
+    - **Excelente eficiencia de recursos**
+    - Altos valores de daño base
+    - Ideal para farmear monedas
+  </Card>
+  <Card title="Grado B/C: Equipo inicial">
+    - **Bajos requisitos de inversión**
+    - Rango de ataque limitado
+    - Reemplazar lo antes posible
+  </Card>
+</CardGrid>
+
+Para ayudarte a planificar tus gastos, aquí tienes un desglose detallado del rendimiento de las armas y cómo se comparan en las métricas clave de progresión:
+
+| Clase de arma | Velocidad de ataque | Control de masas | Coste de monedas | Calificación de rendimiento |
+| :--- | :--- | :--- | :--- | :--- |
+| **Desbloqueos de juego tardío** | Rápida | Excelente | Muy alto | ★★★★★ |
+| **Desbloqueos de mitad de juego** | Moderada | Bueno | Moderado | ★★★★☆ |
+| **Desbloqueos de inicio de juego** | Lenta | Decente | Bajo | ★★★☆☆ |
+| **Equipo inicial** | Lenta | Pobre | Ninguno | ★★☆☆☆ |
+
+<Callout type="warning" title="Advertencia de recursos">
+No dividas tus monedas entre tres o cuatro armas diferentes. Elige una arma confiable que se adapte a tu estilo de juego y maximiza su nivel antes de invertir en equipo secundario.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de progresión de armas paso a paso">
+
+Maximizar tu producción de daño requiere un enfoque estructurado para gastar tus monedas. Sigue esta ruta de progresión verificada para optimizar tus mejoras de armas junto con el desarrollo de tu Árbol de habilidades.
+
+<Steps>
+  <Step num="1" title="Reclama el código de lanzamiento">
+    Abre el menú de Ajustes en la esquina superior izquierda, desplázate hasta el final y canjea el código **betheboss** para recibir 500 monedas al instante.
+  </Step>
+  <Step num="2" title="Mejora tu arma inicial">
+    Invierte tus 500 monedas iniciales en tu arma de inicio para despejar fácilmente las primeras 10 oleadas sin depender demasiado de costosas invocaciones de esbirros.
+  </Step>
+  <Step num="3" title="Desbloquea tu primera arma de grado medio">
+    Ahorra tus monedas hasta alcanzar el umbral de oleada requerido para desbloquear tu primera gran mejora de arma, luego cómprala de inmediato.
+  </Step>
+  <Step num="4" title="Equilibra el arma y el Árbol de habilidades">
+    Alterna tus gastos entre mejorar tu arma activa y comprar nodos de daño permanente en la rama del jugador del Árbol de habilidades.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de progresión">
+Combinar una arma muy mejorada con la rama de "Mejoras del jugador" del Árbol de habilidades crea una sinergia poderosa que te permite superar solo las primeras oleadas de héroes fácilmente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Coordinación de armas con la defensa del castillo">
+
+Tu elección de arma debe complementar directamente tu configuración defensiva general. Si usas una alineación de esbirros defensivos, necesitas una arma de alto daño para ejecutar a los jefes. Si tus esbirros infligen un DPS alto, debes concentrarte en una arma con excelente control de masas para ralentizar a los héroes rápidos.
+
+| Estrategia de configuración | Enfoque de arma recomendado | Tipo de esbirro principal | Prioridad de defensa del castillo |
+| :--- | :--- | :--- | :--- |
+| **Inicial equilibrado** | Alto daño a un solo objetivo | Defensores cuerpo a cuerpo | Moderada |
+| **Ejército de esbirros** | Ralentizaciones de área (AoE) | Lanzadores a distancia | Alta |
+| **Supervivencia en oleadas altas** | Escalamiento máximo de DPS | Tanques duraderos | Máxima |
+
+<Callout type="info" title="Nota táctica">
+Cuando los héroes rápidos atraviesen tu primera línea, retrocede hacia la puerta del castillo. Usa los ataques de control de masas de tu arma para agrupar a los intrusos para que las defensas de tu castillo puedan acabar con ellos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de mejora de armas">
+
+Mantén un seguimiento de tus objetivos de progresión para asegurar que tu personaje jefe siga siendo lo suficientemente fuerte como para manejar las crecientes reservas de vida de los héroes del juego tardío.
+
+<Checklist
+  id="weapon-milestones"
+  title="Objetivos de mejora de armas:"
+  items={[
+    "Canjea códigos activos para dar un impulso inicial a tu saldo de monedas",
+    "Alcanza el nivel máximo de mejora en tu arma principal de mitad de juego",
+    "Desbloquea el grado final de arma despejando oleadas de héroes avanzados",
+    "Coordina las estadísticas de tu arma con la ruta de tu Árbol de habilidades",
+    "Logra despejar oleadas en menos de 30 segundos en tu mapa de farmeo preferido"
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor arma en Sé el jefe final?",
+    answer: "La mejor arma es siempre tu arma desbloqueada de mayor nivel que haya sido mejorada adecuadamente con monedas. Un arma de grado alto sin mejoras suele ser más débil que una de grado medio totalmente mejorada."
+  },
+  {
+    question: "¿Cómo obtengo más monedas para mejorar armas?",
+    answer: "Puedes ganar monedas defendiendo con éxito tu castillo contra oleadas de héroes, completando hitos en el juego y canjeando códigos promocionales activos como betheboss."
+  },
+  {
+    question: "¿Debo mejorar primero mi arma o mi Árbol de habilidades?",
+    answer: "Debes equilibrar ambos. Usa tus monedas iniciales para mejorar tu arma principal para obtener aumentos de daño plano inmediato, luego invierte en el Árbol de habilidades para multiplicadores permanentes basados en porcentajes."
+  },
+  {
+    question: "¿Las mejoras de armas se mantienen si cambio de arma?",
+    answer: "No, las mejoras de armas son únicas para cada arma específica. Por eso debes evitar gastar monedas en armas temporales de grado bajo que planeas reemplazar rápidamente."
+  }
+]} />
+
+</Section>

@@ -1,3 +1,610 @@
 {
-  "en": {}
+  "en": {
+    "codes": [
+      {
+        "slug": "be-the-final-boss-codes",
+        "file": "be-the-final-boss-codes"
+      }
+    ],
+    "currencies": [
+      {
+        "slug": "be-the-final-boss-coins-farming",
+        "file": "be-the-final-boss-coins-farming"
+      },
+      {
+        "slug": "be-the-final-boss-coins-spending-priority",
+        "file": "be-the-final-boss-coins-spending-priority"
+      },
+      {
+        "slug": "be-the-final-boss-currency-rewards",
+        "file": "be-the-final-boss-currency-rewards"
+      },
+      {
+        "slug": "be-the-final-boss-souls-farming",
+        "file": "be-the-final-boss-souls-farming"
+      },
+      {
+        "slug": "be-the-final-boss-souls-spending-priority",
+        "file": "be-the-final-boss-souls-spending-priority"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "be-the-final-boss-beginner-guide",
+        "file": "be-the-final-boss-beginner-guide"
+      },
+      {
+        "slug": "be-the-final-boss-controls",
+        "file": "be-the-final-boss-controls"
+      },
+      {
+        "slug": "be-the-final-boss-early-game-route",
+        "file": "be-the-final-boss-early-game-route"
+      },
+      {
+        "slug": "be-the-final-boss-how-to-play",
+        "file": "be-the-final-boss-how-to-play"
+      },
+      {
+        "slug": "be-the-final-boss-progression-guide",
+        "file": "be-the-final-boss-progression-guide"
+      },
+      {
+        "slug": "be-the-final-boss-trial-guide",
+        "file": "be-the-final-boss-trial-guide"
+      }
+    ],
+    "minions": [
+      {
+        "slug": "be-the-final-boss-how-to-summon-minions",
+        "file": "be-the-final-boss-how-to-summon-minions"
+      },
+      {
+        "slug": "be-the-final-boss-minion-abilities",
+        "file": "be-the-final-boss-minion-abilities"
+      },
+      {
+        "slug": "be-the-final-boss-minion-rarity",
+        "file": "be-the-final-boss-minion-rarity"
+      },
+      {
+        "slug": "be-the-final-boss-minion-team-build",
+        "file": "be-the-final-boss-minion-team-build"
+      },
+      {
+        "slug": "be-the-final-boss-minion-tier-list",
+        "file": "be-the-final-boss-minion-tier-list"
+      },
+      {
+        "slug": "be-the-final-boss-minion-upgrade-costs",
+        "file": "be-the-final-boss-minion-upgrade-costs"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "be-the-final-boss-best-early-upgrades",
+        "file": "be-the-final-boss-best-early-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-castle-upgrades",
+        "file": "be-the-final-boss-castle-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-player-upgrades",
+        "file": "be-the-final-boss-player-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-skill-point-farming",
+        "file": "be-the-final-boss-skill-point-farming"
+      },
+      {
+        "slug": "be-the-final-boss-skill-tree-guide",
+        "file": "be-the-final-boss-skill-tree-guide"
+      }
+    ],
+    "waves": [
+      {
+        "slug": "be-the-final-boss-boss-waves",
+        "file": "be-the-final-boss-boss-waves"
+      },
+      {
+        "slug": "be-the-final-boss-castle-defense",
+        "file": "be-the-final-boss-castle-defense"
+      },
+      {
+        "slug": "be-the-final-boss-hero-waves",
+        "file": "be-the-final-boss-hero-waves"
+      },
+      {
+        "slug": "be-the-final-boss-highest-wave",
+        "file": "be-the-final-boss-highest-wave"
+      },
+      {
+        "slug": "be-the-final-boss-survival-strategy",
+        "file": "be-the-final-boss-survival-strategy"
+      },
+      {
+        "slug": "be-the-final-boss-wave-guide",
+        "file": "be-the-final-boss-wave-guide"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "be-the-final-boss-best-early-weapon",
+        "file": "be-the-final-boss-best-early-weapon"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-costs",
+        "file": "be-the-final-boss-weapon-costs"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-damage",
+        "file": "be-the-final-boss-weapon-damage"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-tier-list",
+        "file": "be-the-final-boss-weapon-tier-list"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-upgrade-guide",
+        "file": "be-the-final-boss-weapon-upgrade-guide"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "be-the-final-boss-codes",
+        "file": "be-the-final-boss-codes"
+      }
+    ],
+    "currencies": [
+      {
+        "slug": "be-the-final-boss-coins-farming",
+        "file": "be-the-final-boss-coins-farming"
+      },
+      {
+        "slug": "be-the-final-boss-coins-spending-priority",
+        "file": "be-the-final-boss-coins-spending-priority"
+      },
+      {
+        "slug": "be-the-final-boss-currency-rewards",
+        "file": "be-the-final-boss-currency-rewards"
+      },
+      {
+        "slug": "be-the-final-boss-souls-farming",
+        "file": "be-the-final-boss-souls-farming"
+      },
+      {
+        "slug": "be-the-final-boss-souls-spending-priority",
+        "file": "be-the-final-boss-souls-spending-priority"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "be-the-final-boss-beginner-guide",
+        "file": "be-the-final-boss-beginner-guide"
+      },
+      {
+        "slug": "be-the-final-boss-controls",
+        "file": "be-the-final-boss-controls"
+      },
+      {
+        "slug": "be-the-final-boss-early-game-route",
+        "file": "be-the-final-boss-early-game-route"
+      },
+      {
+        "slug": "be-the-final-boss-how-to-play",
+        "file": "be-the-final-boss-how-to-play"
+      },
+      {
+        "slug": "be-the-final-boss-progression-guide",
+        "file": "be-the-final-boss-progression-guide"
+      },
+      {
+        "slug": "be-the-final-boss-trial-guide",
+        "file": "be-the-final-boss-trial-guide"
+      }
+    ],
+    "minions": [
+      {
+        "slug": "be-the-final-boss-how-to-summon-minions",
+        "file": "be-the-final-boss-how-to-summon-minions"
+      },
+      {
+        "slug": "be-the-final-boss-minion-abilities",
+        "file": "be-the-final-boss-minion-abilities"
+      },
+      {
+        "slug": "be-the-final-boss-minion-rarity",
+        "file": "be-the-final-boss-minion-rarity"
+      },
+      {
+        "slug": "be-the-final-boss-minion-team-build",
+        "file": "be-the-final-boss-minion-team-build"
+      },
+      {
+        "slug": "be-the-final-boss-minion-tier-list",
+        "file": "be-the-final-boss-minion-tier-list"
+      },
+      {
+        "slug": "be-the-final-boss-minion-upgrade-costs",
+        "file": "be-the-final-boss-minion-upgrade-costs"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "be-the-final-boss-best-early-upgrades",
+        "file": "be-the-final-boss-best-early-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-castle-upgrades",
+        "file": "be-the-final-boss-castle-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-player-upgrades",
+        "file": "be-the-final-boss-player-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-skill-point-farming",
+        "file": "be-the-final-boss-skill-point-farming"
+      },
+      {
+        "slug": "be-the-final-boss-skill-tree-guide",
+        "file": "be-the-final-boss-skill-tree-guide"
+      }
+    ],
+    "waves": [
+      {
+        "slug": "be-the-final-boss-boss-waves",
+        "file": "be-the-final-boss-boss-waves"
+      },
+      {
+        "slug": "be-the-final-boss-castle-defense",
+        "file": "be-the-final-boss-castle-defense"
+      },
+      {
+        "slug": "be-the-final-boss-hero-waves",
+        "file": "be-the-final-boss-hero-waves"
+      },
+      {
+        "slug": "be-the-final-boss-highest-wave",
+        "file": "be-the-final-boss-highest-wave"
+      },
+      {
+        "slug": "be-the-final-boss-survival-strategy",
+        "file": "be-the-final-boss-survival-strategy"
+      },
+      {
+        "slug": "be-the-final-boss-wave-guide",
+        "file": "be-the-final-boss-wave-guide"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "be-the-final-boss-best-early-weapon",
+        "file": "be-the-final-boss-best-early-weapon"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-costs",
+        "file": "be-the-final-boss-weapon-costs"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-damage",
+        "file": "be-the-final-boss-weapon-damage"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-tier-list",
+        "file": "be-the-final-boss-weapon-tier-list"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-upgrade-guide",
+        "file": "be-the-final-boss-weapon-upgrade-guide"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "be-the-final-boss-codes",
+        "file": "be-the-final-boss-codes"
+      }
+    ],
+    "currencies": [
+      {
+        "slug": "be-the-final-boss-coins-farming",
+        "file": "be-the-final-boss-coins-farming"
+      },
+      {
+        "slug": "be-the-final-boss-coins-spending-priority",
+        "file": "be-the-final-boss-coins-spending-priority"
+      },
+      {
+        "slug": "be-the-final-boss-currency-rewards",
+        "file": "be-the-final-boss-currency-rewards"
+      },
+      {
+        "slug": "be-the-final-boss-souls-farming",
+        "file": "be-the-final-boss-souls-farming"
+      },
+      {
+        "slug": "be-the-final-boss-souls-spending-priority",
+        "file": "be-the-final-boss-souls-spending-priority"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "be-the-final-boss-beginner-guide",
+        "file": "be-the-final-boss-beginner-guide"
+      },
+      {
+        "slug": "be-the-final-boss-controls",
+        "file": "be-the-final-boss-controls"
+      },
+      {
+        "slug": "be-the-final-boss-early-game-route",
+        "file": "be-the-final-boss-early-game-route"
+      },
+      {
+        "slug": "be-the-final-boss-how-to-play",
+        "file": "be-the-final-boss-how-to-play"
+      },
+      {
+        "slug": "be-the-final-boss-progression-guide",
+        "file": "be-the-final-boss-progression-guide"
+      },
+      {
+        "slug": "be-the-final-boss-trial-guide",
+        "file": "be-the-final-boss-trial-guide"
+      }
+    ],
+    "minions": [
+      {
+        "slug": "be-the-final-boss-how-to-summon-minions",
+        "file": "be-the-final-boss-how-to-summon-minions"
+      },
+      {
+        "slug": "be-the-final-boss-minion-abilities",
+        "file": "be-the-final-boss-minion-abilities"
+      },
+      {
+        "slug": "be-the-final-boss-minion-rarity",
+        "file": "be-the-final-boss-minion-rarity"
+      },
+      {
+        "slug": "be-the-final-boss-minion-team-build",
+        "file": "be-the-final-boss-minion-team-build"
+      },
+      {
+        "slug": "be-the-final-boss-minion-tier-list",
+        "file": "be-the-final-boss-minion-tier-list"
+      },
+      {
+        "slug": "be-the-final-boss-minion-upgrade-costs",
+        "file": "be-the-final-boss-minion-upgrade-costs"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "be-the-final-boss-best-early-upgrades",
+        "file": "be-the-final-boss-best-early-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-castle-upgrades",
+        "file": "be-the-final-boss-castle-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-player-upgrades",
+        "file": "be-the-final-boss-player-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-skill-point-farming",
+        "file": "be-the-final-boss-skill-point-farming"
+      },
+      {
+        "slug": "be-the-final-boss-skill-tree-guide",
+        "file": "be-the-final-boss-skill-tree-guide"
+      }
+    ],
+    "waves": [
+      {
+        "slug": "be-the-final-boss-boss-waves",
+        "file": "be-the-final-boss-boss-waves"
+      },
+      {
+        "slug": "be-the-final-boss-castle-defense",
+        "file": "be-the-final-boss-castle-defense"
+      },
+      {
+        "slug": "be-the-final-boss-hero-waves",
+        "file": "be-the-final-boss-hero-waves"
+      },
+      {
+        "slug": "be-the-final-boss-highest-wave",
+        "file": "be-the-final-boss-highest-wave"
+      },
+      {
+        "slug": "be-the-final-boss-survival-strategy",
+        "file": "be-the-final-boss-survival-strategy"
+      },
+      {
+        "slug": "be-the-final-boss-wave-guide",
+        "file": "be-the-final-boss-wave-guide"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "be-the-final-boss-best-early-weapon",
+        "file": "be-the-final-boss-best-early-weapon"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-costs",
+        "file": "be-the-final-boss-weapon-costs"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-damage",
+        "file": "be-the-final-boss-weapon-damage"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-tier-list",
+        "file": "be-the-final-boss-weapon-tier-list"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-upgrade-guide",
+        "file": "be-the-final-boss-weapon-upgrade-guide"
+      }
+    ]
+  },
+  "ru": {
+    "codes": [
+      {
+        "slug": "be-the-final-boss-codes",
+        "file": "be-the-final-boss-codes"
+      }
+    ],
+    "currencies": [
+      {
+        "slug": "be-the-final-boss-coins-farming",
+        "file": "be-the-final-boss-coins-farming"
+      },
+      {
+        "slug": "be-the-final-boss-coins-spending-priority",
+        "file": "be-the-final-boss-coins-spending-priority"
+      },
+      {
+        "slug": "be-the-final-boss-currency-rewards",
+        "file": "be-the-final-boss-currency-rewards"
+      },
+      {
+        "slug": "be-the-final-boss-souls-farming",
+        "file": "be-the-final-boss-souls-farming"
+      },
+      {
+        "slug": "be-the-final-boss-souls-spending-priority",
+        "file": "be-the-final-boss-souls-spending-priority"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "be-the-final-boss-beginner-guide",
+        "file": "be-the-final-boss-beginner-guide"
+      },
+      {
+        "slug": "be-the-final-boss-controls",
+        "file": "be-the-final-boss-controls"
+      },
+      {
+        "slug": "be-the-final-boss-early-game-route",
+        "file": "be-the-final-boss-early-game-route"
+      },
+      {
+        "slug": "be-the-final-boss-how-to-play",
+        "file": "be-the-final-boss-how-to-play"
+      },
+      {
+        "slug": "be-the-final-boss-progression-guide",
+        "file": "be-the-final-boss-progression-guide"
+      },
+      {
+        "slug": "be-the-final-boss-trial-guide",
+        "file": "be-the-final-boss-trial-guide"
+      }
+    ],
+    "minions": [
+      {
+        "slug": "be-the-final-boss-how-to-summon-minions",
+        "file": "be-the-final-boss-how-to-summon-minions"
+      },
+      {
+        "slug": "be-the-final-boss-minion-abilities",
+        "file": "be-the-final-boss-minion-abilities"
+      },
+      {
+        "slug": "be-the-final-boss-minion-rarity",
+        "file": "be-the-final-boss-minion-rarity"
+      },
+      {
+        "slug": "be-the-final-boss-minion-team-build",
+        "file": "be-the-final-boss-minion-team-build"
+      },
+      {
+        "slug": "be-the-final-boss-minion-tier-list",
+        "file": "be-the-final-boss-minion-tier-list"
+      },
+      {
+        "slug": "be-the-final-boss-minion-upgrade-costs",
+        "file": "be-the-final-boss-minion-upgrade-costs"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "be-the-final-boss-best-early-upgrades",
+        "file": "be-the-final-boss-best-early-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-castle-upgrades",
+        "file": "be-the-final-boss-castle-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-player-upgrades",
+        "file": "be-the-final-boss-player-upgrades"
+      },
+      {
+        "slug": "be-the-final-boss-skill-point-farming",
+        "file": "be-the-final-boss-skill-point-farming"
+      },
+      {
+        "slug": "be-the-final-boss-skill-tree-guide",
+        "file": "be-the-final-boss-skill-tree-guide"
+      }
+    ],
+    "waves": [
+      {
+        "slug": "be-the-final-boss-boss-waves",
+        "file": "be-the-final-boss-boss-waves"
+      },
+      {
+        "slug": "be-the-final-boss-castle-defense",
+        "file": "be-the-final-boss-castle-defense"
+      },
+      {
+        "slug": "be-the-final-boss-hero-waves",
+        "file": "be-the-final-boss-hero-waves"
+      },
+      {
+        "slug": "be-the-final-boss-highest-wave",
+        "file": "be-the-final-boss-highest-wave"
+      },
+      {
+        "slug": "be-the-final-boss-survival-strategy",
+        "file": "be-the-final-boss-survival-strategy"
+      },
+      {
+        "slug": "be-the-final-boss-wave-guide",
+        "file": "be-the-final-boss-wave-guide"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "be-the-final-boss-best-early-weapon",
+        "file": "be-the-final-boss-best-early-weapon"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-costs",
+        "file": "be-the-final-boss-weapon-costs"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-damage",
+        "file": "be-the-final-boss-weapon-damage"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-tier-list",
+        "file": "be-the-final-boss-weapon-tier-list"
+      },
+      {
+        "slug": "be-the-final-boss-weapon-upgrade-guide",
+        "file": "be-the-final-boss-weapon-upgrade-guide"
+      }
+    ]
+  }
 }

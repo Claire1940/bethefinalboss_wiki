@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para principiantes de Be The Final Boss: Consejos y tácticas de progresión 2026",
+  description: "Domina el arte de la defensa de mazmorras con nuestra guía para principiantes de Be The Final Boss. Aprende mecánicas esenciales, arquetipos de jefes y estrategias iniciales.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Be+The+Final+Boss+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Be The Final Boss",
+  keywords: "guía para principiantes, be the final boss, defensa de mazmorras, estrategia, arquetipos de jefe"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía para principiantes de Be The Final Boss**: Concéntrate en equilibrar tu **nivel de Infamia** con tus capacidades defensivas para evitar ser abrumado por los héroes.
+- **Arquetipos de Jefe**: Elige entre el **Soberano**, el **Liche** o la **Sombra** según tu estilo de juego preferido (Poder, Magia o Sigilo).
+- **Prioridad de Recursos**: Prioriza siempre la **Esencia de Alma** y el **Oro** para mejorar a tus esbirros y las trampas de la mazmorra desde el principio.
+- **Gestión de Héroes**: Estudia las composiciones de los grupos de héroes para colocar las **trampas de contraataque** correctas en tus salas de entrada.
+- **Consejo de Progresión**: No expandas los pisos de tu mazmorra demasiado rápido; enfócate primero en **fortalecer las salas existentes**.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo tu rol como el Jefe">
+
+En el mundo de este RPG de estrategia, tu objetivo es dar la vuelta al guion de los juegos tradicionales. En lugar de ser el héroe, eres el antagonista definitivo. Esta **guía para principiantes de Be The Final Boss** tiene como objetivo ayudarte a navegar por los complejos sistemas de gestión de mazmorras, reclutamiento de esbirros y eliminación de héroes. Como jefe final, tu principal métrica de éxito es la **Infamia**. Cuanto mayor sea tu Infamia, más poderosos serán los héroes que intentarán asaltar tu guarida.
+
+Gestionar tu presencia es un equilibrio delicado. Si te vuelves demasiado poderoso demasiado rápido sin construir una defensa adecuada, un grupo legendario de héroes podría terminar con tu reinado antes de que realmente comience. Debes tratar tu mazmorra como un negocio, donde los "clientes" son héroes y tu "producto" es una derrota rápida y aplastante.
+
+| Atributo | Impacto en el juego | Nivel de prioridad |
+| :--- | :--- | :--- |
+| **Infamia** | Aumenta la dificultad de los héroes y el botín raro | Medio |
+| **Pavor** | Reduce la moral y la velocidad de ataque de los héroes | Alto |
+| **Esencia de Alma** | Moneda principal para mejoras de habilidades del jefe | Máximo |
+| **Oro** | Usado para construir salas y contratar esbirros | Alto |
+| **Autoridad** | Limita el número total de esbirros desplegados | Medio |
+
+<Callout type="info" title="La Mecánica Central">
+Tu **Núcleo de la Mazmorra** es tu fuerza vital. Si los héroes llegan al núcleo y agotan sus PV, tu partida termina. Mantén siempre a tus esbirros más fuertes estacionados en la Sala del Núcleo como última línea de defensa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Seleccionando tu arquetipo de Jefe">
+
+Antes de comenzar a construir tu fortaleza, debes seleccionar un arquetipo. Esta elección dicta tus habilidades activas, las sinergias de tus esbirros y cómo interactúas personalmente con los héroes durante la confrontación en la sala final. Cada clase tiene un "Movimiento Definitivo" distintivo que puede cambiar el rumbo de una batalla perdida.
+
+<CardGrid cols={3}>
+  <Card title="El Soberano">
+    - **Alto Poder Físico**
+    - Se enfoca en **Esbirros Cuerpo a Cuerpo**
+    - Ideal para jugadores agresivos que quieren aplastar a los héroes personalmente.
+  </Card>
+  <Card title="El Liche">
+    - **Alta Maestría Mágica**
+    - Se enfoca en **No Muertos y Hechizos**
+    - Ideal para jugadores que prefieren debuffs tácticos en toda la sala y resurrección.
+  </Card>
+  <Card title="La Sombra">
+    - **Alta Agilidad y Sigilo**
+    - Se enfoca en **Trampas y Asesinos**
+    - Perfecto para quienes disfrutan del combate indirecto y los peligros ambientales letales.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Recomendación Estratégica">
+Para principiantes, se recomienda encarecidamente el **Soberano**. Su gran reserva de PV y sus habilidades de daño directo permiten cometer más errores durante el juego temprano en comparación con el frágil Liche.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Construyendo tus primeros pisos de la mazmorra">
+
+El diseño de tu mazmorra es el factor más crítico para tu supervivencia. Un piso bien diseñado obliga a los héroes a desperdiciar sus recursos (pociones de curación y maná) antes de que lleguen a tus guardias de élite. Sigue estos pasos para establecer un perímetro defensivo básico pero efectivo.
+
+<Steps>
+  <Step num="1" title="El Punto de Estrangulamiento de la Entrada">
+    Diseña la primera sala para que sea una "Sala de Desgaste". Usa trampas de bajo coste como **Fosos de Pinchos** o **Limo Lento** para obligar a los héroes a usar sus habilidades de movimiento pronto.
+  </Step>
+  <Step num="2" title="Salas de Sinergia de Esbirros">
+    Coloca una sala de barracones a continuación. Asegúrate de que los esbirros aquí tengan **Sinergia Elemental**. Por ejemplo, usa un esbirro Mago de Fuego detrás de una línea de Guardias con Escudo para maximizar el daño mientras permanecen protegidos.
+  </Step>
+  <Step num="3" title="La Falsa Sala del Tesoro">
+    Crea una sala llena de "Mímicos" o "Trampas de Emboscada". Los héroes están programados para priorizar los cofres del tesoro; usa esta codicia contra ellos para dividir a su grupo.
+  </Step>
+  <Step num="4" title="La Antecámara del Jefe">
+    Esta es la última sala antes del Núcleo. Coloca a tu **Guardia de Élite** aquí. Estas unidades deben tener habilidades de control de masas (CC) altas para aturdir al sanador del grupo de héroes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita los Caminos Lineales">
+Nunca construyas una línea recta hacia tu núcleo. Los héroes ganan "Impulso" al moverse rápidamente por las salas. Usa **pasillos en forma de L** para romper su línea de visión y obligarlos a caer en trampas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Contrarrestando los arquetipos de héroe">
+
+Los héroes vienen en varias clases, cada una con fortalezas específicas. A medida que progreses en esta **guía para principiantes de Be The Final Boss**, encontrarás "Grupos de Héroes" más complejos que utilizan tácticas reales. Debes adaptar tus defensas según la composición del grupo que se aproxima actualmente a tu mazmorra.
+
+| Clase de Héroe | Nivel de Amenaza | Fortaleza Principal | Mejor Contraataque |
+| :--- | :--- | :--- | :--- |
+| **Paladín** | Alto | Alta Defensa / Curación | **Trampas de Daño Verdadero** |
+| **Pícaro** | Medio | Alto Daño de Ráfaga / Desarmado de Trampas | **Guardianes de Detección** |
+| **Mago** | Máximo | Daño en Área Masivo | **Tótems de Silencio** |
+| **Explorador** | Bajo | Ataque a Distancia | **Esbirros con Cierre de Brecha** |
+| **Bardo** | Medio | Buffs para todo el grupo | **Fuego Concentrado / Asesinos** |
+
+<Callout type="success" title="Táctica Avanzada">
+Si ves un grupo con dos sanadores, concentra todas tus trampas en la entrada. Si los sanadores se quedan sin Maná en las primeras tres salas, el resto del grupo caerá fácilmente en los pisos intermedios.
+</Callout>
+
+### Tipos de Trampas Esenciales para el Juego Temprano
+
+Para detener eficazmente a estos héroes, necesitas un arsenal diverso. No dependas únicamente de un tipo de daño.
+
+| Nombre de la Trampa | Tipo de Daño | Efecto Especial | Coste |
+| :--- | :--- | :--- | :--- |
+| **Doncella de Hierro** | Físico | Sangrado (DOT) | 150 Oro |
+| **Runa de Escarcha** | Mágico | 40% de Ralentización de Movimiento | 200 Oro |
+| **Tanque de Ácido** | Corrosivo | Trituración de Armadura | 250 Oro |
+| **Bobina de Tesla** | Eléctrico | Aturdimiento en Cadena | 400 Oro |
+
+</Section>
+
+<Section icon={Sparkles} title="Gestión de recursos y mejoras">
+
+La eficiencia es clave para la supervivencia a largo plazo. Estarás constantemente haciendo malabarismos con múltiples monedas. Gastar demasiado en esbirros mientras descuidas la investigación de trampas te dejará vulnerable a los héroes de alta movilidad que pueden esquivar a tus guardias.
+
+| Moneda | Fuente Principal | Mejor Uso |
+| :--- | :--- | :--- |
+| **Mineral Oscuro** | Salas de Minería | Mejoras de nivel de sala |
+| **Fragmentos de Alma** | Muertes de Héroes | Árbol de Habilidades del Jefe |
+| **Escritos Antiguos** | Misiones de Jefe | Planos de Trampas |
+| **Tributo** | Misiones de Esbirros | Reclutamiento de Unidades Raras |
+
+<Callout type="info" title="Prioridad de Mejora">
+Mejora siempre tu **Capacidad de Esbirros** primero. Tener más cuerpos en el piso es generalmente mejor que tener una unidad ligeramente más fuerte en las etapas iniciales del juego.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Objetivos a Corto Plazo">
+    - Desbloquea el **Laboratorio de Alquimia** para la elaboración de pociones.
+    - Alcanza el nivel 10 con tu Jefe principal.
+    - Asegura al menos 3 pisos de defensa.
+  </Card>
+  <Card title="Objetivos a Largo Plazo">
+    - Investiga planos de **Trampas Legendarias**.
+    - Maximiza la rama de "Miedo" del árbol de habilidades.
+    - Derrota al jefe de incursión "Rey Héroe".
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión y FAQ">
+
+Para asegurarte de mantenerte en el camino de convertirte en la entidad más temida del reino, usa esta lista de verificación diaria para gestionar el crecimiento de tu mazmorra.
+
+<Checklist
+  id="daily-boss-tasks"
+  title="Mantenimiento Diario de la Mazmorra:"
+  items={[
+    "Recoger el Oro acumulado de la Tesorería",
+    "Comprobar la composición del Grupo de Héroes en la pestaña 'Entrantes'",
+    "Mejorar al menos una trampa al siguiente nivel",
+    "Asignar esbirros inactivos a misiones de 'Recolección'",
+    "Revisar el Árbol de Habilidades del Jefe para puntos disponibles"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el error más común de los principiantes en Be The Final Boss?",
+    answer: "El error más común es gastar todo el Oro en esbirros de alto nivel desde el principio. Las trampas de bajo nivel suelen ser más rentables para lidiar con los grupos de héroes del juego temprano."
+  },
+  {
+    question: "¿Cómo aumento mi Infamia rápidamente?",
+    answer: "La Infamia aumenta naturalmente a medida que derrotas héroes. Para acelerarla, puedes construir 'Santuarios de Infamia', que atraen a héroes más fuertes pero proporcionan un botín significativamente mejor."
+  },
+  {
+    question: "¿Puedo cambiar mi arquetipo de Jefe más adelante en el juego?",
+    answer: "No, la elección del arquetipo es permanente para ese archivo de guardado. Sin embargo, puedes desbloquear habilidades de otras clases a través del sistema de 'Prestigio' en el juego avanzado."
+  },
+  {
+    question: "¿Qué esbirro es el mejor para defender el Núcleo?",
+    answer: "El 'Caballero Abismal' es ampliamente considerado el mejor defensor del núcleo debido a sus altos PV y su capacidad para provocar a todos los héroes cercanos simultáneamente."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Recuerda, como jefe final, el tiempo está de tu lado. Los héroes deben tener éxito en su incursión una vez para ganar, pero tú solo necesitas ganar una vez para terminar su viaje. Juega defensivamente y deja que la mazmorra haga el trabajo por ti.
+</Callout>
+
+</Section>

@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mejoras del castillo en be the final boss: Guía de progresión estratégica",
+  description: "Domina el sistema de mejoras del castillo en be the final boss. Aprende prioridades de construcción, gestión de recursos y diseños defensivos para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Castle+Upgrades+Guide",
+  date: "2026-07-13",
+  author: "Equipo de Wiki de be the final boss",
+  keywords: "be the final boss, mejoras del castillo, guía de progresión, defensa de base, estrategia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Prioridad principal**: Concéntrate primero en las **mejoras del castillo en be the final boss** que aumenten la generación de recursos para acelerar tu economía.
+- **Estrategia defensiva**: Prioriza las **Torretas multiobjetivo** y los **Pasillos de trampas** para lidiar con grandes grupos de héroes invasores.
+- **Gestión de recursos**: Mantén una proporción de 2:1 entre las **Minas de oro** y los **Pozos de maná** para asegurar una construcción y un lanzamiento de hechizos constantes.
+- **Objetivos clave**: Alcanza el **Nivel 10 del castillo** a mitad de la partida para desbloquear la **Forja abisal** y fabricar equipamiento avanzado.
+- **Diseño óptimo**: Utiliza un diseño de **pasillo en forma de Z** para maximizar el tiempo que los héroes pasan bajo el fuego de tus defensas.
+</Callout>
+
+<Section icon={Map} title="Mecánicas principales de las mejoras del castillo en be the final boss">
+
+Gestionar tu fortaleza de manera efectiva requiere una comprensión profunda del sistema de **mejoras del castillo en be the final boss**. En este juego, tu castillo no es solo una base; es una máquina viviente diseñada para frustrar a los héroes y generar el poder necesario para dominar el reino. El sistema de mejoras se divide en tres ramas principales: Infraestructura, Defensa y Producción. Cada rama requiere recursos específicos, principalmente Oro y Maná oscuro, que se cosechan de los mismos héroes que intentan asaltar tu santuario.
+
+La progresión de tu castillo determina el nivel de los monstruos que puedes invocar y la complejidad de las trampas que puedes instalar. Sin una base sólida, incluso el jefe más poderoso acabará cayendo ante las incesantes oleadas de aventureros. Por lo tanto, equilibrar tu expansión con tus capacidades defensivas es la marca de identidad de un Señor Oscuro exitoso.
+
+| Tipo de sala | Función principal | Coste de recursos | Prioridad de mejora |
+| :--- | :--- | :--- | :--- |
+| **Sala del trono** | Aumenta el nivel total del castillo y desbloquea nuevos rangos | Oro / Maná | **Alta** |
+| **Bóveda de oro** | Aumenta la capacidad máxima de almacenamiento de oro | Oro | Media |
+| **Pozo de maná** | Genera Maná oscuro a lo largo del tiempo para hechizos | Maná | **Alta** |
+| **Cuartel de monstruos** | Aumenta el número de defensores activos | Oro | Media |
+| **Laboratorio** | Desbloquea nuevos tipos de trampas y peligros ambientales | Maná | Baja (Fase inicial) |
+
+<Callout type="tip" title="Consejo de eficiencia">
+Mejora siempre tus **Pozos de maná** antes que tu Laboratorio. De nada sirve tener una gran velocidad de investigación si no dispones del maná necesario para construir las trampas que descubres.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fortificaciones defensivas y sinergia de trampas">
+
+Defender tu núcleo es la parte más interactiva de la experiencia de **mejoras del castillo en be the final boss**. A medida que progreses, los héroes traerán sanadores, tanques y pícaros de gran daño para desmantelar tu duro trabajo. Para contrarrestar esto, tu diseño defensivo debe ser eficiente. Un error común es colocar trampas de gran daño de forma aislada; en su lugar, debes centrarte en la sinergia. Por ejemplo, ralentizar a un héroe con un **Suelo de escarcha** hace que permanezca bajo el alcance de una **Trampa de dardos venenosos** el doble de tiempo.
+
+La siguiente tabla compara las estructuras defensivas más efectivas disponibles en el meta de 2026.
+
+| Estructura defensiva | Tipo de daño | Tipo de objetivo | Efecto especial |
+| :--- | :--- | :--- | :--- |
+| **Trampa de pinchos** | Físico | Único | Alta penetración de armadura |
+| **Pilar de llamas** | Fuego | Área (AOE) | Aplica quemadura durante 5 segundos |
+| **Cadena de rayos** | Arcano | Multiobjetivo | Salta entre 3 enemigos |
+| **Foso de ácido** | Corrosivo | Área (AOE) | Reduce la defensa física del enemigo |
+| **Tótem de miedo** | Psicológico | Área (AOE) | Obliga a los enemigos a retirarse brevemente |
+
+<CardGrid cols={3}>
+  <Card title="El punto de estrangulamiento">
+    - **Alta densidad de daño**
+    - Utiliza trampas de área (AOE)
+    - Ideal para héroes de nivel bajo
+  </Card>
+  <Card title="El pasillo de desgaste">
+    - **Venenos de acción lenta**
+    - Se centra en aplicar perjuicios (debuffs)
+    - Efectivo contra tanques con mucha vida
+  </Card>
+  <Card title="La sala de emboscada">
+    - **Gran daño de ráfaga**
+    - Utiliza apariciones ocultas de monstruos
+    - Diseñado para eliminar primero a los sanadores
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Tácticas antihéroe">
+Ten cuidado con los héroes de clase \"Paladín\". Pueden purificar perjuicios como la quemadura y el veneno. Asegúrate de tener al menos una **Trampa de pinchos físicos** en cada sala para infligir daño puro que no se pueda disipar fácilmente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de mejora paso a paso para el inicio del juego">
+
+Navegar por las primeras etapas de tu reinado puede ser difícil si se gestionan mal los recursos. Seguir una ruta estructurada de **mejoras del castillo en be the final boss** garantiza que te mantengas por delante de la \"curva de nivel de los héroes\". Si los héroes que suben de nivel en el mundo superan el rango defensivo de tu castillo, tu partida terminará prematuramente.
+
+<Steps>
+  <Step num="1" title="Establecer la economía básica">
+    Construye y mejora dos **Minas de oro** al nivel 3. Esto proporciona el flujo constante de ingresos necesario para todas las construcciones posteriores. No gastes oro en monstruos todavía; confía en tus habilidades básicas de jefe para las dos primeras oleadas.
+  </Step>
+  <Step num="2" title="Desbloquear trampas de rango 1">
+    Construye el **Laboratorio** e investiga los **Pinchos básicos** y las **Paredes de flechas**. Colócalos en el pasillo de entrada para automatizar la defensa contra los aventureros de clase \"Novato\".
+  </Step>
+  <Step num="3" title="Ampliar el almacenamiento">
+    Mejora tu **Bóveda de oro** al nivel 2. Los límites de oro al inicio del juego son notoriamente bajos, y no querrás desperdiciar los recursos obtenidos de una defensa exitosa porque tus \"bolsillos\" estén llenos.
+  </Step>
+  <Step num="4" title="Invocar a la guardia de élite">
+    Mejora el **Cuartel de monstruos** al nivel 2 e invoca a tu primer **Defensor de élite**. Colócalo al final de tu pasillo de trampas para acabar con los héroes que sobrevivan al recorrido.
+  </Step>
+  <Step num="5" title="Ascensión de la sala del trono">
+    Una vez que tus defensas sean estables, inicia la mejora de la **Sala del trono al nivel 5**. Esto desbloqueará el contenido de mitad de partida y la reserva de recursos de **Maná oscuro**.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hito alcanzado">
+Completar estos cinco pasos normalmente te situará en la marca de los 20 minutos de una sesión estándar con una economía estable y un perímetro defendible.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimización de recursos y escalado">
+
+A medida que llegas a la mitad y al final del juego, el coste de las **mejoras del castillo en be the final boss** aumenta de forma exponencial. Un muro de nivel 15 puede costar diez veces más que uno de nivel 10, pero solo aportar un 20% más de salud. Por lo tanto, saber cuándo dejar de mejorar una sala y empezar con otra es vital. La eficiencia se mide en \"defensa efectiva por oro gastado\".
+
+| Nivel de mejora | Multiplicador de coste | Incremento de estadísticas | Calificación de eficiencia |
+| :--- | :--- | :--- | :--- |
+| **1-5** | 1.0x | +50% | **Excelente** |
+| **6-10** | 2.5x | +30% | Buena |
+| **11-15** | 5.0x | +15% | Moderada |
+| **16-20** | 10.0x | +10% | **Baja (Solo juego tardío)** |
+
+<Callout type="info" title="Escalado de maná">
+A diferencia del oro, el **Maná oscuro** no tiene un límite estricto de almacenamiento. Sin embargo, su tasa de generación está ligada al número de \"Santuarios corruptos\" que mantengas. Intenta tener un santuario por cada tres salas defensivas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategias avanzadas y lista de verificación">
+
+Para los veteranos que buscan maximizar su eficiencia en las **mejoras del castillo en be the final boss**, la manipulación ambiental es la siguiente frontera. Usar la mejora \"Flujo de lava\" en el Laboratorio te permite cambiar el terreno de tu castillo, creando peligros permanentes que no requieren tiempos de recarga como las trampas tradicionales. Combinar esto con monstruos de tipo \"Volador\" permite a tus defensores ignorar los peligros mientras los héroes se queman o se ralentizan.
+
+<Checklist
+  id="castle-milestones"
+  title="Lista de verificación de progresión en el juego tardío:"
+  items={[
+    "Desbloquea el diseño de 'Pasillo infinito' al nivel 20 del castillo",
+    "Maximiza la 'Regeneración de maná' en el árbol de talentos",
+    "Equipa a tu jefe con el 'Anillo del arquitecto' para obtener un 15% de reducción en los costes de construcción",
+    "Sobrevive a un evento de 'Cruzada de héroes' sin perder una sola sala",
+    "Alcanza una tasa de generación de 100 000 de oro por minuto"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo para el jefe final">
+No olvides mejorar tu **Santuario del jefe**. Aunque es la última línea de defensa, un santuario de nivel alto proporciona mejoras pasivas a todos los monstruos del castillo, haciendo que todo tu ejército sea más efectivo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué mejoras del castillo en be the final boss debería comprar primero?",
+    answer: "Prioriza siempre las Minas de oro y los Pozos de maná. Una economía fuerte te permite recuperarte rápidamente si un grupo de héroes logra destruir una sala."
+  },
+  {
+    question: "¿Cómo lidio con los héroes que esquivan mis trampas?",
+    answer: "Algunos héroes de clase pícaro tienen una evasión alta. Utiliza 'Peligros de suelo en área' como fosos de ácido o suelos de alquitrán, que no se pueden esquivar con las mecánicas de evasión estándar."
+  },
+  {
+    question: "¿Es mejor tener muchas trampas de nivel bajo o una sola trampa de nivel alto?",
+    answer: "Al principio del juego, es mejor la cantidad para cubrir más terreno. En el juego tardío, las trampas de nivel alto son necesarias para perforar la armadura y la resistencia mágica de los héroes."
+  },
+  {
+    question: "¿Cuándo debería mejorar mi Sala del trono?",
+    answer: "Solo mejora la Sala del trono cuando hayas maximizado los generadores de recursos de tu rango actual y tus defensas actuales puedan manejar fácilmente la última oleada de héroes."
+  }
+]} />
+
+</Section>

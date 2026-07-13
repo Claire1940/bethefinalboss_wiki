@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Ondas de Seja o Chefe Final: Estratégia 2026 para Sobrevivência Infinita",
+  description: "Domine o guia de ondas de Seja o Chefe Final com nossas estratégias de especialistas em otimização de builds, contra-táticas de heróis e gestão de recursos para ondas de alto nível.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Wave+Survival+Guide",
+  date: "2026-07-13",
+  author: "Equipe da Wiki de Seja o Chefe Final",
+  keywords: "seja o chefe final, guia de ondas, estratégia de sobrevivência, build de chefe, contra-ataque de heróis"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de ondas de Seja o Chefe Final**: Foque em equilibrar o dano em Área de Efeito (AoE) com explosão de alvo único para lidar com o escalonamento da vida dos heróis.
+- **Melhorias Prioritárias**: Invista cedo em regeneração de vida e redução de tempo de recarga para sustentar-se através das implacáveis ondas do meio do jogo.
+- **Contra-ataques de Heróis**: Identifique os arquétipos de Mago e Arqueiro cedo, pois eles causam o dano mais consistente à distância.
+- **Ciclo de Recursos**: Use suas habilidades ativas durante o pico de uma onda, em vez de no início, para maximizar a eficiência.
+- **Diversidade de Build**: Alterne entre posturas defensivas e ofensivas com base nos Chefes de Onda que surgem a cada dez níveis.
+</Callout>
+
+<Section icon={Map} title="Entendendo a Mecânica de Ondas e o Escalonamento">
+
+No meta de 2026, o **guia de ondas de Seja o Chefe Final** começa com uma compreensão fundamental de como as ondas de heróis escalam ao longo do tempo. Ao contrário dos jogos tradicionais de tower defense, você é o alvo estático ou semi-móvel que deve resistir aos "heróis" que tentam esgotar sua barra de vida. As ondas consistem em múltiplas fases, geralmente começando com batedores leves e terminando com esquadrões de elite ou mini-chefes.
+
+O escalonamento em Seja o Chefe Final é exponencial. A cada cinco ondas, a vida dos heróis aumenta em aproximadamente 15%, enquanto a produção de dano deles sofre um aumento acentuado a cada dez ondas. Entender esse ritmo permite que você cronometre suas melhorias de forma eficaz.
+
+| Faixa de Ondas | Densidade de Inimigos | Pico de Dificuldade | Ameaça Principal |
+| :--- | :--- | :--- | :--- |
+| 1-10 | Baixa | 1/5 | Espadachins Básicos |
+| 11-25 | Moderada | 2/5 | Arqueiros à Distância |
+| 26-50 | Alta | 4/5 | Conjuradores de Magia |
+| 51-100 | Extrema | 5/5 | Paladinos Tanques |
+| 101+ | Infinita | Escalonável | Esquadrões de Elite Mistos |
+
+<Callout type="success" title="Dica para o Início do Jogo">
+Durante as primeiras dez ondas, foque puramente na produção de dano. Os heróis nesta fase têm vida muito baixa, e derrotá-los com um único golpe impede que qualquer dano residual se acumule na sua barra de vida de chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquétipos de Heróis e Estratégias de Contra-ataque">
+
+Para implementar com sucesso um **guia de ondas de Seja o Chefe Final**, você deve reconhecer que nem todos os heróis são criados iguais. O jogo categoriza os atacantes em arquétipos distintos, cada um exigindo uma resposta tática diferente de você como o chefe.
+
+Arqueiros e Magos são os mais perigosos porque podem te atacar de longe ou ficar fora do seu alcance corpo a corpo primário. Por outro lado, Cavaleiros e Paladinos são projetados para absorver seu dano enquanto a linha de trás desgasta sua vida.
+
+| Classe de Herói | Comportamento | Nível de Ameaça | Estratégia de Contra-ataque |
+| :--- | :--- | :--- | :--- |
+| Cavaleiro | Corpo a corpo, HP Alto | Médio | Impactos no Chão AoE |
+| Arqueiro | À distância, Ataque Rápido | Alto | Reflexão de Projéteis |
+| Mago | À distância, Explosão AoE | Muito Alto | Aproximação / Atordoamento |
+| Assassino | Furtivo, Crítico Alto | Médio | Dano de Aura |
+| Paladino | Suporte, Cura | Alto | Foco de Fogo / Silenciamento |
+
+<CardGrid cols={3}>
+  <Card title="Defesa Corpo a corpo">
+    - **Impacto no Chão**: Essencial para limpar enxames de Cavaleiros.
+    - **Armadura de Espinhos**: Reflete uma porcentagem do dano de volta aos atacantes.
+    - **Repulsão**: Mantém os batedores pesados à distância.
+  </Card>
+  <Card title="Mitigação à Distância">
+    - **Cúpula de Escudo**: Bloqueia projéteis recebidos por 5 segundos.
+    - **Relâmpago em Cadeia**: Atinge Magos da linha de trás instantaneamente.
+    - **Bônus de Velocidade**: Permite que você feche a distância rapidamente.
+  </Card>
+  <Card title="Táticas de Sustentação">
+    - **Roubo de Vida**: Cura com base no dano total causado.
+    - **Aura de Regeneração**: Recuperação passiva de vida entre as ondas.
+    - **Invulnerabilidade**: Crítica para sobreviver a explosões de dano na Onda 100+.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Visão Tática">
+Sempre foque nos Paladinos primeiro. A habilidade deles de curar todo o esquadrão de heróis pode transformar uma onda de 30 segundos em uma luta de 2 minutos, aumentando significativamente o risco de sua derrota.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Progressão Passo a Passo">
+
+Navegar pelas ondas requer uma abordagem estruturada para a evolução do seu chefe. Siga estes passos para garantir que sua build permaneça viável conforme a dificuldade aumenta.
+
+<Steps>
+  <Step num="1" title="Pico de Poder Inicial">
+    Gaste seus primeiros 500 de Ouro no aumento do alcance do seu ataque primário. Nas ondas iniciais, ser capaz de atingir os heróis antes que eles cheguem até você é a melhor forma de defesa.
+  </Step>
+  <Step num="2" title="Sincronização de Habilidades">
+    Na Onda 20, desbloqueie suas duas primeiras habilidades ativas. Recomendamos uma combinação de uma mecânica de "Puxar" e uma mecânica de "Explosão" para agrupar heróis e eliminá-los simultaneamente.
+  </Step>
+  <Step num="3" title="Transição Defensiva">
+    Por volta da Onda 50, os heróis começarão a sobreviver à sua explosão inicial. Transicione o foco de suas melhorias para Vida e Redução de Dano. Uma build de "Canhão de Vidro" raramente sobrevive após a Onda 60.
+  </Step>
+  <Step num="4" title="Maestria de Elite">
+    Na Onda 80+, você enfrentará "Líderes Heróis". Essas unidades possuem mecânicas únicas como imunidade a atordoamento. Reserve sua habilidade ultimate especificamente para esses encontros.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso Crítico">
+Não negligencie seu atributo de Redução de Tempo de Recarga (CDR). Em ondas de alto nível, sua sobrevivência depende inteiramente da disponibilidade de seus escudos defensivos e habilidades de controle de grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tier List de Habilidades Ideais para Limpeza de Ondas">
+
+Nem todas as habilidades em Seja o Chefe Final são eficazes para avançar em ondas infinitas. Algumas habilidades se destacam em lutas contra chefes de alvo único, mas falham quando enfrentam cinquenta heróis de uma vez. Use esta tier list para priorizar seus pontos de habilidade.
+
+| Tier | Nome da Habilidade | Tipo de Efeito | Por que está nesta posição |
+| :--- | :--- | :--- | :--- |
+| **S** | Vazio Abissal | Buraco Negro / CC | Agrupa todos os inimigos para uma limpeza AoE fácil. |
+| **S** | Chuva de Meteoros | AoE Massivo | Maior produção de dano total por segundo. |
+| **A** | Nova de Gelo | Congelar / Lentidão | Essencial para lidar com Assassinos de alta velocidade. |
+| **A** | Toque Vampírico | Sustento / Cura | Necessário para recuperar vida no meio da onda. |
+| **B** | Sopro do Dragão | DPS Direcional | Bom dano, mas deixa suas costas expostas. |
+| **C** | Golpe Único | Alvo Único | Útil apenas para o chefe final de uma onda. |
+
+<Callout type="tip" title="Recomendação de Combo">
+O combo "Vazio Abissal" seguido de "Chuva de Meteoros" é o padrão ouro para sobrevivência em ondas altas. Ele maximiza sua proporção de dano por mana e limpa a tela em segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificação e Preparação para Sobrevivência">
+
+Antes de tentar uma corrida profunda nas ondas infinitas, certifique-se de ter verificado os seguintes requisitos. A preparação é tão importante quanto a execução em qualquer **guia de ondas de Seja o Chefe Final**.
+
+<Checklist
+  id="wave-prep"
+  title="Requisitos Pré-Corrida:"
+  items={[
+    "Equipe pelo menos uma passiva baseada em sustentação (Roubo de Vida ou Regeneração)",
+    "Verifique se sua Redução de Tempo de Recarga é de pelo menos 30%",
+    "Defina sua prioridade de alvo automático para 'Vida mais baixa' ou 'À distância primeiro'",
+    "Verifique se há 'Códigos' ativos para aumentar sua moeda inicial",
+    "Certifique-se de que sua habilidade AoE primária esteja no nível Rank 5 ou superior"
+  ]}
+/>
+
+<Callout type="info" title="Gestão de Recursos">
+A moeda ganha durante as ondas deve ser reinvestida imediatamente. Guardar grandes quantidades de ouro não oferece benefícios e, na verdade, torna você mais fraco em relação ao escalonamento dos heróis.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor maneira de usar o guia de ondas de Seja o Chefe Final para iniciantes?",
+    answer: "Os iniciantes devem focar na build de 'Tanque' logo no início. Ao aumentar seu HP total e Armadura, você permite uma maior margem de erro enquanto aprende os padrões de movimento das diferentes classes de heróis."
+  },
+  {
+    question: "Como lidar com heróis que ficam fora do meu alcance?",
+    answer: "Você deve investir em habilidades de 'Aproximação' como Avanço/Teletransporte ou 'Habilidades à Distância' como Relâmpago em Cadeia. Reflexão de Projéteis também é uma excelente forma passiva de lidar com Arqueiros distantes."
+  },
+  {
+    question: "Quando devo resetar meu progresso para obter melhores atributos?",
+    answer: "Em Seja o Chefe Final, você deve procurar o 'Prestígio' ou resetar quando seu progresso nas ondas diminuir significativamente (ex: levar mais de 3 minutos para limpar uma única onda). Isso lhe concederá multiplicadores permanentes."
+  },
+  {
+    question: "A dificuldade para de escalar em algum momento?",
+    answer: "Não, as ondas são projetadas para serem infinitas. No entanto, as recompensas também escalam, permitindo que você alcance níveis de poder que eram anteriormente impossíveis."
+  }
+]} />
+
+</Section>

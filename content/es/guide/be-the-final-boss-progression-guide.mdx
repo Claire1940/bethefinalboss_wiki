@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de progresión de Sé el jefe final: Builds meta y estrategias",
+  description: "Domina la ruta de progresión definitiva en Sé el jefe final. Aprende las distribuciones de estadísticas óptimas, hitos de equipo y estrategias contra jefes para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Progression+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Sé el jefe final"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Sigue esta **guía de progresión de Sé el jefe final** para optimizar tu build, desbloquear equipo de alto nivel y derrotar a los jefes de final del juego de manera eficiente.
+- **Prioridad de estadísticas**: Concéntrate en gran medida en las estadísticas ofensivas al principio, pasando a la regeneración de salud y escudos defensivos para los enfrentamientos de final del juego.
+- **Hitos de equipo**: Mejora las armas en los umbrales de nivel clave y utiliza bonificaciones de conjunto para eludir mecánicas complejas de los jefes.
+- **Estrategia de combate**: Aprende los patrones de ataque de los jefes, domina el tiempo de tus esquives y reserva las habilidades definitivas para las fases de escudo.
+</Callout>
+
+<Section icon={Map} title="Resumen de la progresión principal">
+
+Para navegar con éxito por el ciclo final del juego, es esencial seguir una **guía de progresión de Sé el jefe final** estructurada. La progresión se divide en tres fases distintas: configuración al principio del juego, consolidación a mitad del juego y maestría al final del juego. Equilibrar tus capacidades ofensivas con la utilidad defensiva es la clave para sobrevivir a las fases de jefe de alto daño.
+
+| Fase | Rango de nivel | Enfoque principal | Desbloqueo clave |
+|---|---|---|---|
+| Principio del juego | Niveles 1-30 | Finalización de la campaña, desbloqueo de habilidades básicas | Arma legendaria de nivel 1 |
+| Mitad del juego | Niveles 31-60 | Optimización de estadísticas, farmeo de bonificaciones de conjunto | Conjunto de accesorios míticos |
+| Final del juego | Niveles 61-100 | Incursiones de jefes, maximización de estadísticas | Conjunto de nivel de Jefe Final |
+
+<Callout type="tip" title="Consejo de progresión">
+No descuides la regeneración de salud en tu build a mitad del juego. Muchos jefes del final del juego infligen daño constante de alta frecuencia que no se puede evitar por completo esquivando.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds de clase y distribución de estadísticas">
+
+Elegir el camino de build correcto determina qué tan fácil será la transición entre los niveles de progresión. Los diferentes estilos de juego requieren distintas prioridades de estadísticas para maximizar el daño infligido mientras se mantiene la supervivencia.
+
+<CardGrid cols={3}>
+  <Card title="Build de cañón de cristal">
+    - **Alto daño infligido**
+    - Se centra en la probabilidad de crítico y el daño crítico
+    - Requiere un control preciso del tiempo de esquive
+  </Card>
+  <Card title="Build de tanque de aguante">
+    - **Alta supervivencia**
+    - Prioriza la regeneración de salud y los escudos
+    - Extremadamente amigable para principiantes
+  </Card>
+  <Card title="Build híbrida equilibrada">
+    - **Tácticas flexibles**
+    - Mezcla equilibrada de reducción de enfriamiento y defensa
+    - Adaptable a la mayoría de las mecánicas de los jefes
+  </Card>
+</CardGrid>
+
+| Tipo de build | Estadística principal | Estadística secundaria | Estadística de utilidad | Rendimiento |
+|---|---|---|---|---|
+| Cañón de cristal | Poder de ataque | Probabilidad de crítico | Reducción de enfriamiento | ★★★★☆ |
+| Tanque de aguante | Salud máxima | Regeneración de salud | Fuerza de escudo | ★★★★★ |
+| Híbrido equilibrado | Poder de ataque | Salud máxima | Enfriamiento de esquive | ★★★★☆ |
+
+<Callout type="warning" title="Advertencia de estadísticas">
+Asignar demasiados puntos al daño puro sin asegurar al menos una fuente de generación de escudo hará que los jefes del final del juego sean extremadamente difíciles de superar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression de la campaña paso a paso">
+
+Sigue esta hoja de ruta sistemática para avanzar en la campaña y desbloquear el contenido del final del juego sin encontrarte con muros de progresión.
+
+<Steps>
+  <Step num="1" title="Completa los capítulos de la campaña principal">
+    Concéntrate por completo en las misiones principales para desbloquear funciones clave, ranuras de habilidad y conjuntos de equipo básicos. Evita farmear actividades secundarias hasta terminar la campaña principal.
+  </Step>
+  <Step num="2" title="Farmea conjuntos de mazmorras de nivel medio">
+    Una vez completada la campaña, dirígete a las mazmorras adecuadas para tu nivel para adquirir conjuntos de equipo completos. Las bonificaciones de conjunto correspondientes proporcionan multiplicadores de estadísticas masivos.
+  </Step>
+  <Step num="3" title="Optimiza las estadísticas de tu equipo">
+    Usa recursos de artesanía para volver a sortear las estadísticas secundarias de tu equipo. Prioriza la probabilidad de crítico, la regeneración de salud y la eficiencia del escudo.
+  </Step>
+  <Step num="4" title="Conquista a los jefes del final del juego">
+    Desafía a los jefes de nivel final para obtener armas de primer nivel y los materiales necesarios para superar los límites de tu equipamiento.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Información de hito">
+Completar el Paso 2 desbloquea el sistema de incursiones diarias, que es la fuente más constante de materiales de mejora en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de jefes y estrategias de supervivencia">
+
+Los jefes del final del juego utilizan mecánicas complejas que requieren reacciones rápidas y un posicionamiento estratégico. Comprender cómo manejar fases de ataque específicas es crucial para lograr victorias limpias.
+
+| Mecánica del jefe | Nivel de peligro | Estrategia de contraataque | Herramienta recomendada |
+|---|---|---|---|
+| Escudo de protección | Alto | Usa habilidades definitivas para romper la protección rápidamente | Habilidades de ráfaga alta |
+| Ondas de choque | Medio | Controla el tiempo de tus esquives o salta sobre los anillos en expansión | Reducción de enfriamiento de esquive |
+| Ataques de empuje | Medio | Posiciónate lejos de los peligros ambientales | Inmunidad al control de masas |
+| Daño a lo largo del tiempo | Alto | Mantén activos la regeneración de salud y los escudos | Pociones de salud / Escudos |
+
+<Callout type="success" title="Consejo de combate">
+Cuando un jefe lanza un Escudo de protección, a menudo se vuelve inmune al daño regular. Concentra todas tus habilidades de enfriamiento largo y habilidades definitivas exclusivamente en romper la protección para aturdir al jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de hitos de progresión">
+
+Usa esta lista para realizar un seguimiento del desarrollo de tu personaje a medida que avanzas en el contenido del final del juego.
+
+<Checklist
+  id="final-boss-milestones"
+  title="Objetivos del final del juego:"
+  items={[
+    "Alcanzar el nivel de personaje 100",
+    "Adquirir un conjunto completo de equipo mítico de nivel 5",
+    "Desbloquear todos los nodos del árbol de habilidades pasivas",
+    "Superar con éxito la incursión del jefe final en solitario",
+    "Optimizar las estadísticas secundarias del equipo para tu build elegida"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de optimización">
+Revisa las estadísticas secundarias de tu equipo semanalmente. Reemplazar incluso una sola estadística defensiva baja por una estadística ofensiva alta puede reducir drásticamente la duración de las peleas contra los jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+Revisa estas preguntas comunes para resolver cuellos de botella en la progresión y optimizar tu ciclo de juego.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de subir de nivel en Sé el jefe final?",
+    answer: "La forma más rápida de subir de nivel es completando las misiones de la campaña principal, seguido de realizar mazmorras diarias y derrotar a jefes de incursión que otorgan mucha experiencia."
+  },
+  {
+    question: "¿Cómo lidio con los jefes que me empujan constantemente?",
+    answer: "Equipa piezas de equipo que proporcionen resistencia al control de masas o usa habilidades que otorguen estabilidad temporal. Colocar a tu personaje con una pared detrás también puede evitar largas distancias de empuje."
+  },
+  {
+    question: "¿Es mejor la regeneración de salud que la generación de escudo?",
+    answer: "Ambas son importantes, pero la generación de escudo es superior para prevenir mecánicas de muerte instantánea, mientras que la regeneración de salud es ideal para recuperarse del daño constante y progresivo."
+  },
+  {
+    question: "¿Dónde puedo encontrar el mejor equipo del juego?",
+    answer: "El mejor equipo absoluto se obtiene de las incursiones de alto nivel del final del juego y de los enfrentamientos con el jefe final. También puedes fabricar y mejorar el equipo mítico existente utilizando materiales recolectados en las actividades diarias."
+  }
+]} />
+
+</Section>

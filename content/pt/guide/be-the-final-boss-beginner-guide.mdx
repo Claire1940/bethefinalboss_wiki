@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia do Iniciante de Be The Final Boss: Dicas de Progressão e Táticas para 2026",
+  description: "Domine a arte da defesa de masmorras com o nosso guia do iniciante de Be The Final Boss. Aprenda as mecânicas essenciais, arquétipos de chefes e estratégias para o início do jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Be+The+Final+Boss+Guide",
+  date: "2026-07-13",
+  author: "Equipe Wiki de Be The Final Boss"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia do iniciante de Be The Final Boss**: Foque em equilibrar seu **nível de Infâmia** com suas capacidades defensivas para evitar ser sobrecarregado pelos heróis.
+- **Arquétipos de Chefe**: Escolha entre o **Soberano**, o **Lich** ou a **Sombra** com base no seu estilo de jogo preferido (Poder, Magia ou Furtividade).
+- **Prioridade de Recursos**: Sempre priorize **Essência de Alma** e **Ouro** para aprimorar seus lacaios e armadilhas de masmorra logo no início.
+- **Gerenciamento de Heróis**: Estude as composições dos grupos de heróis para posicionar as **armadilhas de contra-ataque** corretas em seus salões de entrada.
+- **Dica de Progressão**: Não expanda os andares da sua masmorra rápido demais; concentre-se em **fortificar as salas existentes** primeiro.
+</Callout>
+
+<Section icon={Map} title="Entendendo Seu Papel como o Chefe">
+
+No mundo deste RPG de estratégia, seu objetivo é virar o jogo em relação aos games tradicionais. Em vez de ser o herói, você é o vilão supremo. Este **guia do iniciante de Be The Final Boss** visa ajudar você a navegar pelos sistemas complexos de gerenciamento de masmorras, recrutamento de lacaios e eliminação de heróis. Como o chefe final, sua principal métrica de sucesso é a **Infâmia**. Quanto maior a sua Infâmia, mais poderosos serão os heróis que tentarão invadir o seu covil.
+
+Gerenciar sua presença é um equilíbrio delicado. Se você crescer muito rápido sem construir uma defesa adequada, um grupo lendário de heróis pode acabar com o seu reinado antes mesmo de ele começar. Você deve tratar sua masmorra como um negócio, onde os \"clientes\" são os heróis e o seu \"produto\" é uma derrota rápida e esmagadora.
+
+| Atributo | Impacto na Jogabilidade | Nível de Prioridade |
+| :--- | :--- | :--- |
+| **Infâmia** | Aumenta a dificuldade dos heróis e drop de saques raros | Médio |
+| **Pavor** | Reduz o moral e a velocidade de ataque dos heróis | Alto |
+| **Essência de Alma** | Moeda principal para melhorias de habilidades do chefe | Máximo |
+| **Ouro** | Usado para construir salas e contratar lacaios | Alto |
+| **Autoridade** | Limita o número total de lacaios implantados | Médio |
+
+<Callout type="info" title="A Mecânica Central">
+O seu **Núcleo da Masmorra** é a sua força vital. Se os heróis alcançarem o núcleo e esgotarem seu HP, sua partida termina. Sempre mantenha seus lacaios mais fortes posicionados na Sala do Núcleo como última linha de defesa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Selecionando Seu Arquétipo de Chefe">
+
+Antes de começar a construir sua fortaleza, você deve selecionar um arquétipo. Essa escolha dita suas habilidades ativas, suas sinergias de lacaios e como você interage pessoalmente com os heróis durante o confronto na sala final. Cada classe possui um \"Movimento Supremo\" distinto que pode virar o jogo em uma batalha quase perdida.
+
+<CardGrid cols={3}>
+  <Card title="O Soberano">
+    - **Alto Poder Físico**
+    - Foca em **Lacaios de Combate Corpo a Corpo**
+    - Ideal para jogadores agressivos que querem esmagar os heróis pessoalmente.
+  </Card>
+  <Card title="O Lich">
+    - **Alta Maestria Mágica**
+    - Foca em **Mortos-Vivos e Feitiços**
+    - Ideal para jogadores que preferem penalidades táticas em toda a sala e ressurreição.
+  </Card>
+  <Card title="A Sombra">
+    - **Alta Agilidade e Furtividade**
+    - Foca em **Armadilhas e Assassinos**
+    - Perfeito para quem gosta de combate indireto e perigos ambientais letais.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Recomendação de Estratégia">
+Para iniciantes, o **Soberano** é altamente recomendado. Sua grande quantidade de HP e habilidades de dano diretas permitem mais erros durante o início do jogo em comparação com o frágil Lich.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Construindo Seus Primeiros Andares da Masmorra">
+
+O layout da sua masmorra é o fator mais crítico para a sua sobrevivência. Um andar bem projetado força os heróis a desperdiçarem seus recursos (poções de cura e mana) antes mesmo de alcançarem seus guardas de elite. Siga estes passos para configurar um perímetro defensivo básico, mas eficaz.
+
+<Steps>
+  <Step num="1" title="O Ponto de Estrangulamento da Entrada">
+    Projete a primeira sala para ser uma \"Sala de Desgaste\". Use armadilhas de baixo custo, como **Fossos de Espinhos** ou **Gosma de Lentidão**, para forçar os heróis a usarem suas habilidades de movimento logo cedo.
+  </Step>
+  <Step num="2" title="Salas de Sinergia de Lacaios">
+    Posicione uma sala de quartel em seguida. Garanta que os lacaios aqui tenham **Sinergia Elemental**. Por exemplo, use um lacaio Mago de Fogo atrás de uma linha de Guardas de Escudo para maximizar o dano enquanto se mantém protegido.
+  </Step>
+  <Step num="3" title="A Falsa Sala do Tesouro">
+    Crie uma sala cheia de \"Mímicos\" ou \"Armadilhas de Emboscada\". Os heróis são programados para priorizar baús de tesouro; use essa ganância contra eles para dividir o grupo.
+  </Step>
+  <Step num="4" title="A Antecâmara do Chefe">
+    Esta é a última sala antes do Núcleo. Posicione sua **Guarda de Elite** aqui. Essas unidades devem ter habilidades de alto controle de grupo (CC) para atordoar o curador do grupo de heróis.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evite Caminhos Lineares">
+Nunca construa uma linha reta até o seu núcleo. Os heróis ganham \"Momento\" ao se moverem rapidamente pelas salas. Use **corredores em forma de L** para quebrar a linha de visão deles e forçá-los a cair em armadilhas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Contra-atacando Arquétipos de Heróis">
+
+Os heróis vêm em várias classes, cada uma com forças específicas. À medida que avança neste **guia do iniciante de Be The Final Boss**, você encontrará \"Grupos de Heróis\" mais complexos que usam táticas reais. Você deve adaptar suas defesas com base na composição do grupo que está se aproximando da sua masmorra no momento.
+
+| Classe do Herói | Nível de Ameaça | Força Principal | Melhor Contra-ataque |
+| :--- | :--- | :--- | :--- |
+| **Paladino** | Alto | Alta Defesa / Cura | **Armadilhas de Dano Real** |
+| **Arqueiro** | Médio | Alto Dano Explosivo / Desarmar Armadilhas | **Sentinelas de Detecção** |
+| **Mago** | Máximo | Dano massivo em Área (AOE) | **Totens de Silêncio** |
+| **Patrulheiro** | Baixo | Ataques à Distância com Recuo | **Lacaios de Aproximação Rápida** |
+| **Bardo** | Médio | Melhorias para todo o grupo | **Foco de Ataque / Assassinos** |
+
+<Callout type="success" title="Tática Avançada">
+Se você vir um grupo com dois curadores, foque todas as suas armadilhas na entrada. Se os curadores ficarem sem Mana nas três primeiras salas, o resto do grupo cairá facilmente nos andares intermediários.
+</Callout>
+
+### Tipos de Armadilhas Essenciais para o Início do Jogo
+
+Para deter esses heróis de forma eficaz, você precisa de um arsenal diversificado. Não dependa apenas de um único tipo de dano.
+
+| Nome da Armadilha | Tipo de Dano | Efeito Especial | Custo |
+| :--- | :--- | :--- | :--- |
+| **Dama de Ferro** | Físico | Sangramento (Dano por Tempo) | 150 de Ouro |
+| **Runa de Gelo** | Mágico | 40% de Lentidão de Movimento | 200 de Ouro |
+| **Tanque de Ácido** | Corrosivo | Destruição de Armadura | 250 de Ouro |
+| **Bobina de Tesla** | Elétrico | Atordoamento em Cadeia | 400 de Ouro |
+
+</Section>
+
+<Section icon={Sparkles} title="Gerenciamento de Recursos e Melhorias">
+
+A eficiência é a chave para a sobrevivência a longo prazo. Você estará constantemente lidando com várias moedas. Gastar muito com lacaios e negligenciar a pesquisa de armadilhas deixará você vulnerável a heróis de alta mobilidade que podem contornar seus guardas.
+
+| Moeda | Fonte Principal | Melhor Uso |
+| :--- | :--- | :--- |
+| **Minério Sombrio** | Salas de Mineração | Subir Nível das Salas |
+| **Fragmentos de Alma** | Mortes de Heróis | Árvore de Habilidades do Chefe |
+| **Escritos Antigos** | Missões do Chefe | Projetos de Armadilhas |
+| **Tributo** | Missões de Lacaios | Recrutamento de Unidades Raras |
+
+<Callout type="info" title="Prioridade de Melhoria">
+Sempre aprimore sua **Capacidade de Lacaios** primeiro. Ter mais corpos no andar geralmente é melhor do que ter uma única unidade ligeiramente mais forte nos estágios iniciais do jogo.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Objetivos de Curto Prazo">
+    - Desbloquear o **Laboratório de Alquimia** para criação de poções.
+    - Alcançar o Nível 10 com seu Chefe principal.
+    - Garantir pelo menos 3 andares de defesa.
+  </Card>
+  <Card title="Objetivos de Longo Prazo">
+    - Pesquisar projetos de **Armadilhas Lendárias**.
+    - Maximizar o ramo de \"Medo\" na árvore de habilidades.
+    - Derrotar o chefe de incursão \"Rei Herói\".
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Progressão e Perguntas Frequentes">
+
+Para garantir que você continue no caminho para se tornar a entidade mais temida do reino, use esta lista de verificação diária para gerenciar o crescimento da sua masmorra.
+
+<Checklist
+  id="daily-boss-tasks"
+  title="Manutenção Diária da Masmorra:"
+  items={[
+    "Coletar o Ouro acumulado do Tesouro",
+    "Verificar a composição do Grupo de Heróis na aba 'Chegando'",
+    "Aprimorar pelo menos uma armadilha para o próximo Nível",
+    "Atribuir lacaios ociosos para missões de 'Vasculhar'",
+    "Revisar a Árvore de Habilidades do Chefe em busca de pontos disponíveis"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Qual é o erro mais comum para iniciantes em Be The Final Boss?",
+    answer: "O erro mais comum é gastar todo o Ouro em lacaios de alto nível logo no início. Armadilhas de nível baixo costumam ser mais econômicas e eficientes para lidar com os grupos de heróis do início do jogo."
+  },
+  {
+    question: "Como faço para aumentar minha Infâmia rapidamente?",
+    answer: "A Infâmia aumenta naturalmente à medida que você derrota heróis. Para acelerar esse processo, você pode construir 'Santuários de Infâmia', que atraem heróis mais fortes, mas fornecem saques significativamente melhores."
+  },
+  {
+    question: "Posso mudar meu Arquétipo de Chefe mais tarde no jogo?",
+    answer: "Não, a escolha do arquétipo é permanente para aquele arquivo de salvamento. No entanto, você pode desbloquear habilidades de outras classes através do sistema de 'Prestígio' no final do jogo."
+  },
+  {
+    question: "Qual lacaio é o melhor para defender o Núcleo?",
+    answer: "O 'Cavaleiro Abissal' é amplamente considerado o melhor defensor do núcleo devido ao seu alto HP e à capacidade de provocar todos os heróis próximos simultaneamente."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+Lembre-se, como o chefe final, o tempo está do seu lado. Os heróis precisam ter sucesso em sua invasão apenas uma vez para vencer, mas você só precisa vencer uma vez para acabar com a jornada deles. Jogue defensivamente e deixe a masmorra fazer o trabalho por você.
+</Callout>
+
+</Section>

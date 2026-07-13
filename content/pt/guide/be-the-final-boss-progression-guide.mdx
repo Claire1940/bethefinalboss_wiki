@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Progressão de Seja o Chefe Final: Builds Meta e Estratégias",
+  description: "Domine a rota de progressão definitiva em Seja o Chefe Final. Aprenda distribuições de atributos ideais, marcos de equipamentos e estratégias de chefes para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Progression+Guide",
+  date: "2026-07-13",
+  author: "Equipe do Wiki de Seja o Chefe Final"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Siga este **guia de progressão de Seja o Chefe Final** para otimizar sua build, desbloquear equipamentos de tier alto e derrotar chefes de fim de jogo com eficiência.
+- **Prioridade de Atributos**: Foque bastante em atributos ofensivos no início, fazendo a transição para regeneração de vida e escudos defensivos em confrontos de fim de jogo.
+- **Marcos de Equipamento**: Melhore suas armas em limites de nível importantes e utilize bônus de conjunto para superar mecânicas difíceis de chefes.
+- **Estratégia de Combate**: Aprenda os padrões de ataque dos chefes, domine o tempo das suas esquivas e economize suas habilidades supremas para as fases de escudo.
+</Callout>
+
+<Section icon={Map} title="Visão Geral da Progressão Principal">
+
+Para navegar com sucesso no ciclo de fim de jogo, seguir um **guia de progressão de Seja o Chefe Final** estruturado é essencial. A progressão é dividida em três fases distintas: preparação no início do jogo, consolidação no meio do jogo e maestria no fim do jogo. Equilibrar suas capacidades ofensivas com utilitários defensivos é a chave para sobreviver às fases de alto dano dos chefes.
+
+| Fase | Intervalo de Nível | Foco Principal | Desbloqueio Chave |
+|---|---|---|---|
+| Início do Jogo | Níveis 1-30 | Conclusão da campanha, desbloqueio de habilidades básicas | Arma Lendária do Tier 1 |
+| Meio do Jogo | Níveis 31-60 | Otimização de atributos, farm de bônus de conjunto | Conjunto de Acessórios Míticos |
+| Fim do Jogo | Níveis 61-100 | Raides de chefes, min-maxing de rolagens de atributos | Conjunto de Tier do Chefe Final |
+
+<Callout type="tip" title="Dica de Progressão">
+Não negligencie a regeneração de vida na sua build de meio de jogo. Muitos chefes de fim de jogo apresentam dano contínuo de alta frequência que não pode ser totalmente evitado com esquivas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds de Classe e Distribuição de Atributos">
+
+Escolher o caminho de build correto determina a suavidade da sua transição entre os tiers de progressão. Diferentes estilos de jogo exigem prioridades de atributos distintas para maximizar o dano causado e manter a sobrevivência.
+
+<CardGrid cols={3}>
+  <Card title="Build de Canhão de Vidro">
+    - **Alto dano causado**
+    - Focado em Taxa Crítica e Dano Crítico
+    - Requer tempo preciso de esquiva
+  </Card>
+  <Card title="Build de Tank de Sustentação">
+    - **Alta sobrevivência**
+    - Prioriza Regeneração de Vida e Escudos
+    - Extremamente amigável para iniciantes
+  </Card>
+  <Card title="Build Híbrida Equilibrada">
+    - **Táticas flexíveis**
+    - Mistura equilibrada de redução de tempo de recarga e defesa
+    - Adaptável à maioria das mecânicas de chefes
+  </Card>
+</CardGrid>
+
+| Tipo de Build | Atributo Principal | Atributo Secundário | Atributo Utilitário | Desempenho |
+|---|---|---|---|---|
+| Canhão de Vidro | Poder de Ataque | Taxa Crítica | Redução de Tempo de Recarga | ★★★★☆ |
+| Tank de Sustentação | Vida Máxima | Regen. de Vida | Força do Escudo | ★★★★★ |
+| Híbrido Equilibrado | Poder de Ataque | Vida Máxima | Recarga de Esquiva | ★★★★☆ |
+
+<Callout type="warning" title="Aviso de Atributos">
+Alocar pontos excessivos em dano puro sem garantir pelo menos uma fonte de geração de escudo tornará os chefes de fim de jogo extremamente difíceis de derrotar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progressão Passo a Passo da Campanha">
+
+Siga este roteiro sistemático para avançar pela campanha e desbloquear o conteúdo de fim de jogo sem bater em barreiras de progressão.
+
+<Steps>
+  <Step num="1" title="Complete os Capítulos da Campanha Principal">
+    Foque inteiramente nas missões principais para desbloquear recursos essenciais, slots de habilidades e conjuntos de equipamentos básicos. Evite farmar atividades secundárias até que a campanha principal esteja concluída.
+  </Step>
+  <Step num="2" title="Farme Conjuntos de Masmorra de Tier Médio">
+    Assim que a campanha estiver concluída, foque em masmorras adequadas ao seu nível para adquirir conjuntos completos de equipamentos. Os bônus de conjunto correspondentes fornecem multiplicadores massivos de atributos.
+  </Step>
+  <Step num="3" title="Otimize as Rolagens de Atributos nos Equipamentos">
+    Use criação de recursos para rolar novamente os atributos secundários de seus equipamentos. Priorize Taxa Crítica, Regeneração de Vida e Eficiência de Escudo.
+  </Step>
+  <Step num="4" title="Conquiste os Chefes de Fim de Jogo">
+    Desafie os chefes do tier final para obter armas de alto nível e os materiais necessários para realizar a quebra de limite de seus equipamentos.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Informações de Marco">
+A conclusão do Passo 2 desbloqueia o sistema de raides diárias, que é a fonte mais consistente de materiais de aprimoramento no jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Chefes e Estratégias de Sobrevivência">
+
+Os chefes de fim de jogo utilizam mecânicas complexas que exigem reações rápidas e posicionamento estratégico. Entender como lidar com fases específicas de ataque é crucial para derrotá-los com facilidade.
+
+| Mecânica do Chefe | Nível de Perigo | Contra-estratégia | Ferramenta Recomendada |
+|---|---|---|---|
+| Escudo de Proteção | Alto | Use habilidades supremas para quebrar a proteção rapidamente | Habilidades de alto dano explosivo (burst) |
+| Ondas de Choque | Médio | Marque o tempo de suas esquivas ou pule sobre os anéis em expansão | Redução de recarga de esquiva |
+| Ataques de Repulsão | Médio | Posicione-se longe de perigos ambientais | Imunidade a controle de grupo |
+| Dano por Tempo | Alto | Mantenha regeneração de vida ativa e escudos | Poções de Vida / Escudos |
+
+<Callout type="success" title="Dica de Combate">
+Quando um chefe conjura um Escudo de Proteção, ele geralmente se torna imune a danos normais. Foque todas as suas habilidades de recarga longa e habilidades supremas exclusivamente em quebrar o escudo para atordoar o chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Marcos de Progressão">
+
+Use esta lista para acompanhar o desenvolvimento do seu personagem conforme você avança pelo conteúdo de fim de jogo.
+
+<Checklist
+  id="final-boss-milestones"
+  title="Objetivos de Fim de Jogo:"
+  items={[
+    "Alcançar o Nível 100 do Personagem",
+    "Adquirir um conjunto completo de Equipamento Mítico de Tier 5",
+    "Desbloquear todos os nós da árvore de habilidades passivas",
+    "Concluir com sucesso a raide do chefe final solo",
+    "Otimizar os subatributos de equipamentos para a build escolhida"
+  ]}
+/>
+
+<Callout type="tip" title="Dica de Otimização">
+Revise os subatributos dos seus equipamentos semanalmente. Substituir apenas um atributo defensivo baixo por um atributo ofensivo alto pode reduzir drasticamente a duração das lutas contra chefes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Revise estas perguntas frequentes para resolver gargalos de progressão e otimizar seu ciclo de jogo.
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais rápida de subir de nível em Seja o Chefe Final?",
+    answer: "A maneira mais rápida de subir de nível é completando as missões da campanha principal, seguido por masmorras diárias e derrotando chefes de raide que concedem muita EXP."
+  },
+  {
+    question: "Como lidar com chefes que me empurram constantemente?",
+    answer: "Equipe equipamentos que ofereçam resistência a controle de grupo ou use habilidades que concedam estabilidade temporária. Posicionar seu personagem com uma parede atrás também pode evitar grandes distâncias de repulsão."
+  },
+  {
+    question: "A regeneração de vida é melhor do que a geração de escudo?",
+    answer: "Ambos são importantes, mas a geração de escudo é superior para evitar mecânicas de morte instantânea (one-shot), enquanto a regeneração de vida é ideal para se recuperar de danos contínuos de alta frequência."
+  },
+  {
+    question: "Onde posso encontrar os melhores equipamentos do jogo?",
+    answer: "Os melhores equipamentos absolutos caem de raides de fim de jogo de tier alto e confrontos com o chefe final. Você também pode criar e aprimorar equipamentos míticos existentes usando materiais coletados em atividades diárias."
+  }
+]} />
+
+</Section>

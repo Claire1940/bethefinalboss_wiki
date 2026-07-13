@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Controles de Seja o Chefe Final: Guia Completo de Comandos e Configuração",
+  description: "Domine todos os controles de Seja o Chefe Final para PC, Celular e Console. Aprenda os comandos, mecânicas de invocação e configurações ideais de layout.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/581c87/fff?text=Controls+and+Setup+Guide",
+  date: "2026-07-13",
+  author: "Equipe da Wiki de Seja o Chefe Final",
+  keywords: "controles, comandos, roblox, seja o chefe final, guia, pc, mobile, console"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânicas Principais**: Aprenda os **controles padrão de Seja o Chefe Final** em todas as plataformas suportadas para comandar seu exército de lacaios com eficiência.
+- **Suporte de Plataforma**: O jogo suporta totalmente configurações de **PC, Celular e Console** com layouts de interface dedicados.
+- **Ações Essenciais**: Domine as teclas de atalho para invocar lacaios, ativar habilidades de chefe e melhorar a defesa do seu castelo.
+- **Eficiência de Combate**: Otimize seus comandos para alternar armas perfeitamente e posicionar linhas defensivas durante ondas intensas de heróis.
+</Callout>
+
+<Section icon={Map} title="Visão Geral dos Controles de Seja o Chefe Final">
+
+Navegar pelo campo de batalha como um chefe poderoso requer um domínio sólido de suas configurações de comando. Esteja você invocando uma horda de lacaios, melhorando sua árvore de habilidades ou brandindo sua arma principal, conhecer os comandos exatos evita brechas críticas na defesa.
+
+O jogo oferece experiências localizadas e suporte multiplataforma para PC, Celular e Console. Abaixo está o mapeamento principal para a configuração padrão de teclado e mouse, que serve como base para a sobrevivência em ondas altas.
+
+| Ação | Teclado/Mouse (PC) | Controle (Xbox/PlayStation) | Elemento da Interface Móvel |
+|---|---|---|---|
+| **Mover Personagem** | W, A, S, D | Alavanca Esquerda | Joystick Virtual |
+| **Atacar / Usar Arma** | Clique Esquerdo | Gatilho Direito (RT/R2) | Tocar na Tela / Ícone de Ataque |
+| **Menu de Invocação de Lacaio** | Q / Clicar na Interface | D-Pad Esquerda / X | Botão de Invocação de Lacaio |
+| **Menu da Árvore de Habilidades** | Tab / Clicar na Interface | D-Pad Cima / Y | Ícone da Árvore de Habilidades |
+| **Abrir Configurações** | Esc / Clicar na Engrenagem | Botão Menu | Ícone de Engrenagem (Topo-Esquerdo) |
+| **Interagir / Resgatar** | E | Botão X / Quadrado | Botão de Toque Contextual |
+
+<Callout type="tip" title="Dica Profissional">
+Use as teclas de atalho padrão do PC para alternar rapidamente entre os menus durante as ondas de combate ativas. Clicar manualmente nos ícones da interface pode diminuir seu tempo de reação quando unidades heroicas rápidas romperem sua linha de frente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comandos de Combate e Invocação">
+
+O combate neste simulador de tower defense reverso depende de um equilíbrio entre o dano direto do jogador e o posicionamento dos lacaios. Os **controles de Seja o Chefe Final** permitem que você acione invocações imediatamente ao coletar Almas suficientes, garantindo que sua linha de frente nunca fique vazia.
+
+Entender a diferença entre ataques com armas e comandos de posicionamento de lacaios é fundamental para manter sua muralha defensiva.
+
+| Ação de Combate | Comando Principal | Recurso Utilizado | Prioridade de Alvo |
+|---|---|---|---|
+| **Golpe Corpo a Corpo / À Distância** | Clique Esquerdo / RT | Nenhum (Baseado em Cooldown) | Unidade de Herói Mais Próxima |
+| **Invocar Lacaio Corpo a Corpo** | Tecla 1 / Tocar no Ícone | Almas | Posicionamento na Linha de Frente |
+| **Invocar Conjurador à Distância** | Tecla 2 / Tocar no Ícone | Almas | Suporte na Linha de Retaguarda |
+| **Ativar Defesa do Castelo** | Auto-Ativo / Passivas | Moedas (Melhorias) | Área de Efeito |
+
+<Callout type="warning" title="Aviso">
+Não dispare comandos de invocação sem verificar sua contagem de Almas. Ficar sem Almas durante uma onda pesada de heróis deixa você vulnerável se sua linha de frente atual cair.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Invocação Corpo a Corpo">
+    - **Tecla de Atalho**: 1 (PC) / D-Pad Esquerda (Console)
+    - **Melhor para**: Bloquear heróis velozes
+    - **Posicionamento**: Mantenha-os agrupados no gargalo de surgimento
+  </Card>
+  <Card title="Invocação à Distância">
+    - **Tecla de Atalho**: 2 (PC) / D-Pad Direita (Console)
+    - **Melhor para**: DPS constante na retaguarda
+    - **Posicionamento**: Posicione-os com segurança atrás de seus defensores corpo a corpo
+  </Card>
+  <Card title="Habilidades do Chefe">
+    - **Tecla de Atalho**: E (PC) / Botão Superior Direito (Console)
+    - **Melhor para**: Limpar multidões densas
+    - **Posicionamento**: Mire no centro de grandes grupos de heróis
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Configuração de Controles Passo a Passo">
+
+Para garantir que seu layout esteja perfeitamente otimizado para defender seu castelo, siga este passo a passo para ajustar suas configurações e resgatar os códigos de impulso iniciais.
+
+<Steps>
+  <Step num="1" title="Inicie o Jogo e Carregue o Castelo">
+    Abra o aplicativo oficial do Roblox e procure por Seja o Chefe Final. Espere que sua instância de castelo sombrio personalizado carregue completamente antes de tocar em qualquer comando.
+  </Step>
+  <Step num="2" title="Acesse o Menu de Configurações">
+    Localize o ícone de Configurações em forma de engrenagem situado no canto superior esquerdo da tela. Clique ou toque nele para abrir o painel de configuração principal.
+  </Step>
+  <Step num="3" title="Resgate Códigos de Lançamento">
+    Role até o final do menu de Configurações para encontrar o campo dedicado a Códigos. Digite o código de lançamento ativo **betheboss** para receber uma recompensa instantânea de 500 Moedas.
+  </Step>
+  <Step num="4" title="Calibre a Câmera e Sensibilidade">
+    Ajuste o controle deslizante de sensibilidade da câmera no menu de configurações do Roblox para garantir que você possa girar rapidamente e detectar heróis rompendo sua linha defensiva.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sucesso">
+Resgatar o código de lançamento dá a você um impulso imediato de moedas. Gaste essas moedas no menu da Árvore de Habilidades imediatamente para desbloquear aumentos permanentes de atributos antes de iniciar a Onda 1.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégias de Layout Específicas por Plataforma">
+
+O gerenciamento de seus comandos varia muito dependendo do seu dispositivo. Os desenvolvedores adaptaram a interface para suportar múltiplas plataformas, garantindo um desempenho suave, quer você jogue em um desktop, dispositivo móvel ou console.
+
+| Plataforma | Pontos Fortes | Pontos Fracos | Melhor Estratégia de Otimização |
+|---|---|---|---|
+| **PC (Desktop)** | Mira precisa com o mouse, acesso rápido por teclas | Configuração estacionária | Vincule as teclas de invocação próximas ao WASD |
+| **Celular (iOS/Android)** | Portátil, invocação intuitiva por toque | Espaço de tela menor, UI poluída | Mantenha a câmera com zoom out para melhor visão |
+| **Console (Xbox/PS)** | Movimentação confortável, controle analógico | Navegação de menu mais lenta | Utilize atalhos de botões rápidos para os menus |
+
+<Callout type="info" title="Informação Importante">
+Jogadores de console podem usar o cursor virtual pressionando o botão select/touchpad para navegar facilmente em menus de melhoria complexos, como a Árvore de Habilidades e a Loja de Armas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Checklist de Otimização">
+
+Antes de avançar para o modo infinito e tentar sobreviver às ondas de heróis do final do jogo, certifique-se de que seu layout de controle e configurações estejam totalmente preparados.
+
+<Checklist
+  id="controls-optimization"
+  title="Verificação de Controles Pré-Voo:"
+  items={[
+    "Verifique se a movimentação pelo WASD ou joystick virtual parece responsiva",
+    "Teste a velocidade do comando de ataque com sua arma inicial",
+    "Confirme se as teclas de atalho de invocação de lacaios estão ao alcance confortável",
+    "Resgate o código betheboss para garantir suas 500 Moedas iniciais",
+    "Defina a distância da câmera no máximo para monitorar todas as rotas de entrada do castelo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais são os comandos padrão de teclado no PC para Seja o Chefe Final?",
+    answer: "Os controles padrão do PC usam W, A, S, D para movimentação, Clique Esquerdo para ataques de arma, Q ou as teclas numéricas para invocar lacaios, Tab para abrir a Árvore de Habilidades e Esc para acessar o menu de configurações."
+  },
+  {
+    question: "Posso personalizar as teclas de atalho nas configurações do jogo?",
+    answer: "Atualmente, os mapeamentos de teclas são fixos nos layouts padrão. No entanto, você pode usar softwares de terceiros ou as configurações de acessibilidade integradas do Roblox para remapear as teclas, se necessário."
+  },
+  {
+    question: "Como resgato códigos usando os controles do jogo?",
+    answer: "Abra o menu de Configurações clicando no ícone de engrenagem no canto superior esquerdo, role até o final do menu suspenso, insira seu código no campo de texto e pressione o botão Resgatar."
+  },
+  {
+    question: "O jogo suporta comandos de controle no PC?",
+    answer: "Sim, conectar um controle compatível no PC alternará automaticamente os avisos da interface para corresponder aos layouts padrão de controles de Xbox ou PlayStation."
+  }
+]} />
+
+</Section>

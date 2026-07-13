@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Be The Final Boss: Expert Farming & Progression Guide",
+  description: "Master Be The Final Boss with our expert guide on coin farming, minion tier lists, and strategic skill tree upgrades to defend your castle.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Be+The+Final+Boss+Guide",
+  date: "2026-07-13",
+  author: "be the final boss Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Be The Final Boss** requires efficient resource management to survive endless hero waves.
+- **Coin farming** should focus on upgrading your main weapon and essential Skill Tree nodes.
+- **Minion deployment** is your primary defense; keep your frontline durable and your damage dealers protected.
+- **Redeem current codes** like "betheboss" to gain a significant early-game advantage for your castle defense.
+</Callout>
+
+<Section icon={Target} title="Getting Started with Be The Final Boss">
+
+To succeed in Be The Final Boss, you must balance your personal combat power with your minion army's effectiveness. The game centers on defending your castle against increasingly difficult waves of heroes. Start by focusing on stable income and permanent upgrades.
+
+**Video Highlights:**
+- Understanding the core castle defense loop
+- Early-game resource management strategies
+- How to effectively position your character and minions
+
+<YouTubeEmbed videoId="oNgb6rgMdmc" title="Be The Final Boss Gameplay Overview" />
+
+The key to early progression is not spreading your resources too thin. Prioritize upgrading your primary weapon first, as it provides the most consistent damage output against early-wave heroes.
+
+<Callout type="tip">
+Always check the Settings menu to redeem new codes. The code "betheboss" currently provides a vital 500 Coins to kickstart your upgrades.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon and Minion Progression">
+
+Choosing the right gear and army composition determines how far you can push into the endless waves. Use the following tables to evaluate your current inventory and make informed decisions on where to invest your hard-earned Coins and Souls.
+
+| Item Type | Role | Upgrade Priority | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| **Starter Weapon** | Basic Damage | Low | First few waves only |
+| **Main Weapon** | Primary DPS | High | Consistent wave clearing |
+| **Frontline Minion** | Tanking | Medium | Holding enemies at bay |
+| **Caster Minion** | Burst Damage | High | Eliminating elite enemies |
+
+<CardGrid cols={3}>
+  <Card title="Early Game">
+    - Focus on basic weapon upgrades
+    - Summon cheap, durable minions
+    - Prioritize Skill Tree defense nodes
+  </Card>
+  <Card title="Mid Game">
+    - Unlock advanced ranged weapons
+    - Invest in minion damage capacity
+    - Start saving Souls for elite units
+  </Card>
+  <Card title="Late Game">
+    - Max out primary weapon stats
+    - Optimize minion synergy
+    - Focus on high-wave survival
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategy Note">
+A well-leveled weapon is often more effective than multiple low-level weapons. Focus your Coins on one reliable tool to maximize your damage-per-second.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Strategic Skill Tree Builds">
+
+The Skill Tree offers permanent bonuses that apply to every run. Depending on your playstyle, you should tailor your investment to either support your army or enhance your personal survival.
+
+| Build Path | Focus Area | Recommended For |
+| :--- | :--- | :--- |
+| **Balanced** | Player + Minions | New players learning mechanics |
+| **Army Lead** | Minion Damage | Players preferring summon-heavy play |
+| **Tanky Boss** | Castle Defense | High-wave survival specialists |
+
+<Steps>
+  <Step num="1" title="Prioritize Player Power">
+    Early investment in character damage allows you to clear stragglers that break through your minion line.
+  </Step>
+  <Step num="2" title="Enhance Minion Durability">
+    Once your personal damage is sufficient, upgrade minion health to ensure your frontline lasts longer against boss waves.
+  </Step>
+  <Step num="3" title="Fortify Castle Defense">
+    Spend remaining Coins on castle HP to provide a safety net for when enemies inevitably reach your walls.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Resource Warning">
+Avoid dumping all your Souls into new summons without upgrading their stats. A smaller, well-upgraded army is superior to a large, weak one.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Goals and Farming Milestones">
+
+To reach the highest waves, you need a structured approach to farming. Use this checklist to track your progress and ensure you are not missing out on key development areas.
+
+<Checklist
+  id="farming-goals"
+  title="Progression Milestones:"
+  items={[
+    "Redeem all active release codes",
+    "Complete the first 10 waves without castle damage",
+    "Unlock your first Tier 2 minion",
+    "Max out your starting weapon upgrades",
+    "Reach wave 50 in Endless Mode"
+  ]}
+/>
+
+| Currency | Primary Source | Best Spending Focus |
+| :--- | :--- | :--- |
+| **Coins** | Waves & Codes | Skill Tree & Weapon Upgrades |
+| **Souls** | Wave Rewards | Minion Unlocks & Army Strength |
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I redeem codes in Be The Final Boss?",
+    answer: "Open the Settings menu in the top-left corner of your screen, scroll to the bottom to find the Codes section, enter your code, and click Redeem."
+  },
+  {
+    question: "What is the best way to farm Coins?",
+    answer: "Focus on clearing as many waves as possible. The further you progress in a single run, the higher your Coin rewards per wave will be."
+  },
+  {
+    question: "Should I focus on my character or minions?",
+    answer: "Early on, focus on your character's weapon. As you reach mid-game, shift your investment toward minion upgrades to handle the increased enemy density."
+  }
+]} />
+
+</Section>

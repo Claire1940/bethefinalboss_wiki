@@ -10,7 +10,15 @@
       "twitterDescription": "Be The Final Boss Wiki covers working codes, minion guides, weapons, skill tree, Souls, Coins, hero waves, and the latest Roblox updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "minions": "Minions",
+    "weapons": "Weapons",
+    "skills": "Skills",
+    "waves": "Waves",
+    "currencies": "Currencies"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -515,125 +523,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Be The Final Boss Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced minion, weapon, and skill tree strategies for Be The Final Boss on Roblox.",
-      "metaTitle": "Be The Final Boss Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Be The Final Boss guides covering beginner tips, minion tier lists, weapon rankings, skill tree builds, and expert tactics for surviving endless hero waves.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, minion summons, weapon upgrades, and the skill tree system. Learn everything from first steps to advanced castle defense tactics.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "Be The Final Boss Codes",
+      "description": "Latest working Be The Final Boss codes for free Coins and rewards. Redeem active codes and stay updated with tested, working codes.",
+      "metaTitle": "Be The Final Boss Codes - Free Coins & Rewards (July 2026)",
+      "metaDescription": "Redeem the latest working Be The Final Boss codes on Roblox for free Coins and rewards. Updated with tested active codes and clear redemption steps.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Be The Final Boss Codes?",
+      "whatIsDescription": "Be The Final Boss codes are promotional redeem codes released by the developer Apparently Champions that grant free in-game rewards such as Coins. Codes are tied to updates, milestones, and events, so new codes appear as the game grows.",
+      "why": "Why use Be The Final Boss codes?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the minion, weapon, and skill tree systems and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to defend your castle and survive stronger hero waves",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for minion deployment and castle defense"
+        "step1Title": "Free Coins instantly",
+        "step1Description": "Redeeming the active code betheboss grants 500 Coins right away, giving your castle defenses an early boost without grinding.",
+        "step2Title": "Stay ahead of updates",
+        "step2Description": "New codes drop alongside content updates, so checking back regularly ensures you never miss free rewards.",
+        "step3Title": "Tested and working",
+        "step3Description": "Every code is checked before listing, with expired codes clearly marked so you only redeem what actually works."
       },
-      "featured": "Featured & Essential",
+      "featured": "Featured Codes",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Be The Final Boss Guide",
+      "description": "Complete Be The Final Boss beginner guides covering controls, early game route, progression, and trials to master the reverse tower defense boss simulator.",
+      "metaTitle": "Be The Final Boss Guide - Beginner, Controls & Progression",
+      "metaDescription": "Learn how to play Be The Final Boss on Roblox with complete beginner guides, controls, early game routes, progression tips, and full trial walkthroughs.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is the Be The Final Boss guide?",
+      "whatIsDescription": "The Be The Final Boss guide covers everything you need to start strong: core controls, the summon-defend-upgrade loop, early game routing, long-term progression, and trial completion. It is built for new players learning the reverse tower defense boss simulator.",
+      "why": "Why read the Be The Final Boss guide?",
+      "whySteps": {
+        "step1Title": "Master the core loop",
+        "step1Description": "Understand how to summon minions, defend your castle, and survive endless hero waves from your very first match.",
+        "step2Title": "Plan your early game",
+        "step2Description": "Follow a tested early game route that prioritizes the right minions, weapons, and skill tree nodes for fast, stable progression.",
+        "step3Title": "Beat every trial",
+        "step3Description": "Trial walkthroughs break down each challenge so you can clear them efficiently and unlock rewards sooner."
+      },
+      "featured": "Featured Guides",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Be The Final Boss Skill Tree",
-      "description": "Master the Skill Tree upgrade system with node paths, upgrade priorities, and build strategies for permanent boss, minion, and castle power.",
-      "metaTitle": "Be The Final Boss Skill Tree - Upgrade Paths & Builds",
-      "metaDescription": "Master the Be The Final Boss Skill Tree. Learn upgrade paths, node priorities, and build strategies for boosting your boss, minions, and castle defense across every wave.",
-      "categoryLabel": "SKILL TREE",
-      "whatIs": "What is the Skill Tree?",
-      "whatIsDescription": "The Skill Tree is the permanent upgrade system where you spend Coins to unlock nodes that boost your boss, minions, and castle defense. A focused path beats spreading points across every option.",
-      "why": "Why plan your Skill Tree?",
+    "minions": {
+      "title": "Be The Final Boss Minions",
+      "description": "Be The Final Boss minion guides covering tier list, summoning, upgrade costs, abilities, rarity, and team builds to defend your castle.",
+      "metaTitle": "Be The Final Boss Minions - Tier List, Summons & Team Builds",
+      "metaDescription": "Master Be The Final Boss minions with tier lists, summoning guides, upgrade costs, abilities, rarity, and the best team builds for castle defense.",
+      "categoryLabel": "MINIONS",
+      "whatIs": "What are Be The Final Boss minions?",
+      "whatIsDescription": "Minions are the summonable units you deploy to defend your castle against endless hero waves in Be The Final Boss. Each minion has unique abilities, rarity, upgrade costs, and a role in your team composition, making the right lineup essential for survival.",
+      "why": "Why study Be The Final Boss minions?",
       "whySteps": {
-        "step1Title": "Unlock Permanent Power",
-        "step1Description": "Spend Coins on nodes that stay with you across every wave",
-        "step2Title": "Understand Upgrade Paths",
-        "step2Description": "Learn how boss, minion, and castle nodes combine into effective builds",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Reinvest Coins into the highest-value nodes instead of hoarding them"
+        "step1Title": "Build the best team",
+        "step1Description": "Tier lists and team build guides show which minions excel at clearing waves and how to combine them effectively.",
+        "step2Title": "Spend upgrades wisely",
+        "step2Description": "Upgrade cost breakdowns help you prioritize the minions that deliver the most value for your Coins and Souls.",
+        "step3Title": "Unlock and summon faster",
+        "step3Description": "Summoning and rarity guides explain how to get the minions you need and how rarity affects their power."
       },
-      "featured": "Featured & Essential",
+      "featured": "Featured Minions Guides",
+      "all": "All Minions Guides"
+    },
+    "weapons": {
+      "title": "Be The Final Boss Weapons",
+      "description": "Be The Final Boss weapon guides with tier list, upgrade paths, costs, damage stats, and the best early weapons for castle defense.",
+      "metaTitle": "Be The Final Boss Weapons - Tier List, Upgrades & Damage",
+      "metaDescription": "Compare Be The Final Boss weapons with detailed tier lists, upgrade guides, costs, damage stats, and recommended early weapons to dominate every hero wave.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "What are Be The Final Boss weapons?",
+      "whatIsDescription": "Weapons are the player-controlled tools you wield alongside your minions to fight off hero waves in Be The Final Boss. Each weapon has distinct damage, attack speed, range, upgrade costs, and unlock conditions, so choosing and upgrading the right one directly impacts your survivability.",
+      "why": "Why focus on Be The Final Boss weapons?",
+      "whySteps": {
+        "step1Title": "Pick the right weapon",
+        "step1Description": "Tier lists and damage comparisons help you choose weapons that match your playstyle and wave-clear needs.",
+        "step2Title": "Upgrade efficiently",
+        "step2Description": "Upgrade guides and cost breakdowns show which investments deliver the biggest power spike for your resources.",
+        "step3Title": "Start strong",
+        "step3Description": "Best early weapon recommendations get you through the opening waves without wasting Coins on weak options."
+      },
+      "featured": "Featured Weapons Guides",
+      "all": "All Weapons Guides"
+    },
+    "skills": {
+      "title": "Be The Final Boss Skill Tree",
+      "description": "Be The Final Boss skill tree guides covering node paths, skill point farming, best early upgrades, castle upgrades, and player upgrades.",
+      "metaTitle": "Be The Final Boss Skill Tree - Best Upgrades & Point Farming",
+      "metaDescription": "Optimize your Be The Final Boss skill tree with node guides, skill point farming, best early upgrades, castle upgrades, and player upgrade paths.",
+      "categoryLabel": "SKILL TREE",
+      "whatIs": "What is the Be The Final Boss skill tree?",
+      "whatIsDescription": "The skill tree is the long-term progression system in Be The Final Boss where you spend skill points to unlock permanent upgrades for your boss, castle, and player abilities. Choosing the right nodes and order shapes how quickly you scale into later waves.",
+      "why": "Why plan your Be The Final Boss skill tree?",
+      "whySteps": {
+        "step1Title": "Spend skill points smartly",
+        "step1Description": "Skill point farming and best early upgrade guides ensure you always have points ready and invest them where they matter most.",
+        "step2Title": "Strengthen your castle",
+        "step2Description": "Castle upgrade paths show how to reinforce defenses so your base survives longer against stronger hero waves.",
+        "step3Title": "Power up your player",
+        "step3Description": "Player upgrade routes improve your personal combat impact, letting you carry fights your minions alone would lose."
+      },
+      "featured": "Featured Skill Tree Guides",
       "all": "All Skill Tree Guides"
     },
-    "items": {
-      "title": "Be The Final Boss Weapons & Minions",
-      "description": "Detailed guides covering weapons, minions, summon costs, and upgrade paths with practical usage tips for every wave.",
-      "metaTitle": "Be The Final Boss Weapons & Minions - Tools, Units & Gear Guide",
-      "metaDescription": "Complete database for Be The Final Boss including weapons, minions, summon costs, and upgrade paths. Learn how to use every weapon and minion effectively.",
-      "categoryLabel": "WEAPONS & MINIONS",
-      "whatIs": "What are Weapons & Minions?",
-      "whatIsDescription": "Comprehensive guides for weapons and minions. Learn upgrade priorities, summon costs, and optimal combinations for defending your castle.",
-      "why": "Why check weapon and minion guides?",
+    "waves": {
+      "title": "Be The Final Boss Waves",
+      "description": "Be The Final Boss wave guides covering survival strategy, wave-by-wave tactics, boss waves, castle defense, hero waves, and reaching the highest wave.",
+      "metaTitle": "Be The Final Boss Waves - Survival, Boss & Hero Wave Guides",
+      "metaDescription": "Survive endless hero waves in Be The Final Boss with wave guides, survival strategies, boss wave tactics, castle defense, and highest wave runs.",
+      "categoryLabel": "WAVES",
+      "whatIs": "What are Be The Final Boss waves?",
+      "whatIsDescription": "Waves are the endless stages of heroes that assault your castle in Be The Final Boss. Each wave grows harder, introducing stronger enemies, boss encounters, and mounting pressure. Learning wave patterns, enemy types, and defense strategies is the key to pushing your highest wave.",
+      "why": "Why learn Be The Final Boss wave strategy?",
       "whySteps": {
-        "step1Title": "Learn Upgrade Paths",
-        "step1Description": "Discover how to upgrade weapons and summon the right minions for each wave",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best weapons and minions for your progression stage",
-        "step3Title": "Improve Defense",
-        "step3Description": "Equip the right mix of frontline and damage minions to protect your castle"
+        "step1Title": "Survive longer",
+        "step1Description": "Survival strategy and wave-by-wave guides help you anticipate danger and adapt your minion lineup as pressure increases.",
+        "step2Title": "Counter boss waves",
+        "step2Description": "Boss wave breakdowns reveal how to handle high-threat enemies before they break your defenses.",
+        "step3Title": "Push your highest wave",
+        "step3Description": "Castle defense and endurance tactics give you the framework to break your personal best and climb the leaderboards."
       },
-      "featured": "Featured & Essential",
-      "all": "All Weapons & Minions"
+      "featured": "Featured Waves Guides",
+      "all": "All Waves Guides"
     },
-    "biomes": {
-      "title": "Be The Final Boss Waves & Enemies",
-      "description": "Explore hero waves, enemy types, attack patterns, and survival tips for each stage of Be The Final Boss.",
-      "metaTitle": "Be The Final Boss Waves & Enemies - Hero Wave Survival Guide",
-      "metaDescription": "Explore Be The Final Boss hero waves, enemy types, attack patterns, and survival strategies. Find out what to expect and how to prepare for each wave.",
-      "categoryLabel": "WAVES & ENEMIES",
-      "whatIs": "What are Waves?",
-      "whatIsDescription": "Guides to hero waves, enemy types, attack patterns, and danger moments. Learn what to expect and how to prepare your minion army for each stage.",
-      "why": "Why study waves?",
+    "currencies": {
+      "title": "Be The Final Boss Currencies",
+      "description": "Be The Final Boss currency guides covering Coins and Souls farming, spending priority, and reward sources to maximize your resources.",
+      "metaTitle": "Be The Final Boss Currencies - Coins & Souls Farming Guide",
+      "metaDescription": "Learn to farm and spend Coins and Souls efficiently in Be The Final Boss with farming routes, spending priority guides, and full currency reward breakdowns.",
+      "categoryLabel": "CURRENCIES",
+      "whatIs": "What are Be The Final Boss currencies?",
+      "whatIsDescription": "Currencies in Be The Final Boss are the resources you earn and spend to grow stronger, primarily Coins and Souls. Coins fund minions, weapons, and castle upgrades, while Souls unlock advanced upgrades. Knowing how to farm and prioritize spending is essential for steady progression.",
+      "why": "Why manage Be The Final Boss currencies?",
       "whySteps": {
-        "step1Title": "Find Weaknesses",
-        "step1Description": "Locate enemy patterns and breakpoints specific to each wave",
-        "step2Title": "Avoid Breakthroughs",
-        "step2Description": "Understand which heroes threaten your castle and how to stop them",
-        "step3Title": "Plan Defense",
-        "step3Description": "Prepare the right minion mix and boss positioning for each wave"
+        "step1Title": "Farm faster",
+        "step1Description": "Coins and Souls farming guides reveal the most efficient routes to stock up without wasting time.",
+        "step2Title": "Spend in the right order",
+        "step2Description": "Spending priority guides show which upgrades deliver the most value early so you never waste resources.",
+        "step3Title": "Maximize rewards",
+        "step3Description": "Currency reward breakdowns help you claim every source of income, from codes to wave milestones."
       },
-      "featured": "Featured & Essential",
-      "all": "All Waves & Enemies Guides"
-    },
-    "building": {
-      "title": "Be The Final Boss Castle Defense",
-      "description": "Master minion deployment, boss positioning, upgrade timing, and castle defense techniques for surviving endless hero waves.",
-      "metaTitle": "Be The Final Boss Castle Defense - Deployment & Survival Guide",
-      "metaDescription": "Master Be The Final Boss castle defense with minion deployment, boss positioning, upgrade timing, and survival techniques for endless hero waves.",
-      "categoryLabel": "CASTLE DEFENSE",
-      "whatIs": "What is Castle Defense?",
-      "whatIsDescription": "Guides to minion deployment, boss positioning, upgrade timing, and castle defense. Learn to hold the line and survive endless hero waves.",
-      "why": "Why plan your defense?",
-      "whySteps": {
-        "step1Title": "Hold the Line",
-        "step1Description": "Establish a layered minion front so heroes never reach your castle",
-        "step2Title": "Manage Resources",
-        "step2Description": "Time upgrades and summons so each wave starts stronger",
-        "step3Title": "Survive Longer",
-        "step3Description": "Build a defense that scales into the highest waves"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Castle Defense Guides"
-    },
-    "support": {
-      "title": "Be The Final Boss Updates & Support",
-      "description": "Patch notes, new codes, balance changes, and troubleshooting for Be The Final Boss on Roblox across Desktop, Mobile, and Console.",
-      "metaTitle": "Be The Final Boss Updates & Support - Patch Notes & Help",
-      "metaDescription": "Get Be The Final Boss updates, new codes, patch notes, balance changes, and troubleshooting help for Desktop, Mobile, and Console on Roblox.",
-      "categoryLabel": "UPDATES & SUPPORT",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Guides covering new codes, minions, weapons, balance changes, and troubleshooting. Stay current with the latest Be The Final Boss updates and fixes.",
-      "why": "Why follow updates?",
-      "whySteps": {
-        "step1Title": "Catch New Codes",
-        "step1Description": "Redeem new codes as soon as they are released",
-        "step2Title": "Track Balance Changes",
-        "step2Description": "See how minion, weapon, and skill tree tuning affects your build",
-        "step3Title": "Platform Help",
-        "step3Description": "Resolve issues on Desktop, Mobile, and Console"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Updates & Support Articles"
+      "featured": "Featured Currencies Guides",
+      "all": "All Currencies Guides"
     }
   }
 }

@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "be the final boss wave guide: 2026 Strategy for Infinite Survival",
+  description: "Master the be the final boss wave guide with our expert strategies on build optimization, hero counter-tactics, and resource management for high-level waves.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Wave+Survival+Guide",
+  date: "2026-07-13",
+  author: "be the final boss Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **be the final boss wave guide**: Focus on balancing Area of Effect (AoE) damage with single-target burst to handle scaling hero health.
+- **Priority Upgrades**: Invest early in health regeneration and cooldown reduction to sustain through relentless mid-game waves.
+- **Hero Counters**: Identify Mage and Archer archetypes early, as they deal the most consistent damage from a distance.
+- **Resource Cycling**: Use your active abilities during the peak of a wave rather than at the start to maximize efficiency.
+- **Build Diversity**: Switch between defensive and offensive stances based on the Wave Boss spawns occurring every ten levels.
+</Callout>
+
+<Section icon={Map} title="Understanding Wave Mechanics and Scaling">
+
+In the 2026 meta, the **be the final boss wave guide** begins with a fundamental understanding of how hero waves scale over time. Unlike traditional tower defense games, you are the stationary or semi-mobile target that must withstand incoming "heroes" who attempt to deplete your health bar. Waves consist of multiple phases, usually starting with light scouts and ending with elite squads or mini-bosses.
+
+The scaling in be the final boss is exponential. Every five waves, hero health increases by approximately 15%, while their damage output sees a sharp spike every ten waves. Understanding this rhythm allows you to time your upgrades effectively.
+
+| Wave Bracket | Enemy Density | Difficulty Spike | Primary Threat |
+| :--- | :--- | :--- | :--- |
+| 1-10 | Low | 1/5 | Basic Swordsmen |
+| 11-25 | Moderate | 2/5 | Ranged Archers |
+| 26-50 | High | 4/5 | Magic Casters |
+| 51-100 | Extreme | 5/5 | Paladin Tanks |
+| 101+ | Infinite | Scaling | Mixed Elite Squads |
+
+<Callout type="success" title="Early Game Tip">
+During the first ten waves, focus purely on damage output. Heroes at this stage have very low health, and "one-shotting" them prevents any chip damage from accumulating on your boss health bar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hero Archetypes and Counter Strategies">
+
+To successfully implement a **be the final boss wave guide**, you must recognize that not all heroes are created equal. The game categorizes attackers into distinct archetypes, each requiring a different tactical response from you as the boss. 
+
+Archers and Mages are the most dangerous because they can kite you or stay outside your primary melee range. Conversely, Knights and Paladins are designed to soak up your damage while the backline chips away at your health.
+
+| Hero Class | Behavior | Threat Level | Counter Strategy |
+| :--- | :--- | :--- | :--- |
+| Knight | Melee, High HP | Medium | AoE Ground Slams |
+| Archer | Ranged, Fast Attack | High | Projectile Reflection |
+| Mage | Ranged, Burst AoE | Very High | Gap Closers / Stuns |
+| Assassin | Stealth, High Crit | Medium | Aura Damage |
+| Paladin | Support, Healing | High | Focus Fire / Silence |
+
+<CardGrid cols={3}>
+  <Card title="Melee Defense">
+    - **Ground Slam**: Essential for clearing Knight swarms.
+    - **Thorn Armor**: Reflects percentage damage back to attackers.
+    - **Knockback**: Keeps heavy hitters at bay.
+  </Card>
+  <Card title="Ranged Mitigation">
+    - **Shield Dome**: Blocks incoming projectiles for 5 seconds.
+    - **Chain Lightning**: Hits backline Mages instantly.
+    - **Speed Buff**: Allows you to close the distance quickly.
+  </Card>
+  <Card title="Sustain Tactics">
+    - **Life Steal**: Heals based on total damage dealt.
+    - **Regen Aura**: Passive health recovery between waves.
+    - **Invulnerability**: Critical for surviving Wave 100+ bursts.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Tactical Insight">
+Always target Paladins first. Their ability to heal the entire hero squad can turn a 30-second wave into a 2-minute struggle, significantly increasing the risk of your defeat.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Progression Guide">
+
+Navigating through the waves requires a structured approach to your boss evolution. Follow these steps to ensure your build remains viable as the difficulty ramps up.
+
+<Steps>
+  <Step num="1" title="Initial Power Spike">
+    Spend your first 500 Gold on increasing your primary attack range. In the early waves, being able to hit heroes before they reach you is the best form of defense.
+  </Step>
+  <Step num="2" title="Ability Synchronization">
+    By Wave 20, unlock your first two active abilities. We recommend a combination of a "Pull" mechanic and a "Burst" mechanic to group heroes and delete them simultaneously.
+  </Step>
+  <Step num="3" title="Defensive Transition">
+    Around Wave 50, heroes will start surviving your initial burst. Transition your upgrade focus toward Health and Damage Reduction. A "Glass Cannon" build rarely survives past Wave 60.
+  </Step>
+  <Step num="4" title="Elite Mastery">
+    At Wave 80+, you will face "Hero Leaders." These units have unique mechanics like stun immunity. Save your ultimate ability specifically for these encounters.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Warning">
+Do not neglect your Cooldown Reduction (CDR) stat. In high-level waves, your survival depends entirely on the uptime of your defensive shields and crowd-control abilities.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimal Ability Tier List for Wave Clearing">
+
+Not all skills in be the final boss are effective for infinite wave pushing. Some skills excel at single-target boss fights but fail when faced with fifty heroes at once. Use this tier list to prioritize your skill points.
+
+| Tier | Skill Name | Effect Type | Why it Ranks Here |
+| :--- | :--- | :--- | :--- |
+| **S** | Abyssal Void | Black Hole / CC | Groups all enemies for easy AoE cleanup. |
+| **S** | Meteor Rain | Massive AoE | Highest total damage output per second. |
+| **A** | Frost Nova | Freeze / Slow | Essential for managing high-speed Assassins. |
+| **A** | Vampiric Touch | Sustain / Heal | Necessary for recovering health mid-wave. |
+| **B** | Dragon Breath | Directional DPS | Good damage but leaves your back exposed. |
+| **C** | Single Strike | Single Target | Only useful for the final boss of a wave. |
+
+<Callout type="tip" title="Combo Recommendation">
+The "Abyssal Void" into "Meteor Rain" combo is the gold standard for high-wave survival. It maximizes your damage-per-mana ratio and clears the screen in seconds.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Checklist and Preparation">
+
+Before you attempt a deep run into the infinite waves, ensure you have checked the following requirements. Preparation is just as important as execution in any **be the final boss wave guide**.
+
+<Checklist
+  id="wave-prep"
+  title="Pre-Run Requirements:"
+  items={[
+    "Equip at least one sustain-based passive (Life Steal or Regen)",
+    "Verify that your Cooldown Reduction is at least 30%",
+    "Set your auto-target priority to 'Lowest HP' or 'Ranged First'",
+    "Check for any active 'Codes' to boost your starting currency",
+    "Ensure your primary AoE skill is leveled to at least Rank 5"
+  ]}
+/>
+
+<Callout type="info" title="Resource Management">
+Currency earned during waves should be reinvested immediately. Holding onto large amounts of gold provides no benefit and actually makes you weaker relative to the scaling heroes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to use the be the final boss wave guide for beginners?",
+    answer: "Beginners should focus on the 'Tank' build early on. By increasing your total HP and Armor, you allow yourself more room for error while learning the movement patterns of different hero classes."
+  },
+  {
+    question: "How do I deal with heroes that stay out of my range?",
+    answer: "You must invest in either 'Gap Closer' abilities like Dash/Teleport or 'Ranged Skills' like Chain Lightning. Projectile Reflection is also an excellent passive way to deal with distant Archers."
+  },
+  {
+    question: "When should I reset my progress for better stats?",
+    answer: "In be the final boss, you should look to 'Prestige' or reset when your wave progress slows down significantly (e.g., taking more than 3 minutes to clear a single wave). This will grant you permanent multipliers."
+  },
+  {
+    question: "Does the difficulty ever stop scaling?",
+    answer: "No, the waves are designed to be infinite. However, the rewards also scale, allowing you to reach power levels that were previously impossible."
+  }
+]} />
+
+</Section>

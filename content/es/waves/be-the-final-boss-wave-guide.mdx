@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de oleadas de Sé el jefe final: Estrategia 2026 para la supervivencia infinita",
+  description: "Domina la guía de oleadas de Sé el jefe final con nuestras estrategias expertas sobre optimización de builds, tácticas de contraataque contra héroes y gestión de recursos para oleadas de alto nivel.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Wave+Survival+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Sé el jefe final"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de oleadas de Sé el jefe final**: Concéntrate en equilibrar el daño de área de efecto (AoE) con el daño de ráfaga a un solo objetivo para lidiar con la salud progresiva de los héroes.
+- **Mejoras prioritarias**: Invierte pronto en regeneración de salud y reducción de enfriamiento para resistir las implacables oleadas a mitad de partida.
+- **Contrarrestar héroes**: Identifica temprano a los arquetipos de mago y arquero, ya que infligen el daño más constante desde la distancia.
+- **Rotación de recursos**: Usa tus habilidades activas durante el pico de una oleada en lugar de al principio para maximizar la eficiencia.
+- **Diversidad de builds**: Cambia entre posturas defensivas y ofensivas según los jefes de oleada que aparecen cada diez niveles.
+</Callout>
+
+<Section icon={Map} title="Comprender las mecánicas de oleadas y su progresión">
+
+En el meta de 2026, la **guía de oleadas de Sé el jefe final** comienza con una comprensión fundamental de cómo progresan las oleadas de héroes a lo largo del tiempo. A diferencia de los juegos de defensa de torres tradicionales, tú eres el objetivo estático o semi-móvil que debe resistir a los «héroes» entrantes que intentan agotar tu barra de salud. Las oleadas constan de múltiples fases, que generalmente comienzan con exploradores ligeros y terminan con escuadrones de élite o mini-jefes.
+
+La progresión en Sé el jefe final es exponencial. Cada cinco oleadas, la salud de los héroes aumenta aproximadamente un 15%, mientras que su daño infligido sufre un fuerte pico cada diez oleadas. Comprender este ritmo te permite planificar tus mejoras de manera efectiva.
+
+| Rango de oleadas | Densidad de enemigos | Pico de dificultad | Amenaza principal |
+| :--- | :--- | :--- | :--- |
+| 1-10 | Baja | 1/5 | Espadachines básicos |
+| 11-25 | Moderada | 2/5 | Arqueros a distancia |
+| 26-50 | Alta | 4/5 | Lanzadores de magia |
+| 51-100 | Extrema | 5/5 | Paladines tanque |
+| 101+ | Infinita | Progresiva | Escuadrones de élite mixtos |
+
+<Callout type="success" title="Consejo para el juego temprano">
+Durante las primeras diez oleadas, concéntrate únicamente en el daño infligido. Los héroes en esta etapa tienen muy poca salud, y eliminarlos de un solo golpe evita que se acumule daño residual en tu barra de salud de jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquetipos de héroes y estrategias de contraataque">
+
+Para implementar con éxito una **guía de oleadas de Sé el jefe final**, debes reconocer que no todos los héroes son iguales. El juego clasifica a los atacantes en distintos arquetipos, y cada uno requiere una respuesta táctica diferente por tu parte como jefe.
+
+Los arqueros y los magos son los más peligrosos porque pueden atacarte a distancia o mantenerse fuera de tu alcance cuerpo a cuerpo principal. Por el contrario, los caballeros y los paladines están diseñados para absorber tu daño mientras la retaguardia reduce tu salud.
+
+| Clase de héroe | Comportamiento | Nivel de amenaza | Estrategia de contraataque |
+| :--- | :--- | :--- | :--- |
+| Caballero | Cuerpo a cuerpo, HP alto | Medio | Golpes contra el suelo en área (AoE) |
+| Arquero | A distancia, ataque rápido | Alto | Reflejo de proyectiles |
+| Mago | A distancia, ráfaga AoE | Muy alto | Habilidades de acercamiento / Aturdimientos |
+| Asesino | Sigilo, crítico alto | Medio | Daño de aura |
+| Paladín | Apoyo, curación | Alto | Fuego concentrado / Silencio |
+
+<CardGrid cols={3}>
+  <Card title="Defensa cuerpo a cuerpo">
+    - **Golpe contra el suelo**: Esencial para limpiar enjambres de caballeros.
+    - **Armadura de espinas**: Refleja un porcentaje del daño de vuelta a los atacantes.
+    - **Empuje**: Mantiene a raya a los enemigos que golpean fuerte.
+  </Card>
+  <Card title="Mitigación a distancia">
+    - **Cúpula de escudo**: Bloquea los proyectiles entrantes durante 5 segundos.
+    - **Cadena de rayos**: Golpea instantáneamente a los magos de la retaguardia.
+    - **Mejora de velocidad**: Te permite acortar la distancia rápidamente.
+  </Card>
+  <Card title="Tácticas de sustento">
+    - **Robo de vida**: Cura en función del daño total infligido.
+    - **Aura de regeneración**: Recuperación pasiva de salud entre oleadas.
+    - **Invulnerabilidad**: Crítica para sobrevivir a las ráfagas a partir de la oleada 100.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Perspectiva táctica">
+Prioriza siempre a los paladines. Su capacidad para curar a todo el escuadrón de héroes puede convertir una oleada de 30 segundos en una lucha de 2 minutos, aumentando significativamente el riesgo de derrota.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de progresión paso a paso">
+
+Progresar a través de las oleadas requiere un enfoque estructurado para la evolución de tu jefe. Sigue estos pasos para asegurarte de que tu build siga siendo viable a medida que aumenta la dificultad.
+
+<Steps>
+  <Step num="1" title="Pico de poder inicial">
+    Gasta tus primeras 500 monedas de oro en aumentar el alcance de tu ataque principal. En las primeras oleadas, poder golpear a los héroes antes de que te alcancen es la mejor defensa.
+  </Step>
+  <Step num="2" title="Sincronización de habilidades">
+    Para la oleada 20, desbloquea tus primeras dos habilidades activas. Recomendamos una combinación de una mecánica de «Atracción» y una de «Ráfaga» para agrupar a los héroes y eliminarlos simultáneamente.
+  </Step>
+  <Step num="3" title="Transición defensiva">
+    Alrededor de la oleada 50, los héroes empezarán a sobrevivir a tu ráfaga inicial. Transiciona tu enfoque de mejoras hacia la salud y la reducción de daño. Una build de «Cañón de cristal» rara vez sobrevive más allá de la oleada 60.
+  </Step>
+  <Step num="4" title="Maestría de élite">
+    En la oleada 80 o superior, te enfrentarás a los «Líderes héroes». Estas unidades tienen mecánicas únicas como la inmunidad al aturdimiento. Reserva tu habilidad definitiva específicamente para estos encuentros.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia crítica">
+No descuides tu estadística de reducción de enfriamiento (CDR). En las oleadas de alto nivel, tu supervivencia depende por completo del tiempo de actividad de tus escudos defensivos y habilidades de control de masas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de niveles de habilidades óptimas para limpiar oleadas">
+
+No todas las habilidades en Sé el jefe final son efectivas para avanzar en las oleadas infinitas. Algunas habilidades destacan en combates contra jefes de un solo objetivo, pero fallan cuando te enfrentas a cincuenta héroes a la vez. Usa esta lista de niveles para priorizar tus puntos de habilidad.
+
+| Nivel | Nombre de habilidad | Tipo de efecto | Por qué está en este rango |
+| :--- | :--- | :--- | :--- |
+| **S** | Vacío abisal | Agujero negro / CC | Agrupa a todos los enemigos para una limpieza AoE fácil. |
+| **S** | Lluvia de meteoros | AoE masivo | El mayor daño total infligido por segundo. |
+| **A** | Nova de escarcha | Congelación / Ralentización | Esencial para controlar asesinos de alta velocidad. |
+| **A** | Toque vampírico | Sustento / Curación | Necesario para recuperar salud a mitad de la oleada. |
+| **B** | Aliento de dragón | DPS direccional | Buen daño, pero deja tu espalda expuesta. |
+| **C** | Golpe único | Objetivo único | Solo útil para el jefe final de una oleada. |
+
+<Callout type="tip" title="Recomendación de combo">
+El combo de «Vacío abisal» seguido de «Lluvia de meteoros» es el estándar de oro para la supervivencia en oleadas altas. Maximiza tu relación de daño por maná y limpia la pantalla en segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación de supervivencia y preparación">
+
+Antes de intentar una incursión profunda en las oleadas infinitas, asegúrate de haber verificado los siguientes requisitos. La preparación es tan importante como la ejecución en cualquier **guía de oleadas de Sé el jefe final**.
+
+<Checklist
+  id="wave-prep"
+  title="Requisitos previos a la partida:"
+  items={[
+    "Equipar al menos una pasiva basada en el sustento (robo de vida o regeneración)",
+    "Verificar que tu reducción de enfriamiento sea de al menos el 30%",
+    "Establecer la prioridad de auto-objetivo en 'HP más bajo' o 'A distancia primero'",
+    "Buscar cualquier 'Código' activo para aumentar tu moneda inicial",
+    "Asegurar que tu habilidad AoE principal esté al menos en el Rango 5"
+  ]}
+/>
+
+<Callout type="info" title="Gestión de recursos">
+La moneda obtenida durante las oleadas debe reinvertirse de inmediato. Conservar grandes cantidades de oro no aporta ningún beneficio y, de hecho, te debilita en relación con el aumento de poder de los héroes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de usar la guía de oleadas de Sé el jefe final para principiantes?",
+    answer: "Los principiantes deben centrarse en la build de 'Tanque' al principio. Al aumentar tu HP total y armadura, te permites un mayor margen de error mientras aprendes los patrones de movimiento de las diferentes clases de héroes."
+  },
+  {
+    question: "¿Cómo lidio con los héroes que se mantienen fuera de mi alcance?",
+    answer: "Debes invertir en habilidades de acercamiento como Desplazamiento/Teletransporte o en habilidades a distancia como Cadena de rayos. El reflejo de proyectiles también es una excelente forma pasiva de lidiar con arqueros lejanos."
+  },
+  {
+    question: "¿Cuándo debo reiniciar mi progreso para obtener mejores estadísticas?",
+    answer: "En Sé el jefe final, debes buscar hacer 'Prestigio' o reiniciar cuando el progreso de tus oleadas se ralentice significativamente (por ejemplo, tardar más de 3 minutos en limpiar una sola oleada). Esto te otorgará multiplicadores permanentes."
+  },
+  {
+    question: "¿Deja de aumentar la dificultad en algún momento?",
+    answer: "No, las oleadas están diseñadas para ser infinitas. Sin embargo, las recompensas también aumentan, lo que te permite alcanzar niveles de poder que antes eran imposibles."
+  }
+]} />
+
+</Section>

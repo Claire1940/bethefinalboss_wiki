@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Melhorias de Castelo em Seja o Chefe Final: Guia de Progressão Estratégica",
+  description: "Domine o sistema de melhorias de castelo de Seja o Chefe Final. Aprenda ordens de construção prioritárias, gestão de recursos e layouts defensivos para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Castle+Upgrades+Guide",
+  date: "2026-07-13",
+  author: "Equipe da Wiki de Seja o Chefe Final"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Prioridade Principal**: Foque primeiro nas **melhorias de castelo de Seja o Chefe Final** que aumentam a geração de recursos para acelerar sua economia.
+- **Estratégia Defensiva**: Priorize **Torretas Multi-alvo** e **Corredores de Armadilhas** para lidar com grandes grupos de heróis invasores.
+- **Gestão de Recursos**: Mantenha uma proporção de 2:1 entre **Minas de Ouro** e **Poços de Mana** para garantir construção constante e conjuração de feitiços.
+- **Metas de Marcos**: Alcance o **Nível de Castelo 10** até o meio do jogo para desbloquear a **Forja Abissal** para a criação de equipamentos avançados.
+- **Layout Ideal**: Use um design de **corredor em padrão Z** para maximizar o tempo que os heróis passam sob o fogo de suas defesas.
+</Callout>
+
+<Section icon={Map} title="Mecânicas Principais das melhorias de castelo de Seja o Chefe Final">
+
+Gerenciar sua fortaleza de forma eficaz requer uma compreensão profunda do sistema de **melhorias de castelo de Seja o Chefe Final**. Neste jogo, seu castelo não é apenas uma base; é uma máquina viva projetada para frustrar heróis e gerar o poder necessário para dominar o reino. O sistema de melhorias é dividido em três ramos principais: Infraestrutura, Defesa e Produção. Cada ramo requer recursos específicos — principalmente Ouro e Mana Sombria — que são colhidos dos próprios heróis que tentam saquear seu santuário.
+
+A progressão do seu castelo determina o nível de monstros que você pode invocar e a complexidade das armadilhas que pode instalar. Sem uma base sólida, até o chefe mais poderoso acabará sucumbindo às ondas implacáveis de aventureiros. Portanto, equilibrar sua expansão com suas capacidades defensivas é a marca registrada de um Lorde das Trevas de sucesso.
+
+| Tipo de Sala | Função Principal | Custo de Recurso | Prioridade de Melhoria |
+| :--- | :--- | :--- | :--- |
+| **Sala do Trono** | Aumenta o Nível total do Castelo e desbloqueia novos níveis | Ouro / Mana | **Alta** |
+| **Cofre de Ouro** | Aumenta a capacidade máxima de armazenamento de Ouro | Ouro | Média |
+| **Poço de Mana** | Gera Mana Sombria ao longo do tempo para feitiços | Mana | **Alta** |
+| **Quartel de Monstros** | Aumenta o número de defensores ativos | Ouro | Média |
+| **Laboratório** | Desbloqueia novos tipos de armadilhas e perigos ambientais | Mana | Baixa (Início) |
+
+<Callout type="tip" title="Dica de Eficiência">
+Sempre melhore seus **Poços de Mana** antes do Laboratório. Ter uma alta velocidade de pesquisa é inútil se você não tiver a Mana necessária para realmente construir as armadilhas que descobrir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fortificações Defensivas e Sinergia de Armadilhas">
+
+Defender seu núcleo é a parte mais interativa da experiência de **melhorias de castelo de Seja o Chefe Final**. À medida que você progride, os heróis trarão curandeiros, tanques e ladinos de alto dano para desmantelar seu trabalho duro. Para combater isso, seu layout defensivo deve ser eficiente. Um erro comum é colocar armadilhas de alto dano isoladamente; em vez disso, você deve focar na sinergia. Por exemplo, desacelerar um herói com um **Chão de Gelo** faz com que ele permaneça no alcance de uma **Armadilha de Dardos Envenenados** pelo dobro do tempo.
+
+A tabela a seguir compara as estruturas defensivas mais eficazes disponíveis no meta de 2026.
+
+| Estrutura de Defesa | Tipo de Dano | Tipo de Alvo | Efeito Especial |
+| :--- | :--- | :--- | :--- |
+| **Armadilha de Espinhos** | Físico | Único | Alta penetração de armadura |
+| **Pilar de Chamas** | Fogo | AOE (Área) | Aplica queimadura por 5 segundos |
+| **Relâmpago em Cadeia** | Arcano | Multi-alvo | Salta entre 3 inimigos |
+| **Fosso de Ácido** | Corrosivo | AOE (Área) | Reduz a defesa física do inimigo |
+| **Totem do Medo** | Psicológico | AOE (Área) | Força os inimigos a recuarem brevemente |
+
+<CardGrid cols={3}>
+  <Card title="O Ponto de Estrangulamento">
+    - **Alta densidade de dano**
+    - Usa armadilhas de área (AOE)
+    - Melhor para heróis de nível baixo
+  </Card>
+  <Card title="O Corredor de Desgaste">
+    - **Venenos de ação lenta**
+    - Focado em debuffs
+    - Eficaz contra tanques de alto HP
+  </Card>
+  <Card title="A Sala de Emboscada">
+    - **Alto dano explosivo**
+    - Usa surgimento de monstros ocultos
+    - Projetado para matar curandeiros primeiro
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Táticas Anti-Herói">
+Cuidado com os heróis da classe "Paladino". Eles podem purificar debuffs como Queimadura e Veneno. Certifique-se de ter pelo menos uma **Armadilha de Espinhos Físicos** em cada sala para causar dano bruto que não pode ser facilmente dissipado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Caminho de Melhoria Passo a Passo para o Início do Jogo">
+
+Navegar nos estágios iniciais do seu reinado pode ser difícil se os recursos forem mal gerenciados. Seguir um caminho estruturado de **melhorias de castelo de Seja o Chefe Final** garante que você permaneça à frente da "Curva de Nível do Herói". Se os heróis que sobem de nível no mundo superarem o nível defensivo do seu castelo, sua partida terminará prematuramente.
+
+<Steps>
+  <Step num="1" title="Estabelecer Economia Básica">
+    Construa e melhore duas **Minas de Ouro** para o Nível 3. Isso fornece o fluxo constante de renda necessário para todas as construções subsequentes. Não gaste Ouro em monstros ainda; confie em suas habilidades básicas de chefe para as duas primeiras ondas.
+  </Step>
+  <Step num="2" title="Desbloquear Armadilhas de Nível 1">
+    Construa o **Laboratório** e pesquise **Espinhos Básicos** e **Paredes de Flechas**. Coloque-os no corredor de entrada para automatizar a defesa contra aventureiros da classe "Novato".
+  </Step>
+  <Step num="3" title="Expandir Armazenamento">
+    Melhore seu **Cofre de Ouro** para o Nível 2. Os limites de ouro no início do jogo são notoriamente baixos, e você não quer desperdiçar recursos coletados de uma defesa bem-sucedida porque seus "bolsos" estão cheios.
+  </Step>
+  <Step num="4" title="Invocar Guarda de Elite">
+    Melhore o **Quartel de Monstros** para o Nível 2 e invoque seu primeiro **Defensor de Elite**. Posicione-o no final do seu corredor de armadilhas para acabar com quaisquer heróis que sobrevivam ao percurso.
+  </Step>
+  <Step num="5" title="Ascensão da Sala do Trono">
+    Assim que suas defesas estiverem estáveis, inicie a melhoria da **Sala do Trono para o Nível 5**. Isso desbloqueará o conteúdo do meio do jogo e a reserva de recursos de **Mana Sombria**.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Marco Alcançado">
+Completar esses cinco passos normalmente o colocará na marca de 20 minutos de uma sessão padrão, com uma economia estável e um perímetro defensável.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Otimização de Recursos e Escalonamento">
+
+À medida que você chega ao meio e fim do jogo, o custo das **melhorias de castelo de Seja o Chefe Final** escala exponencialmente. Uma Parede de Nível 15 pode custar dez vezes mais que uma Parede de Nível 10, mas fornecer apenas 20% mais saúde. Portanto, saber quando parar de melhorar uma sala e começar outra é vital. A eficiência é medida em "Defesa Efetiva por Ouro Gasto".
+
+| Nível de Melhoria | Multiplicador de Custo | Aumento de Atributo | Classificação de Eficiência |
+| :--- | :--- | :--- | :--- |
+| **1-5** | 1.0x | +50% | **Excelente** |
+| **6-10** | 2.5x | +30% | Boa |
+| **11-15** | 5.0x | +15% | Moderada |
+| **16-20** | 10.0x | +10% | **Baixa (Apenas Endgame)** |
+
+<Callout type="info" title="Escalonamento de Mana">
+Ao contrário do Ouro, a **Mana Sombria** não tem um limite rígido de armazenamento. No entanto, sua taxa de geração está ligada ao número de "Santuários Corrompidos" que você mantém. Tente ter um santuário para cada três salas defensivas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégias Avançadas e Checklist">
+
+Para veteranos que buscam maximizar sua eficiência nas **melhorias de castelo de Seja o Chefe Final**, a manipulação ambiental é a próxima fronteira. Usar a melhoria "Fluxo de Lava" no Laboratório permite que você altere o terreno do seu castelo, criando perigos permanentes que não requerem tempo de recarga como as armadilhas tradicionais. Combinar isso com monstros do tipo "Voador" permite que seus defensores ignorem os perigos enquanto os heróis são queimados ou retardados.
+
+<Checklist
+  id="castle-milestones"
+  title="Checklist de Progressão de Endgame:"
+  items={[
+    "Desbloquear o layout 'Corredor Infinito' no Nível de Castelo 20",
+    "Maximizar a 'Regeneração de Mana' na árvore de talentos",
+    "Equipar seu Chefe com o 'Anel do Arquiteto' para custos de construção 15% menores",
+    "Sobreviver a um evento de 'Cruzada de Heróis' sem perder uma única sala",
+    "Alcançar uma taxa de geração de 100.000 de Ouro por minuto"
+  ]}
+/>
+
+<Callout type="tip" title="Conselho do Chefe Final">
+Não se esqueça de melhorar seu **Santuário do Chefe**. Embora seja a última linha de defesa, um Santuário de alto nível fornece bônus passivos para cada monstro no castelo, tornando todo o seu exército mais eficaz.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais melhorias de castelo de Seja o Chefe Final devo comprar primeiro?",
+    answer: "Sempre priorize Minas de Ouro e Poços de Mana. Uma economia forte permite que você se recupere rapidamente se um grupo de heróis conseguir destruir uma sala."
+  },
+  {
+    question: "Como lidar com heróis que ignoram minhas armadilhas?",
+    answer: "Alguns heróis da classe ladino têm alta esquiva. Use 'Perigos de Solo AOE', como Fossos de Ácido ou Pisos de Alcatrão, que não podem ser evitados por mecânicas padrão de esquiva."
+  },
+  {
+    question: "É melhor ter muitas armadilhas de nível baixo ou uma armadilha de nível alto?",
+    answer: "No início do jogo, a quantidade é melhor para cobrir mais terreno. No final do jogo, armadilhas de alto nível são necessárias para perfurar a armadura e a resistência mágica dos heróis."
+  },
+  {
+    question: "Quando devo melhorar minha Sala do Trono?",
+    answer: "Apenas melhore a Sala do Trono quando tiver maximizado os geradores de recursos do seu nível atual e suas defesas atuais puderem lidar facilmente com a última onda de heróis."
+  }
+]} />
+
+</Section>
