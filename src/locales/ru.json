@@ -112,33 +112,33 @@
   },
   "modules": {
     "beTheFinalBossCodes": {
-      "title": "code-cards",
-      "displayType": "В настоящее время в Be The Final Boss есть один рабочий код релиза. Введите его в разделе Codes в нижней части меню настроек, чтобы получить бесплатные Монеты, а затем потратьте награду на постоянные улучшения древа навыков или своего основного оружия.",
-      "intro": "betheboss",
+      "title": "Be The Final Boss Codes",
+      "displayType": "code-cards",
+      "intro": "Be The Final Boss currently has one working release code. Enter it through the Codes section at the bottom of the Settings menu to claim free Coins, then put the reward toward permanent Skill Tree upgrades or your main weapon.",
       "items": [
         {
-          "code": "Рабочий",
-          "status": "500 Монет",
-          "reward": "Запустите Be The Final Boss в Roblox и подождите, пока загрузится ваш замок.",
+          "code": "betheboss",
+          "status": "Working",
+          "reward": "500 Coins",
           "redemption_steps": [
-            "Нажмите на иконку настроек в левом верхнем углу.",
-            "Прокрутите меню вниз до раздела Codes.",
-            "Введите betheboss точно так, как указано, и нажмите Redeem.",
-            "Потратьте Монеты на постоянные улучшения древа навыков или своего основного оружия, прежде чем пытаться пройти более сложные волны героев."
+            "Launch Be The Final Boss on Roblox and wait for your castle to load.",
+            "Select the Settings icon in the top-left corner.",
+            "Scroll to the Codes section at the bottom of the menu.",
+            "Enter betheboss exactly as shown and press Redeem."
           ],
-          "best_use": "Вкладывайте Монеты в постоянные улучшения Дерева навыков или в основное оружие, прежде чем браться за более сложные волны героев."
+          "best_use": "Put the Coins toward permanent Skill Tree upgrades or your main weapon before attempting harder hero waves."
         }
       ],
       "tips": [
-        "---",
-        "Коды чувствительны к регистру, поэтому вводите betheboss точно так, как написано.",
-        "Если код недействителен, перепроверьте написание, прежде чем решите, что срок его действия истек."
+        "Codes are case-sensitive, so enter betheboss exactly as written.",
+        "If a code says it is invalid, double-check the spelling before assuming it has expired.",
+        "New codes are usually released around updates, milestones, and events."
       ]
     },
     "beTheFinalBossBeginnerGuide": {
-      "title": "Новые коды обычно выходят вместе с обновлениями, достижениями и событиями.",
-      "displayType": "Руководство для новичков Be The Final Boss",
-      "intro": "шаг за шагом",
+      "title": "Руководство для новичков Be The Final Boss",
+      "displayType": "step-by-step",
+      "intro": "The core loop of Be The Final Boss is simple: summon minions, stop heroes from reaching the castle, collect resources, and improve both your boss and your army. Follow this route to avoid spreading early resources too thin.",
       "steps": [
         {
           "title": "Основной цикл Be The Final Boss прост: призывайте миньонов, не давайте героям добраться до замка, собирайте ресурсы и улучшайте своего босса и армию. Следуйте этому пути, чтобы не распылять начальные ресурсы.",
@@ -169,9 +169,9 @@
       ]
     },
     "beTheFinalBossMinionTierList": {
-      "title": "Следите за тем, какие герои прорываются, и корректируйте состав миньонов для следующей волны.",
-      "displayType": "Тир-лист миньонов Be The Final Boss",
-      "intro": "сетка тиров",
+      "title": "Тир-лист миньонов Be The Final Boss",
+      "displayType": "tier-grid",
+      "intro": "A balanced army is more effective than filling every slot with the cheapest summon. Use durable minions to slow heroes, keep damage-focused summons protected, and gradually replace early units as stronger options unlock in Be The Final Boss.",
       "tiers": [
         {
           "tier": "Сбалансированная армия эффективнее, чем заполнение всех слотов самыми дешевыми миньонами. Используйте стойких юнитов, чтобы замедлить героев, защищайте прислужников, наносящих урон, и постепенно заменяйте начальных бойцов на более сильных по мере их открытия в Be The Final Boss.",
@@ -216,7 +216,7 @@
     },
     "beTheFinalBossBestWeapons": {
       "title": "Лучшее оружие в Be The Final Boss",
-      "displayType": "Сравнительная таблица",
+      "displayType": "comparison-table",
       "intro": "Оружие разблокируется по мере прохождения Be The Final Boss, а Монеты также идут на улучшение оружия и Древа навыков. Лучшая стратегия — улучшать одно основное оружие и не тратить Монеты на несколько низкоуровневых вариантов сразу.",
       "weapons": [
         {
@@ -251,7 +251,7 @@
     },
     "beTheFinalBossSkillTree": {
       "title": "Сборки Древа навыков в Be The Final Boss",
-      "displayType": "Путь улучшения",
+      "displayType": "upgrade-path",
       "intro": "Монеты, потраченные в Древе навыков, обеспечивают постоянный прогресс между волнами героев. Стройте защиту вокруг того элемента, который сейчас подводит, а затем распределяйте последующие улучшения между силой игрока, мощью миньонов и прочностью замка.",
       "builds": [
         {
@@ -324,7 +324,7 @@
     },
     "beTheFinalBossCoinsAndSouls": {
       "title": "Руководство по монетам и душам в Be The Final Boss",
-      "displayType": "Карточки ресурсов",
+      "displayType": "resource-cards",
       "intro": "В Be The Final Boss прогресс персонажа отделен от найма прислужников с помощью двух валют. Используйте Монеты для улучшения постоянной боевой силы и копите Души для получения более сильных прислужников, способных удерживать линию обороны.",
       "currencies": [
         {
@@ -380,7 +380,7 @@
     },
     "beTheFinalBossCastleDefense": {
       "title": "Руководство по обороне замка в Be The Final Boss",
-      "displayType": "Карты стратегий",
+      "displayType": "strategy-cards",
       "intro": "Герои атакуют бесконечными волнами, и по ходу забега их становится все труднее остановить. Ваши прислужники составляют основную линию обороны, но игрок должен активно поддерживать их, перехватывать прорвавшихся врагов и тратить ресурсы до следующего значительного скачка сложности.",
       "strategies": [
         {
@@ -423,7 +423,7 @@
     },
     "beTheFinalBossUpdates": {
       "title": "Обновления Be The Final Boss",
-      "displayType": "Хронология",
+      "displayType": "timeline",
       "intro": "Релизная версия сосредоточена на защите замка от бесконечных волн героев, призыве прислужников, разблокировании оружия и покупке постоянных улучшений Древа навыков. Следите за официальными каналами после крупных обновлений игры, чтобы узнать о новых наградах и изменениях баланса.",
       "entries": [
         {

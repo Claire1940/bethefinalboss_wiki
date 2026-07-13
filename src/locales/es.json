@@ -137,7 +137,7 @@
     },
     "beTheFinalBossBeginnerGuide": {
       "title": "Guía para principiantes de Be The Final Boss",
-      "displayType": "paso a paso",
+      "displayType": "step-by-step",
       "intro": "El ciclo principal de Be The Final Boss es sencillo: invoca esbirros, evita que los héroes lleguen al castillo, recoge recursos y mejora tanto a tu jefe como a tu ejército. Sigue esta ruta para evitar dispersar demasiado tus recursos iniciales.",
       "steps": [
         {
@@ -170,7 +170,7 @@
     },
     "beTheFinalBossMinionTierList": {
       "title": "Lista de niveles de esbirros de Be The Final Boss",
-      "displayType": "cuadrícula de niveles",
+      "displayType": "tier-grid",
       "intro": "Un ejército equilibrado es más eficaz que llenar todos los espacios con la invocación más barata. Usa esbirros resistentes para frenar a los héroes, mantén protegidas a las unidades centradas en el daño y sustituye gradualmente a las unidades iniciales a medida que desbloqueas opciones más fuertes en Be The Final Boss.",
       "tiers": [
         {
@@ -216,7 +216,7 @@
     },
     "beTheFinalBossBestWeapons": {
       "title": "Las mejores armas de Be The Final Boss",
-      "displayType": "tabla-comparativa",
+      "displayType": "comparison-table",
       "intro": "Las armas se desbloquean a medida que avanza la progresión en Be The Final Boss, y las Monedas también financian las mejoras de armas y del Árbol de habilidades. La mejor ruta es mantener una sola arma principal mejorada y evitar gastar Monedas en varias opciones de bajo nivel a la vez.",
       "weapons": [
         {
@@ -251,7 +251,7 @@
     },
     "beTheFinalBossSkillTree": {
       "title": "Builds del Árbol de habilidades de Be The Final Boss",
-      "displayType": "ruta-de-mejora",
+      "displayType": "upgrade-path",
       "intro": "Las Monedas gastadas en el Árbol de habilidades proporcionan una progresión permanente entre las oleadas de héroes. Diseña tu build en torno a la parte de tu defensa que esté fallando actualmente, luego distribuye las mejoras posteriores entre el poder del jugador, la fuerza de los esbirros y la durabilidad del castillo.",
       "builds": [
         {
@@ -379,9 +379,9 @@
       ]
     },
     "beTheFinalBossCastleDefense": {
-      "title": "Alterna el gasto posterior entre armas, secuaces y mejoras centradas en el castillo según la parte de la defensa que falle primero.",
-      "displayType": "Guía de defensa del castillo de Be The Final Boss",
-      "intro": "cartas-de-estrategia",
+      "title": "Guía de defensa del castillo de Be The Final Boss",
+      "displayType": "strategy-cards",
+      "intro": "Heroes attack in endless waves and become harder to stop as a run continues. Your minions form the main defensive line, but the player must actively support them, intercept escaped enemies and spend resources before the next major difficulty increase.",
       "strategies": [
         {
           "name": "Los héroes atacan en oleadas infinitas y se vuelven más difíciles de detener a medida que avanza la partida. Tus secuaces forman la línea defensiva principal, pero el jugador debe apoyarlos activamente, interceptar a los enemigos que escapen y gastar recursos antes del próximo gran aumento de dificultad.",
@@ -422,9 +422,9 @@
       ]
     },
     "beTheFinalBossUpdates": {
-      "title": "Seguir atacando a héroes distantes mientras las amenazas inmediatas dañan la defensa final.",
-      "displayType": "Actualizaciones de Be The Final Boss",
-      "intro": "cronología",
+      "title": "Actualizaciones de Be The Final Boss",
+      "displayType": "timeline",
+      "intro": "The release version centers on defending a castle from endless hero waves, summoning minions, unlocking weapons and purchasing permanent Skill Tree upgrades. Check the official channels after major game updates for new rewards and balance changes.",
       "entries": [
         {
           "date": "La versión de lanzamiento se centra en defender un castillo de oleadas infinitas de héroes, invocar secuaces, desbloquear armas y comprar mejoras permanentes del Árbol de Habilidades. Consulta los canales oficiales tras las actualizaciones importantes del juego para obtener nuevas recompensas y cambios de equilibrio.",

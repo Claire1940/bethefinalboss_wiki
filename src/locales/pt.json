@@ -112,32 +112,32 @@
   },
   "modules": {
     "beTheFinalBossCodes": {
-      "title": "code-cards",
-      "displayType": "Be The Final Boss atualmente tem um código de lançamento ativo. Insira-o na seção de Códigos na parte inferior do menu de Configurações para resgatar Moedas grátis e, em seguida, use a recompensa em melhorias permanentes da Árvore de Habilidades ou na sua arma principal.",
-      "intro": "betheboss",
+      "title": "Be The Final Boss Codes",
+      "displayType": "code-cards",
+      "intro": "Be The Final Boss currently has one working release code. Enter it through the Codes section at the bottom of the Settings menu to claim free Coins, then put the reward toward permanent Skill Tree upgrades or your main weapon.",
       "items": [
         {
-          "code": "Ativo",
-          "status": "500 Moedas",
-          "reward": "Inicie Be The Final Boss no Roblox e espere seu castelo carregar.",
+          "code": "betheboss",
+          "status": "Working",
+          "reward": "500 Coins",
           "redemption_steps": [
-            "Selecione o ícone de Configurações no canto superior esquerdo.",
-            "Role até a seção de Códigos na parte inferior do menu.",
-            "Insira betheboss exatamente como mostrado e pressione Resgatar.",
-            "Use as Moedas em melhorias permanentes da Árvore de Habilidades ou na sua arma principal antes de tentar ondas de heróis mais difíceis."
+            "Launch Be The Final Boss on Roblox and wait for your castle to load.",
+            "Select the Settings icon in the top-left corner.",
+            "Scroll to the Codes section at the bottom of the menu.",
+            "Enter betheboss exactly as shown and press Redeem."
           ],
-          "best_use": "Use as Moedas em melhorias permanentes da Árvore de Habilidades ou na sua arma principal antes de enfrentar ondas de heróis mais difíceis."
+          "best_use": "Put the Coins toward permanent Skill Tree upgrades or your main weapon before attempting harder hero waves."
         }
       ],
       "tips": [
-        "Os códigos diferenciam maiúsculas de minúsculas, então insira betheboss exatamente como escrito.",
-        "Se um código disser que é inválido, verifique a ortografia antes de presumir que ele expirou.",
-        "Novos códigos geralmente são lançados perto de atualizações, marcos e eventos."
+        "Codes are case-sensitive, so enter betheboss exactly as written.",
+        "If a code says it is invalid, double-check the spelling before assuming it has expired.",
+        "New codes are usually released around updates, milestones, and events."
       ]
     },
     "beTheFinalBossBeginnerGuide": {
       "title": "Guia de Iniciante de Be The Final Boss",
-      "displayType": "passo a passo",
+      "displayType": "step-by-step",
       "intro": "O ciclo principal de Be The Final Boss é simples: invoque lacaios, impeça os heróis de chegarem ao castelo, colete recursos e melhore tanto o seu chefe quanto o seu exército. Siga este caminho para evitar dispersar demais os recursos iniciais.",
       "steps": [
         {
@@ -215,9 +215,9 @@
       ]
     },
     "beTheFinalBossBestWeapons": {
-      "title": "Use no início e depois substitua, em vez de continuar gastando muito com eles.",
-      "displayType": "Melhores Armas de Be The Final Boss",
-      "intro": "tabela-de-comparação",
+      "title": "Melhores Armas de Be The Final Boss",
+      "displayType": "comparison-table",
+      "intro": "Weapons unlock as progression advances in Be The Final Boss, and Coins also fund weapon and Skill Tree improvements. The strongest route is to maintain one upgraded main weapon and avoid draining Coins into several low-level options at once.",
       "weapons": [
         {
           "rank": "As armas são desbloqueadas conforme o progresso avança em Be The Final Boss, e as Moedas também financiam melhorias em armas e na Árvore de Habilidades. A melhor estratégia é manter uma arma principal aprimorada e evitar gastar Moedas em várias opções de nível baixo ao mesmo tempo.",
@@ -250,9 +250,9 @@
       ]
     },
     "beTheFinalBossSkillTree": {
-      "title": "Baixa após a progressão inicial",
-      "displayType": "Builds da Árvore de Habilidades de Be The Final Boss",
-      "intro": "caminho-de-melhoria",
+      "title": "Builds da Árvore de Habilidades de Be The Final Boss",
+      "displayType": "upgrade-path",
+      "intro": "Coins spent in the Skill Tree provide permanent progression between hero waves. Build around the part of your defense that is currently failing, then spread later upgrades across player power, minion strength and castle durability.",
       "builds": [
         {
           "name": "Moedas gastas na Árvore de Habilidades fornecem progressão permanente entre as ondas de heróis. Monte sua build em torno da parte da sua defesa que está falhando no momento, depois distribua melhorias futuras entre o poder do jogador, força dos minions e durabilidade do castelo.",
@@ -380,7 +380,7 @@
     },
     "beTheFinalBossCastleDefense": {
       "title": "Guia de Defesa de Castelo de Be The Final Boss",
-      "displayType": "cartas-de-estratégia",
+      "displayType": "strategy-cards",
       "intro": "Os heróis atacam em ondas infinitas e tornam-se mais difíceis de parar conforme a partida avança. Seus lacaios formam a linha de defesa principal, mas o jogador deve apoiá-los ativamente, interceptar inimigos que escaparem e gastar recursos antes do próximo grande aumento de dificuldade.",
       "strategies": [
         {
@@ -423,7 +423,7 @@
     },
     "beTheFinalBossUpdates": {
       "title": "Atualizações de Be The Final Boss",
-      "displayType": "linha-do-tempo",
+      "displayType": "timeline",
       "intro": "A versão de lançamento foca em defender um castelo de ondas infinitas de heróis, invocar lacaios, desbloquear armas e comprar melhorias permanentes na Árvore de Habilidades. Verifique os canais oficiais após grandes atualizações do jogo para obter novas recompensas e mudanças de balanceamento.",
       "entries": [
         {
