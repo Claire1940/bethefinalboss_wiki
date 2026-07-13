@@ -1,11 +1,667 @@
 {
+  "seo": {
+    "home": {
+      "title": "Be The Final Boss Wiki - Códigos, secuaces y árbol de habilidades",
+      "description": "Be The Final Boss Wiki cubre códigos válidos, guías de secuaces, armas, mejoras del árbol de habilidades, Almas, Monedas, oleadas de héroes y las últimas actualizaciones de Roblox.",
+      "keywords": "Be The Final Boss, Roblox, códigos, secuaces, armas, árbol de habilidades, Almas, Monedas, oleadas",
+      "ogTitle": "Be The Final Boss Wiki - Códigos, secuaces y árbol de habilidades",
+      "ogDescription": "Be The Final Boss Wiki cubre códigos válidos, guías de secuaces, armas, mejoras del árbol de habilidades, Almas, Monedas, oleadas de héroes y las últimas actualizaciones de Roblox.",
+      "twitterTitle": "Be The Final Boss Wiki - Códigos, secuaces y árbol de habilidades",
+      "twitterDescription": "Be The Final Boss Wiki cubre códigos válidos, guías de secuaces, armas, árbol de habilidades, Almas, Monedas, oleadas de héroes y las últimas actualizaciones de Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
-    "minions": "Esbirros",
+    "minions": "Secuaces",
     "weapons": "Armas",
     "skills": "Habilidades",
     "waves": "Oleadas",
-    "currencies": "Monedas"
+    "currencies": "Divisas"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Simulador de jefe de defensa de torres inversa",
+    "title": "Be The Final Boss Wiki",
+    "description": "Defiende tu castillo como el jefe final, invoca secuaces poderosos, sobrevive a oleadas interminables de héroes, mejora tu árbol de habilidades y desbloquea nuevas armas.",
+    "getFreeCodesCTA": "Consigue códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "44.5K+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "2.2K+",
+        "label": "Favoritos"
+      },
+      "stat3": {
+        "value": "1",
+        "label": "Código activo"
+      },
+      "stat4": {
+        "value": "3",
+        "label": "Plataformas compatibles"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Be The Final Boss",
+    "description": "Invoca minions, defiende tu castillo como el jefe final, sobrevive a oleadas interminables de héroes, mejora tu árbol de habilidades y desbloquea nuevas armas en PC, móviles y consolas en Roblox."
+  },
+  "tools": {
+    "title": "Be The Final Boss",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para dominar Be The Final Boss: códigos, minions, armas, árbol de habilidades, divisas y defensa del castillo.",
+    "cards": [
+      {
+        "icon": "ClipboardCheck",
+        "title": "Códigos de Be The Final Boss",
+        "description": "Códigos activos, recompensas y pasos para canjearlos"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de Be The Final Boss",
+        "description": "Primeros pasos, ciclo de juego principal y progresión inicial"
+      },
+      {
+        "icon": "Users",
+        "title": "Tier list de minions de Be The Final Boss",
+        "description": "Los mejores minions para invocar e invertir Souls"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Las mejores armas de Be The Final Boss",
+        "description": "Selección de armas, valor de mejora y clasificaciones"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Builds del árbol de habilidades de Be The Final Boss",
+        "description": "Rutas de mejora permanente y prioridad de nodos"
+      },
+      {
+        "icon": "Package",
+        "title": "Coins y Souls en Be The Final Boss",
+        "description": "Cómo ganar y gastar cada divisa"
+      },
+      {
+        "icon": "Shield",
+        "title": "Defensa del castillo en Be The Final Boss",
+        "description": "Despliegue, posicionamiento y estrategia de oleadas"
+      },
+      {
+        "icon": "Clock",
+        "title": "Actualizaciones de Be The Final Boss",
+        "description": "Nuevos códigos, minions, armas y notas del parche"
+      }
+    ]
+  },
+  "modules": {
+    "beTheFinalBossCodes": {
+      "title": "Códigos de Be The Final Boss",
+      "displayType": "code-cards",
+      "intro": "Be The Final Boss actualmente tiene un código de lanzamiento activo. Ingrésalo en la sección de Códigos en la parte inferior del menú de Ajustes para reclamar Coins gratis, y luego destina la recompensa a mejoras permanentes del árbol de habilidades o a tu arma principal.",
+      "items": [
+        {
+          "code": "betheboss",
+          "status": "Activo",
+          "reward": "500 Coins",
+          "redemption_steps": [
+            "Inicia Be The Final Boss en Roblox y espera a que cargue tu castillo.",
+            "Selecciona el icono de Ajustes en la esquina superior izquierda.",
+            "Desplázate hasta la sección de Códigos en la parte inferior del menú.",
+            "Ingresa betheboss exactamente como se muestra y presiona Canjear."
+          ],
+          "best_use": "Destina los Coins a mejoras permanentes del árbol de habilidades o a tu arma principal antes de enfrentarte a oleadas de héroes más difíciles."
+        }
+      ],
+      "tips": [
+        "Los códigos distinguen entre mayúsculas y minúsculas, así que introduce betheboss exactamente como está escrito.",
+        "Si un código indica que no es válido, revisa bien la ortografía antes de asumir que ha caducado.",
+        "Los nuevos códigos suelen publicarse con las actualizaciones, hitos y eventos."
+      ]
+    },
+    "beTheFinalBossBeginnerGuide": {
+      "title": "Guía para principiantes de Be The Final Boss",
+      "displayType": "paso a paso",
+      "intro": "El ciclo principal de Be The Final Boss es sencillo: invoca esbirros, evita que los héroes lleguen al castillo, recoge recursos y mejora tanto a tu jefe como a tu ejército. Sigue esta ruta para evitar dispersar demasiado tus recursos iniciales.",
+      "steps": [
+        {
+          "title": "Canjea el código de lanzamiento",
+          "description": "Canjea betheboss en Ajustes para obtener 500 Monedas antes de comprar tus primeras mejoras importantes."
+        },
+        {
+          "title": "Invoca una defensa básica",
+          "description": "Usa Almas para añadir esbirros y que los héroes que lleguen no se centren por completo en tu personaje o en el castillo."
+        },
+        {
+          "title": "Lucha junto a tus esbirros",
+          "description": "Enfréntate a los héroes antes de que lleguen al castillo y ayuda a acabar con los enemigos que logren atravesar tu línea defensiva."
+        },
+        {
+          "title": "Prioriza el poder permanente",
+          "description": "Gasta Monedas en potenciadores útiles del Árbol de habilidades y mantén mejorada una sola arma principal en lugar de dividir los recursos entre todas las opciones."
+        },
+        {
+          "title": "Escala para las oleadas posteriores",
+          "description": "Repite oleadas, sustituye las invocaciones iniciales débiles por esbirros desbloqueados más fuertes y cambia a armas nuevas cuando superen tu nivel de mejora actual."
+        }
+      ],
+      "quickTips": [
+        "Mantén al menos un esbirro de primera línea activo para que los héroes no corran directamente hacia tu castillo.",
+        "Reinvierte tus Monedas en el Árbol de habilidades en lugar de acumularlas entre oleadas.",
+        "Mejora una sola arma confiable en lugar de repartir las Monedas entre varias opciones de nivel bajo.",
+        "Observa qué héroes logran pasar y ajusta tu combinación de esbirros para la siguiente oleada."
+      ]
+    },
+    "beTheFinalBossMinionTierList": {
+      "title": "Lista de niveles de esbirros de Be The Final Boss",
+      "displayType": "cuadrícula de niveles",
+      "intro": "Un ejército equilibrado es más eficaz que llenar todos los espacios con la invocación más barata. Usa esbirros resistentes para frenar a los héroes, mantén protegidas a las unidades centradas en el daño y sustituye gradualmente a las unidades iniciales a medida que desbloqueas opciones más fuertes en Be The Final Boss.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Elecciones clave para oleadas avanzadas",
+          "minions": [
+            "Tus esbirros desbloqueados más avanzados"
+          ],
+          "strengths": "La mejor combinación general de daño, resistencia y utilidad contra las oleadas de héroes más fuertes.",
+          "investment": "Máxima prioridad de Almas; construye el ejército en torno a estas unidades una vez desbloqueadas."
+        },
+        {
+          "tier": "A",
+          "label": "Defensores de primera línea",
+          "minions": [
+            "Esbirros cuerpo a cuerpo resistentes",
+            "Unidades que mantienen a los héroes alejados del castillo"
+          ],
+          "strengths": "Gana tiempo para que tu jefe y los esbirros de la retaguardia inflijan daño de forma segura.",
+          "investment": "Mantén suficientes unidades de primera línea activas para evitar brechas rápidas."
+        },
+        {
+          "tier": "B",
+          "label": "Atacantes protegidos",
+          "minions": [
+            "Esbirros a distancia o de tipo lanzador",
+            "Invocaciones centradas en el daño con menor resistencia"
+          ],
+          "strengths": "Infligen un daño sostenido útil mientras otro esbirro capta la atención del enemigo.",
+          "investment": "Añádelos cuando la primera línea sea estable; evita dejarlos expuestos."
+        },
+        {
+          "tier": "C",
+          "label": "Invocaciones iniciales temporales",
+          "minions": [
+            "Esbirros cuerpo a cuerpo iniciales",
+            "Invocaciones iniciales de bajo nivel"
+          ],
+          "strengths": "Ayuda asequible durante las primeras oleadas, pero más débil a medida que aumentan la vida de los héroes y la presión.",
+          "investment": "Úsalas al principio y luego reemplázalas en lugar de seguir gastando mucho en ellas."
+        }
+      ]
+    },
+    "beTheFinalBossBestWeapons": {
+      "title": "Las mejores armas de Be The Final Boss",
+      "displayType": "tabla-comparativa",
+      "intro": "Las armas se desbloquean a medida que avanza la progresión en Be The Final Boss, y las Monedas también financian las mejoras de armas y del Árbol de habilidades. La mejor ruta es mantener una sola arma principal mejorada y evitar gastar Monedas en varias opciones de bajo nivel a la vez.",
+      "weapons": [
+        {
+          "rank": "S",
+          "weapon_choice": "Arma de mayor nivel desbloqueada y mejorada adecuadamente",
+          "best_for": "Progresión general y oleadas más difíciles",
+          "strength": "Combina el escalado del juego tardío con suficientes mejoras para encargarse de grupos de héroes de manera eficiente.",
+          "upgrade_priority": "Más alta"
+        },
+        {
+          "rank": "A",
+          "weapon_choice": "Arma actual más mejorada",
+          "best_for": "Despejes consistentes mientras ahorras Monedas",
+          "strength": "Un arma antigua muy mejorada puede seguir siendo más fuerte que una recién desbloqueada sin inversión.",
+          "upgrade_priority": "Alto"
+        },
+        {
+          "rank": "B",
+          "weapon_choice": "Arma recién desbloqueada con pocas mejoras",
+          "best_for": "Probar el patrón de ataque y el alcance",
+          "strength": "Puede convertirse en la mejor opción después de invertir en ella, pero debe probarse antes de reemplazar un arma principal ya probada.",
+          "upgrade_priority": "Medio"
+        },
+        {
+          "rank": "C",
+          "weapon_choice": "Arma inicial",
+          "best_for": "Primeras oleadas y aprendizaje del combate",
+          "strength": "Simple y disponible de inmediato, pero su valor disminuye una vez que se desbloquean armas más fuertes y mejoras permanentes.",
+          "upgrade_priority": "Bajo después de la progresión inicial"
+        }
+      ]
+    },
+    "beTheFinalBossSkillTree": {
+      "title": "Builds del Árbol de habilidades de Be The Final Boss",
+      "displayType": "ruta-de-mejora",
+      "intro": "Las Monedas gastadas en el Árbol de habilidades proporcionan una progresión permanente entre las oleadas de héroes. Diseña tu build en torno a la parte de tu defensa que esté fallando actualmente, luego distribuye las mejoras posteriores entre el poder del jugador, la fuerza de los esbirros y la durabilidad del castillo.",
+      "builds": [
+        {
+          "name": "Build inicial equilibrada",
+          "best_for": "Jugadores nuevos y progresión inicial",
+          "steps": [
+            {
+              "priority": 1,
+              "focus": "Mejoras del jugador",
+              "guidance": "Comienza con mejoras enfocadas en el jugador para que puedas luchar junto a tus esbirros y derrotar a los primeros héroes de manera consistente."
+            },
+            {
+              "priority": 2,
+              "focus": "Mejoras de esbirros",
+              "guidance": "Mejora el poder de los esbirros después de que tu personaje pueda apoyar cómodamente la línea del frente."
+            },
+            {
+              "priority": 3,
+              "focus": "Defensa del castillo",
+              "guidance": "Añade mejoras centradas en el castillo antes de entrar en oleadas donde los héroes que escapen puedan terminar rápidamente una partida."
+            }
+          ],
+          "result": "Daño constante, esbirros confiables y suficiente protección para recuperarse de pequeños errores defensivos."
+        },
+        {
+          "name": "Build de ejército de esbirros",
+          "best_for": "Jugadores que quieren que las invocaciones se encarguen de la mayoría de los enemigos",
+          "steps": [
+            {
+              "priority": 1,
+              "focus": "Mejoras de esbirros",
+              "guidance": "Dirige la mayor parte del gasto inicial del árbol de habilidades hacia mejoras permanentes de los esbirros."
+            },
+            {
+              "priority": 2,
+              "focus": "Defensa del castillo",
+              "guidance": "Fortalece el castillo para que pueda sobrevivir cuando los enemigos atraviesen la línea de esbirros."
+            },
+            {
+              "priority": 3,
+              "focus": "Mejoras del jugador",
+              "guidance": "Añade poder al jugador para eliminar a los héroes más fuertes y apoyar los puntos débiles de la formación."
+            }
+          ],
+          "result": "Una build centrada en invocaciones que usa al jugador como apoyo y daño de emergencia."
+        },
+        {
+          "name": "Build de supervivencia para oleadas altas",
+          "best_for": "Partidas largas contra oleadas de héroes cada vez más difíciles",
+          "steps": [
+            {
+              "priority": 1,
+              "focus": "Defensa del castillo",
+              "guidance": "Invierte en mejoras centradas en el castillo antes de avanzar más allá de tu oleada más alta actual."
+            },
+            {
+              "priority": 2,
+              "focus": "Mejoras de esbirros",
+              "guidance": "Aumenta la fuerza de los esbirros para reducir el número de héroes que llegan a la zona defensiva final."
+            },
+            {
+              "priority": 3,
+              "focus": "Mejoras del jugador",
+              "guidance": "Mejora el poder de combate personal para rematar a los enemigos resistentes e interceptar a los héroes que escapen."
+            }
+          ],
+          "result": "Una build defensiva diseñada para evitar que una sola brecha termine con una partida que de otro modo sería exitosa."
+        }
+      ]
+    },
+    "beTheFinalBossCoinsAndSouls": {
+      "title": "Guía de Monedas y Almas de Be The Final Boss",
+      "displayType": "resource-cards",
+      "intro": "Be The Final Boss separa la progresión del personaje del reclutamiento de esbirros a través de dos monedas. Usa Monedas para mejorar el poder de combate permanente y ahorra Almas para obtener esbirros más fuertes que puedan mantener la línea defensiva.",
+      "currencies": [
+        {
+          "name": "Monedas",
+          "purpose": "Progresión permanente",
+          "used_for": [
+            "Mejoras del árbol de habilidades",
+            "Mejoras de armas y armas nuevas"
+          ],
+          "sources": [
+            "Recompensas normales de progresión en el juego",
+            "Recompensas de códigos y de desarrolladores",
+            "El código de lanzamiento betheboss, que otorga 500 Monedas"
+          ],
+          "spending_priority": "Compra primero mejoras útiles del árbol de habilidades inicial y luego mejora las armas cuando tu daño personal se quede atrás con respecto a las oleadas de héroes actuales."
+        },
+        {
+          "name": "Almas",
+          "purpose": "Progresión de esbirros",
+          "used_for": [
+            "Obtención de nuevos esbirros",
+            "Construcción de un ejército defensivo más fuerte"
+          ],
+          "sources": [
+            "Recompensas de progresión en el juego y de oleadas",
+            "Recompensas especiales anunciadas por los desarrolladores"
+          ],
+          "spending_priority": "Ahorra Almas para mejoras de esbirros en lugar de gastarlas repetidamente sin fortalecer tu alineación defensiva activa."
+        }
+      ],
+      "spending_order": [
+        {
+          "priority": 1,
+          "action": "Canjear betheboss",
+          "details": "Reclama la recompensa de lanzamiento de 500 Monedas a través del campo de código en Configuración."
+        },
+        {
+          "priority": 2,
+          "action": "Comprar poder permanente",
+          "details": "---"
+        },
+        {
+          "priority": 3,
+          "action": "Usa Monedas en las primeras mejoras del Árbol de Habilidades que mejoren tu capacidad para despejar oleadas de héroes.",
+          "details": "Fortalece al ejército"
+        },
+        {
+          "priority": 4,
+          "action": "Usa Almas para obtener mejores secuaces antes de ahorrar para mejoras de invocación adicionales.",
+          "details": "Equilibra la defensa"
+        }
+      ]
+    },
+    "beTheFinalBossCastleDefense": {
+      "title": "Alterna el gasto posterior entre armas, secuaces y mejoras centradas en el castillo según la parte de la defensa que falle primero.",
+      "displayType": "Guía de defensa del castillo de Be The Final Boss",
+      "intro": "cartas-de-estrategia",
+      "strategies": [
+        {
+          "name": "Los héroes atacan en oleadas infinitas y se vuelven más difíciles de detener a medida que avanza la partida. Tus secuaces forman la línea defensiva principal, pero el jugador debe apoyarlos activamente, interceptar a los enemigos que escapen y gastar recursos antes del próximo gran aumento de dificultad.",
+          "priority": "Establece la línea de frente",
+          "strategy": "Esencial",
+          "avoid": "Invoca secuaces antes de que los héroes entrantes lleguen al castillo y mantén al ejército posicionado entre los atacantes y el área defensiva final."
+        },
+        {
+          "name": "Esperar hasta que los héroes ya estén cerca del castillo antes de construir la línea defensiva.",
+          "priority": "Lucha junto a tus secuaces",
+          "strategy": "Esencial",
+          "avoid": "Usa tu arma para dañar a los héroes mientras están ocupados con los secuaces. Muévete hacia cualquier enemigo que escape en lugar de permanecer en una sola posición."
+        },
+        {
+          "name": "Esperar que los secuaces despejen cada oleada sin el apoyo directo del jugador.",
+          "priority": "Protégete contra las brechas",
+          "strategy": "Alta",
+          "avoid": "Vigila la ruta detrás de tu ejército principal e intercepta inmediatamente a los héroes que pasen la línea de frente. Las mejoras del Árbol de Habilidades centradas en el castillo proporcionan protección adicional durante partidas largas."
+        },
+        {
+          "name": "Seguir a un objetivo demasiado lejos mientras otro héroe avanza hacia el castillo.",
+          "priority": "Mejora antes de que el daño se quede atrás",
+          "strategy": "Alta",
+          "avoid": "Gasta Monedas en armas y mejoras permanentes del Árbol de Habilidades cuando los enemigos tarden demasiado en ser derrotados. Usa Almas para mejorar el ejército de secuaces cuando la línea de frente colapse demasiado rápido."
+        },
+        {
+          "name": "Ahorrar todos los recursos mientras la defensa actual ya es incapaz de controlar una oleada.",
+          "priority": "Prepárate para la progresión infinita",
+          "strategy": "Juego tardío",
+          "avoid": "Equilibra el poder del jugador, la fuerza de los secuaces y la defensa del castillo en lugar de confiar totalmente en un solo sistema. Las oleadas posteriores castigan los puntos débiles con más dureza que las primeras oleadas."
+        },
+        {
+          "name": "Invertir todo en daño personal mientras dejas a los secuaces y al castillo desprotegidos.",
+          "priority": "Recupera la línea defensiva",
+          "strategy": "Emergencia",
+          "avoid": "Cuando varios héroes logren pasar, retrocede hacia el castillo, elimina primero las amenazas más cercanas y permite que los secuaces supervivientes se reagrupen alrededor de los enemigos restantes."
+        }
+      ]
+    },
+    "beTheFinalBossUpdates": {
+      "title": "Seguir atacando a héroes distantes mientras las amenazas inmediatas dañan la defensa final.",
+      "displayType": "Actualizaciones de Be The Final Boss",
+      "intro": "cronología",
+      "entries": [
+        {
+          "date": "La versión de lanzamiento se centra en defender un castillo de oleadas infinitas de héroes, invocar secuaces, desbloquear armas y comprar mejoras permanentes del Árbol de Habilidades. Consulta los canales oficiales tras las actualizaciones importantes del juego para obtener nuevas recompensas y cambios de equilibrio.",
+          "title": "Versión de lanzamiento",
+          "changes": [
+            "Jugabilidad principal de defensa del castillo",
+            "Defiende el castillo contra oleadas infinitas de héroes invasores.",
+            "Invoca secuaces que luchan junto al jugador.",
+            "Desbloquea nuevas armas a medida que progresas."
+          ],
+          "status": "En vivo"
+        },
+        {
+          "date": "Recompensa de lanzamiento",
+          "title": "Código betheboss añadido",
+          "changes": [
+            "El código de lanzamiento betheboss aparece en la página oficial del juego en Roblox.",
+            "El código otorga 500 Monedas.",
+            "Los códigos se canjean a través del campo de código dentro del menú de Configuración."
+          ],
+          "status": "Activo"
+        },
+        {
+          "date": "Actual",
+          "title": "Seguimiento de la página oficial del juego",
+          "changes": [
+            "La descripción de Roblox muestra el código de lanzamiento actual y las características principales del juego.",
+            "El tablero de códigos del juego se utiliza para obtener información adicional sobre las recompensas.",
+            "El juego es compatible con PC, móviles y consolas."
+          ],
+          "status": "Fuente oficial"
+        },
+        {
+          "date": "Actual",
+          "title": "Canales de anuncios del desarrollador",
+          "changes": [
+            "Apparently Champions es la comunidad oficial de Roblox detrás del juego.",
+            "Apparently Games publica información del desarrollador a través de su cuenta oficial de X.",
+            "Los futuros anuncios sobre códigos, armas, esbirros y equilibrio deben verificarse en estos canales oficiales."
+          ],
+          "status": "Monitoreo"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Be The Final Boss",
+    "titleHighlight": "Preguntas frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Be The Final Boss",
+    "questions": [
+      {
+        "question": "¿Qué son los códigos de Be The Final Boss?",
+        "answer": "Los códigos de Be The Final Boss son códigos de canje gratuitos que otorgan Monedas y otras recompensas. El código activo actual es betheboss, que vale 500 Monedas, y se introduce en la sección de Códigos del menú de Configuración."
+      },
+      {
+        "question": "¿Cómo canjeo códigos en Be The Final Boss?",
+        "answer": "En Be The Final Boss, abre el icono de Configuración en la esquina superior izquierda, desplázate hasta la sección de Códigos en la parte inferior del menú, escribe el código y presiona Canjear para reclamar tu recompensa."
+      },
+      {
+        "question": "¿En qué plataformas está disponible Be The Final Boss?",
+        "answer": "Be The Final Boss es un juego de Roblox compatible con PC, móviles y consolas, por lo que puedes jugarlo en computadoras, teléfonos, tabletas y consolas a través de la aplicación de Roblox."
+      },
+      {
+        "question": "¿Qué hacen los esbirros en Be The Final Boss?",
+        "answer": "En Be The Final Boss, los esbirros son las unidades invocadas que defienden tu castillo junto a tu jefe. Gastas Almas para invocarlos, y un ejército equilibrado frena a los héroes para que tu castillo sobreviva más tiempo."
+      },
+      {
+        "question": "¿Qué es el Árbol de Habilidades en Be The Final Boss?",
+        "answer": "El Árbol de Habilidades en Be The Final Boss contiene mejoras permanentes para tu jefe, esbirros y la defensa del castillo. Las Monedas desbloquean estos nodos, y un camino enfocado hace que las oleadas posteriores sean mucho más fáciles."
+      },
+      {
+        "question": "¿Cómo obtengo más Monedas y Almas en Be The Final Boss?",
+        "answer": "En Be The Final Boss, ganas Monedas y Almas al sobrevivir a las oleadas de héroes, canjear códigos como betheboss y progresar en el juego. Gasta Monedas en mejoras permanentes y Almas en invocar esbirros más fuertes."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para ser el jefe final?",
+    "description": "¡Invoca a tus esbirros, defiende tu castillo y sobrevive a oleadas interminables de héroes! ¡Juega a Be The Final Boss en Roblox ahora!",
+    "joinCommunity": "Jugar en Roblox",
+    "joinGame": "Seguir en X"
+  },
+  "footer": {
+    "title": "Wiki de Be The Final Boss",
+    "description": "Tu centro de recursos completo para códigos de Be The Final Boss, esbirros, armas, árbol de habilidades, oleadas y guías de monedas.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "roblox": "Juego de Roblox",
+    "twitter": "X / Twitter",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Be The Final Boss Wiki. No afiliado con Apparently Champions ni Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Be The Final Boss",
+      "description": "Los últimos códigos de Be The Final Boss que funcionan para obtener Monedas y recompensas gratis. Canjea códigos activos y mantente al día con códigos probados y funcionales.",
+      "metaTitle": "Códigos de Be The Final Boss - Monedas y recompensas gratis (julio de 2026)",
+      "metaDescription": "Canjea los últimos códigos de Be The Final Boss en Roblox para obtener Monedas y recompensas gratis. Actualizado con códigos activos probados y pasos de canje claros.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Be The Final Boss?",
+      "whatIsDescription": "Los códigos de Be The Final Boss son códigos de canje promocionales lanzados por el desarrollador Apparently Champions que otorgan recompensas gratuitas en el juego, como Monedas. Los códigos están vinculados a actualizaciones, hitos y eventos, por lo que aparecen nuevos códigos a medida que el juego crece.",
+      "why": "¿Por qué usar los códigos de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Monedas gratis al instante",
+        "step1Description": "Canjear el código activo betheboss otorga 500 Monedas de inmediato, dándole a las defensas de tu castillo un impulso inicial sin necesidad de farmear.",
+        "step2Title": "Anticípate a las actualizaciones",
+        "step2Description": "Los nuevos códigos se lanzan junto con las actualizaciones de contenido, por lo que consultar regularmente garantiza que nunca te pierdas las recompensas gratuitas.",
+        "step3Title": "Probados y funcionales",
+        "step3Description": "Cada código se verifica antes de ser listado, con los códigos caducados claramente marcados para que solo canjees lo que realmente funciona."
+      },
+      "featured": "Códigos destacados",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guía de Be The Final Boss",
+      "description": "Guías completas para principiantes de Be The Final Boss que cubren controles, rutas de inicio de juego, progresión y pruebas para dominar el simulador de jefe de defensa de torres inverso.",
+      "metaTitle": "Guía de Be The Final Boss - Principiantes, controles y progresión",
+      "metaDescription": "Aprende a jugar Be The Final Boss en Roblox con guías completas para principiantes, controles, rutas de inicio de juego, consejos de progresión y recorridos completos de las pruebas.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué es la guía de Be The Final Boss?",
+      "whatIsDescription": "La guía de Be The Final Boss cubre todo lo que necesitas para empezar con fuerza: controles básicos, el ciclo de invocar-defender-mejorar, rutas de inicio de juego, progresión a largo plazo y finalización de pruebas. Está diseñada para nuevos jugadores que aprenden el simulador de jefe de defensa de torres inverso.",
+      "why": "¿Por qué leer la guía de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Domina el ciclo principal",
+        "step1Description": "Entiende cómo invocar esbirros, defender tu castillo y sobrevivir a oleadas interminables de héroes desde tu primera partida.",
+        "step2Title": "Planifica tu inicio de juego",
+        "step2Description": "Sigue una ruta de inicio de juego probada que prioriza los esbirros, armas y nodos del árbol de habilidades adecuados para una progresión rápida y estable.",
+        "step3Title": "Supera todas las pruebas",
+        "step3Description": "Las guías de las pruebas detallan cada desafío para que puedas superarlos de manera eficiente y desbloquear recompensas más rápido."
+      },
+      "featured": "Guías destacadas",
+      "all": "Todas las guías"
+    },
+    "minions": {
+      "title": "Minions de Be The Final Boss",
+      "description": "Guías de minions de Be The Final Boss que cubren la lista de niveles, invocación, costos de mejora, habilidades, rareza y composiciones de equipo para defender tu castillo.",
+      "metaTitle": "Minions de Be The Final Boss - Lista de niveles, invocaciones y composiciones de equipo",
+      "metaDescription": "Domina a los minions de Be The Final Boss con listas de niveles, guías de invocación, costos de mejora, habilidades, rareza y las mejores composiciones de equipo para la defensa del castillo.",
+      "categoryLabel": "MINIONS",
+      "whatIs": "¿Qué son los minions de Be The Final Boss?",
+      "whatIsDescription": "Los minions son las unidades invocables que despliegas para defender tu castillo contra oleadas infinitas de héroes en Be The Final Boss.",
+      "why": "Cada minion tiene habilidades únicas, rareza, costos de mejora y un rol en la composición de tu equipo, lo que hace que la alineación correcta sea esencial para sobrevivir.",
+      "whySteps": {
+        "step1Title": "¿Por qué estudiar a los minions de Be The Final Boss?",
+        "step1Description": "Construye el mejor equipo",
+        "step2Title": "Las listas de niveles y las guías de composición de equipos muestran qué minions destacan al despejar oleadas y cómo combinarlos eficazmente.",
+        "step2Description": "Gasta las mejoras sabiamente",
+        "step3Title": "Los desgloses de costos de mejora te ayudan a priorizar los minions que ofrecen el mayor valor por tus Coins y Souls.",
+        "step3Description": "Desbloquea e invoca más rápido"
+      },
+      "featured": "Las guías de invocación y rareza explican cómo obtener los minions que necesitas y cómo la rareza afecta su poder.",
+      "all": "Guías destacadas de minions"
+    },
+    "weapons": {
+      "title": "Todas las guías de minions",
+      "description": "Armas de Be The Final Boss",
+      "metaTitle": "Guías de armas de Be The Final Boss con lista de niveles, rutas de mejora, costos, estadísticas de daño y las mejores armas iniciales para la defensa del castillo.",
+      "metaDescription": "Armas de Be The Final Boss - Lista de niveles, mejoras y daño",
+      "categoryLabel": "Compara las armas de Be The Final Boss con listas de niveles detalladas, guías de mejora, costos, estadísticas de daño y armas iniciales recomendadas para dominar cada oleada de héroes.",
+      "whatIs": "ARMAS",
+      "whatIsDescription": "¿Qué son las armas de Be The Final Boss?",
+      "why": "Las armas son las herramientas controladas por el jugador que empuñas junto a tus minions para combatir las oleadas de héroes en Be The Final Boss.",
+      "whySteps": {
+        "step1Title": "Cada arma tiene daño, velocidad de ataque, alcance, costos de mejora y condiciones de desbloqueo distintos, por lo que elegir y mejorar la adecuada afecta directamente tu supervivencia.",
+        "step1Description": "¿Por qué enfocarse en las armas de Be The Final Boss?",
+        "step2Title": "Elige el arma adecuada",
+        "step2Description": "Las listas de niveles y las comparaciones de daño te ayudan a elegir armas que se adapten a tu estilo de juego y a tus necesidades para despejar oleadas.",
+        "step3Title": "Mejora de manera eficiente",
+        "step3Description": "Las guías de mejora y los desgloses de costos muestran qué inversiones ofrecen el mayor aumento de poder para tus recursos."
+      },
+      "featured": "Empieza con fuerza",
+      "all": "Las recomendaciones de las mejores armas iniciales te ayudan a superar las oleadas de apertura sin desperdiciar Coins en opciones débiles."
+    },
+    "skills": {
+      "title": "Guías destacadas de armas",
+      "description": "Todas las guías de armas",
+      "metaTitle": "Árbol de habilidades de Be The Final Boss",
+      "metaDescription": "Guías del árbol de habilidades de Be The Final Boss que cubren rutas de nodos, obtención de puntos de habilidad, mejores mejoras iniciales, mejoras del castillo y mejoras del jugador.",
+      "categoryLabel": "ÁRBOL DE HABILIDADES",
+      "whatIs": "¿Qué es el árbol de habilidades de Be The Final Boss?",
+      "whatIsDescription": "El árbol de habilidades es el sistema de progresión a largo plazo en Be The Final Boss donde gastas puntos de habilidad para desbloquear mejoras permanentes para tu jefe, castillo y habilidades de jugador. Elegir los nodos y el orden correctos determina qué tan rápido escalas hacia las oleadas posteriores.",
+      "why": "¿Por qué planificar tu árbol de habilidades de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Gasta puntos de habilidad de forma inteligente",
+        "step1Description": "Las guías de farming de puntos de habilidad y de las mejores mejoras iniciales garantizan que siempre tengas puntos listos y los inviertas donde más importan.",
+        "step2Title": "Refuerza tu castillo",
+        "step2Description": "Las rutas de mejora del castillo muestran cómo reforzar las defensas para que tu base sobreviva más tiempo contra oleadas de héroes más fuertes.",
+        "step3Title": "Potencia a tu jugador",
+        "step3Description": "Las rutas de mejora del jugador mejoran tu impacto de combate personal, permitiéndote ganar combates que tus esbirros solos perderían."
+      },
+      "featured": "Guías destacadas del árbol de habilidades",
+      "all": "Todas las guías del árbol de habilidades"
+    },
+    "waves": {
+      "title": "Oleadas de Be The Final Boss",
+      "description": "Guías de oleadas de Be The Final Boss que cubren estrategias de supervivencia, tácticas oleada por oleada, oleadas de jefes, defensa del castillo, oleadas de héroes y cómo alcanzar la oleada más alta.",
+      "metaTitle": "Oleadas de Be The Final Boss - Guías de supervivencia, oleadas de jefes y héroes",
+      "metaDescription": "Sobrevive a oleadas interminables de héroes en Be The Final Boss con guías de oleadas, estrategias de supervivencia, tácticas para oleadas de jefes, defensa del castillo y partidas para alcanzar la oleada más alta.",
+      "categoryLabel": "OLEADAS",
+      "whatIs": "¿Qué son las oleadas de Be The Final Boss?",
+      "whatIsDescription": "Las oleadas son las etapas interminables de héroes que asaltan tu castillo en Be The Final Boss. Cada oleada se vuelve más difícil, introduciendo enemigos más fuertes, encuentros con jefes y una presión creciente. Aprender los patrones de las oleadas, los tipos de enemigos y las estrategias de defensa es la clave para alcanzar tu oleada más alta.",
+      "why": "¿Por qué aprender la estrategia de oleadas de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Sobrevive más tiempo",
+        "step1Description": "Las estrategias de supervivencia y las guías oleada por oleada te ayudan a anticipar el peligro y adaptar tu alineación de esbirros a medida que aumenta la presión.",
+        "step2Title": "Contrarresta las oleadas de jefes",
+        "step2Description": "Los análisis de las oleadas de jefes revelan cómo lidiar con enemigos de alta amenaza antes de que rompan tus defensas.",
+        "step3Title": "Supera tu oleada más alta",
+        "step3Description": "La defensa del castillo y las tácticas de resistencia te brindan la estructura para superar tu récord personal y escalar en las tablas de clasificación."
+      },
+      "featured": "Guías destacadas de oleadas",
+      "all": "Todas las guías de oleadas"
+    },
+    "currencies": {
+      "title": "Divisas de Be The Final Boss",
+      "description": "Guías de divisas de Be The Final Boss que cubren el farming de Monedas y Almas, la prioridad de gasto y las fuentes de recompensa para maximizar tus recursos.",
+      "metaTitle": "Divisas de Be The Final Boss - Guía de farming de Monedas y Almas",
+      "metaDescription": "Aprende a farmear y gastar Monedas y Almas de manera eficiente en Be The Final Boss con rutas de farming, guías de prioridad de gasto y desgloses completos de recompensas de divisas.",
+      "categoryLabel": "DIVISAS",
+      "whatIs": "¿Qué son las divisas de Be The Final Boss?",
+      "whatIsDescription": "Las divisas en Be The Final Boss son los recursos que ganas y gastas para hacerte más fuerte, principalmente Monedas y Almas. Las Monedas financian esbirros, armas y mejoras de castillo, mientras que las Almas desbloquean mejoras avanzadas. Saber cómo farmear y priorizar el gasto es esencial para una progresión constante.",
+      "why": "¿Por qué gestionar las divisas de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Farmea más rápido",
+        "step1Description": "Las guías de farming de Monedas y Almas revelan las rutas más eficientes para abastecerte sin perder tiempo.",
+        "step2Title": "Gasta en el orden correcto",
+        "step2Description": "Las guías de prioridad de gasto muestran qué mejoras ofrecen el mayor valor desde el principio para que nunca desperdicies recursos.",
+        "step3Title": "Maximiza las recompensas",
+        "step3Description": "Los desgloses de recompensas de divisas te ayudan a reclamar cada fuente de ingresos, desde códigos hasta hitos de oleadas."
+      },
+      "featured": "Guías de divisas destacadas",
+      "all": "Todas las guías de divisas"
+    }
   }
 }

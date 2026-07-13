@@ -1,11 +1,667 @@
 {
+  "seo": {
+    "home": {
+      "title": "Be The Final Boss Wiki - Códigos, Minions e Árvore de Habilidades",
+      "description": "A Wiki de Be The Final Boss cobre códigos ativos, guias de minions, armas, melhorias da árvore de habilidades, Almas, Moedas, ondas de heróis e as últimas atualizações do Roblox.",
+      "keywords": "Be The Final Boss, Roblox, códigos, minions, armas, árvore de habilidades, Almas, Moedas, ondas",
+      "ogTitle": "Be The Final Boss Wiki - Códigos, Minions e Árvore de Habilidades",
+      "ogDescription": "A Wiki de Be The Final Boss cobre códigos ativos, guias de minions, armas, melhorias da árvore de habilidades, Almas, Moedas, ondas de heróis e as últimas atualizações do Roblox.",
+      "twitterTitle": "Be The Final Boss Wiki - Códigos, Minions e Árvore de Habilidades",
+      "twitterDescription": "A Wiki de Be The Final Boss cobre códigos ativos, guias de minions, armas, árvore de habilidades, Almas, Moedas, ondas de heróis e as últimas atualizações do Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guia",
-    "minions": "Lacaios",
+    "minions": "Minions",
     "weapons": "Armas",
     "skills": "Habilidades",
     "waves": "Ondas",
     "currencies": "Moedas"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Simulador de Chefe de Tower Defense Reverso",
+    "title": "Wiki de Be The Final Boss",
+    "description": "Defenda seu castelo como o chefe final, invoque minions poderosos, sobreviva a ondas infinitas de heróis, melhore sua árvore de habilidades e desbloqueie novas armas.",
+    "getFreeCodesCTA": "Obter Códigos Grátis",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "44,5K+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "2,2K+",
+        "label": "Favoritos"
+      },
+      "stat3": {
+        "value": "1",
+        "label": "Código Ativo"
+      },
+      "stat4": {
+        "value": "3",
+        "label": "Plataformas Suportadas"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Be The Final Boss",
+    "description": "Invoque lacaios, defenda seu castelo como o chefe final, sobreviva a ondas infinitas de heróis, melhore sua árvore de habilidades e desbloqueie novas armas no PC, celular e console no Roblox."
+  },
+  "tools": {
+    "title": "Be The Final Boss",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para dominar Be The Final Boss — códigos, lacaios, armas, árvore de habilidades, moedas e defesa de castelo.",
+    "cards": [
+      {
+        "icon": "ClipboardCheck",
+        "title": "Códigos de Be The Final Boss",
+        "description": "Códigos ativos, recompensas e etapas de resgate"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Be The Final Boss",
+        "description": "Primeiros passos, ciclo básico e progressão inicial"
+      },
+      {
+        "icon": "Users",
+        "title": "Tier List de Lacaios de Be The Final Boss",
+        "description": "Melhores lacaios para invocar e investir Almas"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Melhores Armas de Be The Final Boss",
+        "description": "Escolhas de armas, valor de melhoria e classificações"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Builds da Árvore de Habilidades de Be The Final Boss",
+        "description": "Caminhos de melhorias permanentes e prioridade de nós"
+      },
+      {
+        "icon": "Package",
+        "title": "Moedas e Almas de Be The Final Boss",
+        "description": "Como ganhar e gastar cada moeda"
+      },
+      {
+        "icon": "Shield",
+        "title": "Defesa de Castelo de Be The Final Boss",
+        "description": "Implantação, posicionamento e estratégia de ondas"
+      },
+      {
+        "icon": "Clock",
+        "title": "Atualizações de Be The Final Boss",
+        "description": "Códigos de Be The Final Boss"
+      }
+    ]
+  },
+  "modules": {
+    "beTheFinalBossCodes": {
+      "title": "code-cards",
+      "displayType": "Be The Final Boss atualmente tem um código de lançamento ativo. Insira-o na seção de Códigos na parte inferior do menu de Configurações para resgatar Moedas grátis e, em seguida, use a recompensa em melhorias permanentes da Árvore de Habilidades ou na sua arma principal.",
+      "intro": "betheboss",
+      "items": [
+        {
+          "code": "Ativo",
+          "status": "500 Moedas",
+          "reward": "Inicie Be The Final Boss no Roblox e espere seu castelo carregar.",
+          "redemption_steps": [
+            "Selecione o ícone de Configurações no canto superior esquerdo.",
+            "Role até a seção de Códigos na parte inferior do menu.",
+            "Insira betheboss exatamente como mostrado e pressione Resgatar.",
+            "Use as Moedas em melhorias permanentes da Árvore de Habilidades ou na sua arma principal antes de tentar ondas de heróis mais difíceis."
+          ],
+          "best_use": "Use as Moedas em melhorias permanentes da Árvore de Habilidades ou na sua arma principal antes de enfrentar ondas de heróis mais difíceis."
+        }
+      ],
+      "tips": [
+        "Os códigos diferenciam maiúsculas de minúsculas, então insira betheboss exatamente como escrito.",
+        "Se um código disser que é inválido, verifique a ortografia antes de presumir que ele expirou.",
+        "Novos códigos geralmente são lançados perto de atualizações, marcos e eventos."
+      ]
+    },
+    "beTheFinalBossBeginnerGuide": {
+      "title": "Guia de Iniciante de Be The Final Boss",
+      "displayType": "passo a passo",
+      "intro": "O ciclo principal de Be The Final Boss é simples: invoque lacaios, impeça os heróis de chegarem ao castelo, colete recursos e melhore tanto o seu chefe quanto o seu exército. Siga este caminho para evitar dispersar demais os recursos iniciais.",
+      "steps": [
+        {
+          "title": "Resgate o Código de Lançamento",
+          "description": "Resgate betheboss nas Configurações para obter 500 Moedas antes de comprar suas primeiras grandes melhorias."
+        },
+        {
+          "title": "Invoque uma Defesa Básica",
+          "description": "Use Almas para adicionar lacaios para que os heróis que se aproximam não se concentrem inteiramente no seu personagem ou castelo."
+        },
+        {
+          "title": "Lute ao Lado dos Seus Lacaios",
+          "description": "Encontre os heróis antes que eles cheguem ao castelo e ajude a acabar com os inimigos que passarem pela sua linha de defesa."
+        },
+        {
+          "title": "Priorize o Poder Permanente",
+          "description": "Gaste Moedas em reforços úteis da Árvore de Habilidades e mantenha uma arma principal melhorada em vez de dividir recursos entre todas as opções."
+        },
+        {
+          "title": "Prepare-se para as Próximas Ondas",
+          "description": "Repita as ondas, substitua invocações iniciais fracas por lacaios desbloqueados mais fortes e mude para armas mais novas quando elas superarem o nível de melhoria atual."
+        }
+      ],
+      "quickTips": [
+        "Mantenha pelo menos um lacaio de linha de frente ativo para que os heróis não corram direto para o seu castelo.",
+        "Reinvista Moedas na Árvore de Habilidades em vez de acumulá-las entre as ondas.",
+        "Melhore uma arma confiável em vez de dividir Moedas entre várias opções de nível baixo.",
+        "Observe quais heróis conseguem passar e ajuste a combinação de lacaios para a próxima onda."
+      ]
+    },
+    "beTheFinalBossMinionTierList": {
+      "title": "Tier List de Lacaios de Be The Final Boss",
+      "displayType": "tier-grid",
+      "intro": "Um exército equilibrado é mais eficaz do que preencher todos os espaços com a invocação mais barata. Use lacaios resistentes para desacelerar os heróis, mantenha as invocações focadas em dano protegidas e substitua gradualmente as unidades iniciais à medida que opções mais fortes forem desbloqueadas em Be The Final Boss.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Escolhas Essenciais para Ondas Finais",
+          "minions": [
+            "Seus lacaios desbloqueados mais avançados"
+          ],
+          "strengths": "Melhor combinação geral de dano, durabilidade e utilidade contra ondas de heróis mais fortes.",
+          "investment": "Maior prioridade de Almas; construa o exército em torno dessas unidades assim que forem desbloqueadas."
+        },
+        {
+          "tier": "A",
+          "label": "Defensores de Linha de Frente",
+          "minions": [
+            "Lacaios corpo a corpo resistentes",
+            "Unidades que mantêm os heróis longe do castelo"
+          ],
+          "strengths": "Crie tempo para seu chefe e lacaios da retaguarda causarem dano com segurança.",
+          "investment": "Mantenha unidades de linha de frente ativas o suficiente para evitar avanços rápidos."
+        },
+        {
+          "tier": "B",
+          "label": "Causadores de Dano Protegidos",
+          "minions": [
+            "Lacaios de ataque à distância ou estilo conjurador",
+            "Invocações focadas em dano com menor durabilidade"
+          ],
+          "strengths": "Causam dano contínuo útil enquanto outro lacaio chama a atenção do inimigo.",
+          "investment": "Adicione depois que a linha de frente estiver estável; evite deixá-los expostos."
+        },
+        {
+          "tier": "---",
+          "label": "C",
+          "minions": [
+            "Invocações Iniciais Temporárias",
+            "Minions corpo a corpo iniciais"
+          ],
+          "strengths": "Invocações iniciais de nível baixo",
+          "investment": "Ajuda acessível durante as primeiras ondas, mas enfraquece conforme a vida dos heróis e a pressão aumentam."
+        }
+      ]
+    },
+    "beTheFinalBossBestWeapons": {
+      "title": "Use no início e depois substitua, em vez de continuar gastando muito com eles.",
+      "displayType": "Melhores Armas de Be The Final Boss",
+      "intro": "tabela-de-comparação",
+      "weapons": [
+        {
+          "rank": "As armas são desbloqueadas conforme o progresso avança em Be The Final Boss, e as Moedas também financiam melhorias em armas e na Árvore de Habilidades. A melhor estratégia é manter uma arma principal aprimorada e evitar gastar Moedas em várias opções de nível baixo ao mesmo tempo.",
+          "weapon_choice": "S",
+          "best_for": "Arma desbloqueada de nível mais alto e devidamente aprimorada",
+          "strength": "Progressão geral e ondas mais difíceis",
+          "upgrade_priority": "Combina o escalonamento de fim de jogo com melhorias suficientes para lidar com grupos de heróis de forma eficiente."
+        },
+        {
+          "rank": "Altíssima",
+          "weapon_choice": "A",
+          "best_for": "Arma atual mais aprimorada",
+          "strength": "Conclusões consistentes enquanto economiza Moedas",
+          "upgrade_priority": "Uma arma antiga muito aprimorada pode continuar sendo mais forte do que um novo desbloqueio sem investimento."
+        },
+        {
+          "rank": "Alta",
+          "weapon_choice": "B",
+          "best_for": "Arma recém-desbloqueada com poucas melhorias",
+          "strength": "Testar padrão de ataque e alcance",
+          "upgrade_priority": "Pode se tornar a melhor opção após investimento, mas deve ser testada antes de substituir uma arma principal comprovada."
+        },
+        {
+          "rank": "Média",
+          "weapon_choice": "C",
+          "best_for": "Arma inicial",
+          "strength": "Primeiras ondas e aprendizado de combate",
+          "upgrade_priority": "Simples e disponível imediatamente, mas seu valor cai assim que armas mais fortes e melhorias permanentes são desbloqueadas."
+        }
+      ]
+    },
+    "beTheFinalBossSkillTree": {
+      "title": "Baixa após a progressão inicial",
+      "displayType": "Builds da Árvore de Habilidades de Be The Final Boss",
+      "intro": "caminho-de-melhoria",
+      "builds": [
+        {
+          "name": "Moedas gastas na Árvore de Habilidades fornecem progressão permanente entre as ondas de heróis. Monte sua build em torno da parte da sua defesa que está falhando no momento, depois distribua melhorias futuras entre o poder do jogador, força dos minions e durabilidade do castelo.",
+          "best_for": "Build Inicial Equilibrada",
+          "steps": [
+            {
+              "priority": 1,
+              "focus": "Novos jogadores e progressão inicial",
+              "guidance": "Melhorias do Jogador"
+            },
+            {
+              "priority": 2,
+              "focus": "Comece com melhorias focadas no jogador para que você possa lutar ao lado de seus minions e derrotar heróis iniciais de forma consistente.",
+              "guidance": "Melhorias dos Minions"
+            },
+            {
+              "priority": 3,
+              "focus": "Melhore o poder dos minions depois que seu personagem conseguir dar suporte à linha de frente confortavelmente.",
+              "guidance": "Defesa do Castelo"
+            }
+          ],
+          "result": "Dano constante, lacaios confiáveis e proteção suficiente para se recuperar de pequenos erros defensivos."
+        },
+        {
+          "name": "Build de Exército de Lacaios",
+          "best_for": "Jogadores que querem que as invocações lidem com a maioria dos inimigos",
+          "steps": [
+            {
+              "priority": 1,
+              "focus": "Melhorias de Lacaios",
+              "guidance": "Direcione a maior parte dos gastos iniciais da Árvore de Habilidades para melhorias permanentes de lacaios."
+            },
+            {
+              "priority": 2,
+              "focus": "Defesa do Castelo",
+              "guidance": "Fortaleça o castelo para que ele possa sobreviver quando os inimigos romperem a linha de lacaios."
+            },
+            {
+              "priority": 3,
+              "focus": "Melhorias do Jogador",
+              "guidance": "Adicione poder ao jogador para eliminar heróis mais fortes e apoiar pontos fracos na formação."
+            }
+          ],
+          "result": "Uma build focada em invocações que usa o jogador como suporte e dano de emergência."
+        },
+        {
+          "name": "Build de Sobrevivência para Ondas Altas",
+          "best_for": "Partidas longas contra ondas de heróis cada vez mais difíceis",
+          "steps": [
+            {
+              "priority": 1,
+              "focus": "Defesa do Castelo",
+              "guidance": "Invista em melhorias focadas no castelo antes de avançar além da sua onda mais alta atual."
+            },
+            {
+              "priority": 2,
+              "focus": "Melhorias de Lacaios",
+              "guidance": "Aumente a força dos lacaios para reduzir o número de heróis que chegam à área defensiva final."
+            },
+            {
+              "priority": 3,
+              "focus": "Melhorias do Jogador",
+              "guidance": "Melhore o poder de combate pessoal para finalizar inimigos resistentes e interceptar heróis que escaparem."
+            }
+          ],
+          "result": "Uma build defensiva projetada para evitar que uma única invasão encerre uma partida que, de outra forma, seria bem-sucedida."
+        }
+      ]
+    },
+    "beTheFinalBossCoinsAndSouls": {
+      "title": "Guia de Moedas e Almas de Be The Final Boss",
+      "displayType": "resource-cards",
+      "intro": "Be The Final Boss separa a progressão de personagem do recrutamento de lacaios por meio de duas moedas. Use Moedas para melhorar o poder de combate permanente e guarde Almas para obter lacaios mais fortes que possam manter a linha de defesa.",
+      "currencies": [
+        {
+          "name": "Moedas",
+          "purpose": "Progressão permanente",
+          "used_for": [
+            "Melhorias da Árvore de Habilidades",
+            "Melhorias de armas e novas armas"
+          ],
+          "sources": [
+            "Recompensas normais de progressão no jogo",
+            "Recompensas de códigos e desenvolvedores",
+            "O código de lançamento betheboss, que concede 500 Moedas"
+          ],
+          "spending_priority": "Compre primeiro melhorias úteis da Árvore de Habilidades iniciais e, depois, melhore as armas quando seu dano pessoal ficar atrás das ondas de heróis atuais."
+        },
+        {
+          "name": "Almas",
+          "purpose": "Progressão de lacaios",
+          "used_for": [
+            "Obtenção de novos lacaios",
+            "Construção de um exército defensivo mais forte"
+          ],
+          "sources": [
+            "Recompensas de progressão no jogo e de ondas",
+            "Recompensas especiais anunciadas pelos desenvolvedores"
+          ],
+          "spending_priority": "Guarde Almas para melhorias de lacaios em vez de gastá-las repetidamente sem fortalecer sua escalação defensiva ativa."
+        }
+      ],
+      "spending_order": [
+        {
+          "priority": 1,
+          "action": "Resgatar betheboss",
+          "details": "Resgate a recompensa de lançamento de 500 Moedas através do campo de código nas Configurações."
+        },
+        {
+          "priority": 2,
+          "action": "Comprar Poder Permanente",
+          "details": "Use Moedas em melhorias iniciais da Árvore de Habilidades que aprimoram sua capacidade de eliminar ondas de heróis."
+        },
+        {
+          "priority": 3,
+          "action": "Fortaleça o Exército",
+          "details": "Use Almas para obter lacaios melhores antes de economizar para melhorias de invocação adicionais."
+        },
+        {
+          "priority": 4,
+          "action": "Equilibre a Defesa",
+          "details": "Alterne os gastos posteriores entre armas, lacaios e melhorias focadas no castelo, de acordo com a parte da defesa que falhar primeiro."
+        }
+      ]
+    },
+    "beTheFinalBossCastleDefense": {
+      "title": "Guia de Defesa de Castelo de Be The Final Boss",
+      "displayType": "cartas-de-estratégia",
+      "intro": "Os heróis atacam em ondas infinitas e tornam-se mais difíceis de parar conforme a partida avança. Seus lacaios formam a linha de defesa principal, mas o jogador deve apoiá-los ativamente, interceptar inimigos que escaparem e gastar recursos antes do próximo grande aumento de dificuldade.",
+      "strategies": [
+        {
+          "name": "Estabeleça a Linha de Frente",
+          "priority": "Essencial",
+          "strategy": "Invoque lacaios antes que os heróis cheguem ao castelo e mantenha o exército posicionado entre os atacantes e a área de defesa final.",
+          "avoid": "Esperar até que os heróis já estejam perto do castelo antes de montar a linha defensiva."
+        },
+        {
+          "name": "Lute ao Lado dos Seus Lacaios",
+          "priority": "Essencial",
+          "strategy": "Use sua arma para causar dano aos heróis enquanto eles estiverem ocupados com os lacaios. Mova-se em direção a qualquer inimigo que escapar em vez de permanecer em uma única posição.",
+          "avoid": "Esperar que os lacaios eliminem todas as ondas sem o apoio direto do jogador."
+        },
+        {
+          "name": "Proteja-se Contra Invasões",
+          "priority": "Alta",
+          "strategy": "Observe a rota atrás do seu exército principal e intercepte imediatamente os heróis que passarem pela linha de frente. Melhorias na Árvore de Habilidades focadas no castelo oferecem proteção adicional durante partidas mais longas.",
+          "avoid": "Seguir um alvo para muito longe enquanto outro herói avança em direção ao castelo."
+        },
+        {
+          "name": "Melhore Antes que o Dano Fique Defasado",
+          "priority": "Alta",
+          "strategy": "Gaste Moedas em armas e melhorias permanentes da Árvore de Habilidades quando os inimigos demorarem muito para serem derrotados. Use Almas para melhorar o exército de lacaios quando a linha de frente desmoronar rápido demais.",
+          "avoid": "Economizar todos os recursos enquanto a defesa atual já é incapaz de controlar uma onda."
+        },
+        {
+          "name": "Prepare-se para o Escalonamento Infinito",
+          "priority": "Final de Jogo",
+          "strategy": "Equilibre o poder do jogador, a força dos lacaios e a defesa do castelo em vez de depender inteiramente de um único sistema. Ondas posteriores punem pontos fracos com mais severidade do que as ondas iniciais.",
+          "avoid": "Investir tudo em dano pessoal enquanto deixa os lacaios e o castelo desprotegidos."
+        },
+        {
+          "name": "Recupere a Linha Defensiva",
+          "priority": "Emergência",
+          "strategy": "Quando vários heróis romperem a defesa, recue em direção ao castelo, elimine as ameaças mais próximas primeiro e permita que os lacaios sobreviventes se reagrupem em torno dos inimigos restantes.",
+          "avoid": "Continuar atacando heróis distantes enquanto ameaças imediatas estão danificando a defesa final."
+        }
+      ]
+    },
+    "beTheFinalBossUpdates": {
+      "title": "Atualizações de Be The Final Boss",
+      "displayType": "linha-do-tempo",
+      "intro": "A versão de lançamento foca em defender um castelo de ondas infinitas de heróis, invocar lacaios, desbloquear armas e comprar melhorias permanentes na Árvore de Habilidades. Verifique os canais oficiais após grandes atualizações do jogo para obter novas recompensas e mudanças de balanceamento.",
+      "entries": [
+        {
+          "date": "Versão de Lançamento",
+          "title": "Jogabilidade Principal de Defesa de Castelo",
+          "changes": [
+            "Defenda o castelo contra ondas infinitas de heróis invasores.",
+            "Invoque lacaios que lutam ao lado do jogador.",
+            "Suba o nível de uma Árvore de Habilidades permanente.",
+            "Desbloqueie novas armas conforme a progressão avança."
+          ],
+          "status": "Ao vivo"
+        },
+        {
+          "date": "Recompensa de Lançamento",
+          "title": "Código betheboss Adicionado",
+          "changes": [
+            "O código de lançamento betheboss está listado na página oficial do jogo no Roblox.",
+            "O código concede 500 Moedas.",
+            "Os códigos são resgatados através do campo de código dentro do menu de Configurações."
+          ],
+          "status": "Ativo"
+        },
+        {
+          "date": "Atual",
+          "title": "Rastreamento da Página Oficial do Jogo",
+          "changes": [
+            "A descrição do Roblox exibe o código de lançamento atual e os principais recursos de jogabilidade.",
+            "O painel de códigos dentro do jogo é usado para informações adicionais de recompensas.",
+            "O jogo suporta computador, celular e console."
+          ],
+          "status": "Fonte Oficial"
+        },
+        {
+          "date": "Atual",
+          "title": "Canais de Anúncio dos Desenvolvedores",
+          "changes": [
+            "Apparently Champions é a comunidade oficial do Roblox por trás do jogo.",
+            "Apparently Games publica informações dos desenvolvedores através de sua conta oficial no X.",
+            "Futuros anúncios de códigos, armas, minions e balanceamento devem ser verificados nesses canais oficiais."
+          ],
+          "status": "Monitoramento"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Be The Final Boss",
+    "titleHighlight": "FAQ",
+    "subtitle": "Tudo o que você precisa saber sobre Be The Final Boss",
+    "questions": [
+      {
+        "question": "O que são os códigos de Be The Final Boss?",
+        "answer": "Os códigos de Be The Final Boss são códigos de resgate gratuitos que concedem Moedas e outras recompensas. O código ativo atual é betheboss, que vale 500 Moedas, inserido na seção de Códigos do menu de Configurações."
+      },
+      {
+        "question": "Como eu resgato códigos em Be The Final Boss?",
+        "answer": "Em Be The Final Boss, abra o ícone de Configurações no canto superior esquerdo, role até a seção de Códigos no final do menu, digite o código e pressione Resgatar para reivindicar sua recompensa."
+      },
+      {
+        "question": "Em quais plataformas Be The Final Boss está disponível?",
+        "answer": "Be The Final Boss é um jogo do Roblox que suporta Computador, Celular e Console, então você pode jogá-lo no PC, celulares, tablets e consoles através do aplicativo do Roblox."
+      },
+      {
+        "question": "O que os minions fazem em Be The Final Boss?",
+        "answer": "Em Be The Final Boss, os minions são as unidades invocadas que defendem seu castelo ao lado do seu chefe. Você gasta Almas para invocá-los, e um exército equilibrado atrasa os heróis para que seu castelo sobreviva por mais tempo."
+      },
+      {
+        "question": "O que é a Árvore de Habilidades em Be The Final Boss?",
+        "answer": "A Árvore de Habilidades em Be The Final Boss contém melhorias permanentes para o seu chefe, minions e defesa do castelo. Moedas desbloqueiam esses nós, e um caminho focado torna as ondas posteriores muito mais fáceis."
+      },
+      {
+        "question": "Como consigo mais Moedas e Almas em Be The Final Boss?",
+        "answer": "Em Be The Final Boss, você ganha Moedas e Almas sobrevivendo a ondas de heróis, resgatando códigos como betheboss e progredindo no jogo. Gaste Moedas em melhorias permanentes e Almas para invocar minions mais fortes."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para ser o Chefe Final?",
+    "description": "Invoque seus minions, defenda seu castelo e sobreviva a ondas infinitas de heróis. Jogue Be The Final Boss no Roblox agora!",
+    "joinCommunity": "Jogar no Roblox",
+    "joinGame": "Seguir no X"
+  },
+  "footer": {
+    "title": "Wiki de Be The Final Boss",
+    "description": "Seu hub de recursos completo para códigos, lacaios, armas, árvore de habilidades, ondas e guias de moedas de Be The Final Boss.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Avisos Legais",
+    "roblox": "Jogo no Roblox",
+    "twitter": "X / Twitter",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Be The Final Boss Wiki. Não afiliado à Apparently Champions ou à Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Be The Final Boss",
+      "description": "Últimos códigos ativos de Be The Final Boss para Moedas e recompensas grátis. Resgate códigos ativos e fique atualizado com códigos testados e funcionando.",
+      "metaTitle": "Códigos de Be The Final Boss - Moedas e Recompensas Grátis (Julho de 2026)",
+      "metaDescription": "Resgate os últimos códigos ativos de Be The Final Boss no Roblox para obter Moedas e recompensas grátis. Atualizado com códigos ativos testados e etapas claras de resgate.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são os códigos de Be The Final Boss?",
+      "whatIsDescription": "Os códigos de Be The Final Boss são códigos promocionais de resgate lançados pela desenvolvedora Apparently Champions que concedem recompensas gratuitas no jogo, como Moedas. Os códigos estão atrelados a atualizações, metas e eventos, então novos códigos surgem conforme o jogo cresce.",
+      "why": "Por que usar códigos de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Moedas grátis instantaneamente",
+        "step1Description": "Resgatar o código ativo betheboss concede 500 Moedas imediatamente, dando um impulso inicial às defesas do seu castelo sem precisar farmar.",
+        "step2Title": "Fique à frente das atualizações",
+        "step2Description": "Novos códigos são lançados junto com atualizações de conteúdo, então voltar para verificar regularmente garante que você nunca perca recompensas grátis.",
+        "step3Title": "Testados e funcionando",
+        "step3Description": "Cada código é verificado antes de ser listado, com códigos expirados claramente marcados para que você resgate apenas o que realmente funciona."
+      },
+      "featured": "Códigos em Destaque",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guia de Be The Final Boss",
+      "description": "Guias completos de Be The Final Boss para iniciantes cobrindo controles, rota de início de jogo, progressão e provações para dominar o simulador de chefe de tower defense reverso.",
+      "metaTitle": "Guia de Be The Final Boss - Iniciante, Controles e Progressão",
+      "metaDescription": "Aprenda a jogar Be The Final Boss no Roblox com guias completos para iniciantes, controles, rotas de início de jogo, dicas de progressão e detonados completos das provações.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que é o guia de Be The Final Boss?",
+      "whatIsDescription": "O guia de Be The Final Boss cobre tudo o que você precisa para começar forte: controles básicos, o ciclo de invocar-defender-melhorar, rotas de início de jogo, progressão a longo prazo e conclusão de provações. Ele foi feito para novos jogadores que estão aprendendo o simulador de chefe de tower defense reverso.",
+      "why": "Por que ler o guia de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Domine o ciclo básico",
+        "step1Description": "Entenda como invocar lacaios, defender seu castelo e sobreviver a ondas infinitas de heróis desde a sua primeiríssima partida.",
+        "step2Title": "Planeje seu início de jogo",
+        "step2Description": "Siga uma rota testada de início de jogo que prioriza os lacaios, armas e nós da árvore de habilidades corretos para uma progressão rápida e estável.",
+        "step3Title": "Vença todos os desafios",
+        "step3Description": "Os detonados de desafios detalham cada etapa para que você possa concluí-los com eficiência e desbloquear recompensas mais rápido."
+      },
+      "featured": "Guias em Destaque",
+      "all": "Todos os Guias"
+    },
+    "minions": {
+      "title": "Be The Final Boss: Minions",
+      "description": "Guias de minions de Be The Final Boss abrangendo tier list, invocação, custos de melhoria, habilidades, raridade e composições de equipe para defender seu castelo.",
+      "metaTitle": "Be The Final Boss: Minions - Tier List, Invocações e Composições de Equipe",
+      "metaDescription": "Domine os minions de Be The Final Boss com tier lists, guias de invocação, custos de melhoria, habilidades, raridade e as melhores composições para defesa de castelo.",
+      "categoryLabel": "MINIONS",
+      "whatIs": "O que são os minions de Be The Final Boss?",
+      "whatIsDescription": "Minions são as unidades invocáveis que você utiliza para defender seu castelo contra ondas infinitas de heróis em Be The Final Boss. Cada minion possui habilidades únicas, raridade, custos de melhoria e uma função na composição da sua equipe, tornando a escolha certa essencial para a sobrevivência.",
+      "why": "Por que estudar os minions de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Monte a melhor equipe",
+        "step1Description": "Tier lists e guias de composição mostram quais minions se destacam ao limpar ondas e como combiná-los de forma eficaz.",
+        "step2Title": "Gaste melhorias com sabedoria",
+        "step2Description": "O detalhamento dos custos de melhoria ajuda você a priorizar os minions que oferecem o maior valor para suas Coins e Souls.",
+        "step3Title": "Desbloqueie e invoque mais rápido",
+        "step3Description": "Guias de invocação e raridade explicam como obter os minions necessários e como a raridade afeta o poder deles."
+      },
+      "featured": "Guias de Minions em Destaque",
+      "all": "Todos os Guias de Minions"
+    },
+    "weapons": {
+      "title": "Be The Final Boss: Armas",
+      "description": "Guias de armas de Be The Final Boss com tier list, caminhos de melhoria, custos, estatísticas de dano e as melhores armas iniciais para defesa de castelo.",
+      "metaTitle": "Be The Final Boss: Armas - Tier List, Melhorias e Dano",
+      "metaDescription": "Compare as armas de Be The Final Boss com tier lists detalhadas, guias de melhoria, custos, estatísticas de dano e recomendações de armas iniciais para dominar cada onda de heróis.",
+      "categoryLabel": "ARMAS",
+      "whatIs": "O que são as armas de Be The Final Boss?",
+      "whatIsDescription": "Armas são as ferramentas controladas pelo jogador que você empunha ao lado de seus minions para combater ondas de heróis em Be The Final Boss. Cada arma possui dano, velocidade de ataque, alcance, custos de melhoria e condições de desbloqueio distintos, portanto, escolher e melhorar a arma certa impacta diretamente sua sobrevivência.",
+      "why": "Por que focar nas armas de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Escolha a arma certa",
+        "step1Description": "Tier lists e comparações de dano ajudam você a escolher armas que combinam com seu estilo de jogo e necessidades de limpeza de ondas.",
+        "step2Title": "Melhore com eficiência",
+        "step2Description": "Guias de melhoria e detalhamento de custos mostram quais investimentos oferecem o maior aumento de poder para seus recursos.",
+        "step3Title": "Comece com força",
+        "step3Description": "Recomendações das melhores armas iniciais ajudam você a passar pelas ondas de abertura sem desperdiçar Coins em opções fracas."
+      },
+      "featured": "Guias de Armas em Destaque",
+      "all": "Todos os Guias de Armas"
+    },
+    "skills": {
+      "title": "Be The Final Boss: Árvore de Habilidades",
+      "description": "Guias da árvore de habilidades de Be The Final Boss abrangendo caminhos de nós, farm de pontos de habilidade, melhores melhorias iniciais, melhorias de castelo e melhorias de jogador.",
+      "metaTitle": "Be The Final Boss: Árvore de Habilidades - Melhores Melhorias e Farm de Pontos",
+      "metaDescription": "Otimize sua árvore de habilidades de Be The Final Boss com guias de nós, farm de pontos de habilidade, melhores melhorias iniciais, melhorias de castelo e caminhos de melhoria de jogador.",
+      "categoryLabel": "ÁRVORE DE HABILIDADES",
+      "whatIs": "O que é a árvore de habilidades de Be The Final Boss?",
+      "whatIsDescription": "A árvore de habilidades é o sistema de progressão de longo prazo em Be The Final Boss, onde você gasta pontos de habilidade para desbloquear melhorias permanentes para seu chefe, castelo e habilidades do jogador. Escolher os nós e a ordem certos determina a rapidez com que você escala para as ondas posteriores.",
+      "why": "Por que planejar sua árvore de habilidades de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Gaste pontos de habilidade de forma inteligente",
+        "step1Description": "Guias de farm de pontos de habilidade e de melhores melhorias iniciais garantem que você sempre tenha pontos prontos e os invista onde eles mais importam.",
+        "step2Title": "Fortaleça seu castelo",
+        "step2Description": "Os caminhos de melhoria do castelo mostram como reforçar as defesas para que sua base sobreviva por mais tempo contra ondas de heróis mais fortes.",
+        "step3Title": "Fortaleça seu jogador",
+        "step3Description": "As rotas de melhoria do jogador melhoram seu impacto de combate pessoal, permitindo que você vença combates que seus lacaios sozinhos perderiam."
+      },
+      "featured": "Guias em Destaque da Árvore de Habilidades",
+      "all": "Todos os Guias da Árvore de Habilidades"
+    },
+    "waves": {
+      "title": "Ondas de Be The Final Boss",
+      "description": "Guias de ondas de Be The Final Boss cobrindo estratégia de sobrevivência, táticas onda por onda, ondas de chefes, defesa de castelo, ondas de heróis e como alcançar a onda mais alta.",
+      "metaTitle": "Ondas de Be The Final Boss - Guias de Sobrevivência, Ondas de Chefes e Heróis",
+      "metaDescription": "Sobreviva a ondas infinitas de heróis em Be The Final Boss com guias de ondas, estratégias de sobrevivência, táticas de ondas de chefes, defesa de castelo e tentativas de alcançar a onda mais alta.",
+      "categoryLabel": "ONDAS",
+      "whatIs": "O que são as ondas de Be The Final Boss?",
+      "whatIsDescription": "As ondas são os estágios infinitos de heróis que atacam seu castelo em Be The Final Boss. Cada onda fica mais difícil, introduzindo inimigos mais fortes, confrontos com chefes e uma pressão crescente. Aprender os padrões das ondas, tipos de inimigos e estratégias de defesa é a chave para superar sua onda mais alta.",
+      "why": "Por que aprender a estratégia de ondas de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Sobreviva por mais tempo",
+        "step1Description": "Estratégias de sobrevivência e guias onda por onda ajudam você a antecipar o perigo e adaptar sua composição de lacaios à medida que a pressão aumenta.",
+        "step2Title": "Combata ondas de chefes",
+        "step2Description": "Análises detalhadas de ondas de chefes revelam como lidar com inimigos de alta ameaça antes que eles quebrem suas defesas.",
+        "step3Title": "Alcance sua onda mais alta",
+        "step3Description": "Táticas de resistência e defesa do castelo oferecem a estrutura para superar seu recorde pessoal e subir nas tabelas de classificação."
+      },
+      "featured": "Guias de Ondas em Destaque",
+      "all": "Todos os Guias de Ondas"
+    },
+    "currencies": {
+      "title": "Moedas de Be The Final Boss",
+      "description": "Guias de moedas de Be The Final Boss cobrindo farm de Moedas e Almas, prioridade de gastos e fontes de recompensa para maximizar seus recursos.",
+      "metaTitle": "Moedas de Be The Final Boss - Guia de Farm de Moedas e Almas",
+      "metaDescription": "Aprenda a farmar e gastar Moedas e Almas de forma eficiente em Be The Final Boss com rotas de farm, guias de prioridade de gastos e análises detalhadas de recompensas de moedas.",
+      "categoryLabel": "MOEDAS",
+      "whatIs": "O que são as moedas de Be The Final Boss?",
+      "whatIsDescription": "As moedas em Be The Final Boss são os recursos que você ganha e gasta para ficar mais forte, principalmente Moedas e Almas. As Moedas financiam lacaios, armas e melhorias do castelo, enquanto as Almas desbloqueiam melhorias avançadas. Saber como farmar e priorizar os gastos é essencial para uma progressão constante.",
+      "why": "Por que gerenciar as moedas de Be The Final Boss?",
+      "whySteps": {
+        "step1Title": "Farme mais rápido",
+        "step1Description": "Guias de farm de Moedas e Almas revelam as rotas mais eficientes para acumular recursos sem perder tempo.",
+        "step2Title": "Gaste na ordem certa",
+        "step2Description": "Guias de prioridade de gastos mostram quais melhorias oferecem mais valor no início para que você nunca desperdice recursos.",
+        "step3Title": "Maximize as recompensas",
+        "step3Description": "Detalhamentos de recompensas ajudam você a resgatar todas as fontes de renda, de códigos a marcos de ondas."
+      },
+      "featured": "Guias de Moedas em Destaque",
+      "all": "Todos os Guias de Moedas"
+    }
   }
 }
